@@ -1,5 +1,5 @@
 {
-  "name": "hello-react",
+  "name": "dbriceno10-portafolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "fontend",
+    "developer",
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "js",
+    "portafolio",
+    "and",
+    "more..."
+  ],
+  "author": "Daniel Briceño <daniel.b100726@gmail.com>",
+  "license": "ISC"
 }
