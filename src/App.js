@@ -1,22 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component } from "react"
 import Header from "./components/header/Header"
-// import About from './components/about/about';
-// import Resume from './components/resume/resume';
-// import Portfolio from './components/portfolio/portfolio';
-// import Testimonials from  './components/testimonials/testimonials';
-// import ContactUs from './components/contactus/contactus';
-// import Footer from './components/footer/footer';
+import Hero from "./components/hero/Hero"
+import About from "./components/about/About"
+import Resume from "./components/resume/Resume"
+import Portfolio from "./components/portfolio/Portfolio"
+import Testimonials from  "./components/testimonials/Testimonials"
+import ContactUs from "./components/contactus/Contactus"
+import Footer from "./components/footer/Footer"
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        {/* <About />
+        <Hero />
+        <About />
         <Resume />
         <Portfolio />
         <Testimonials />
         <ContactUs />
-        <Footer /> */}
+        <Footer />
       </div>
     );
   }
