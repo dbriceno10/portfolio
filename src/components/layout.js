@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "./header/Header.js"
+import Header from "./Header.js"
 
 const Layout = (props) => {
     return(

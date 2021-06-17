@@ -1,19 +1,20 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { BrowserRouter, Switch, Route, HashRouter } from "react-router-dom"
 //import Header from "./components/header/Header"
 import Layout from "./components/layout"
-import Hero from "./components/hero/Hero"
-import About from "./components/about/About"
-import Resume from "./components/resume/Resume"
-import Portfolio from "./components/portfolio/Portfolio"
-import Testimonials from  "./components/testimonials/Testimonials"
-import Contactus from "./components/contactus/Contactus"
-import Footer from "./components/footer/Footer"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Resume from "./components/Resume"
+import Portfolio from "./components/Portfolio"
+import Testimonials from  "./components/Testimonials"
+import Contactus from "./components/Contactus"
+import Footer from "./components/Footer"
+import Error404 from "./components/Error404"
 import "./global.css"
 
 const App = () => {
   return(
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Switch>
           <Route exact path="/" component={Hero} />
@@ -22,9 +23,10 @@ const App = () => {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/testimonials" component={Testimonials} />
           <Route exact path="/contact" component={Contactus} />
+          <Route path="*" component={Error404} />
         </Switch>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
