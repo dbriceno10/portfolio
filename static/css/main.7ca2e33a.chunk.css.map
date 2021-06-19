@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/global.css"],"names":[],"mappings":"AAAA,QACI,cAAe,CACf,UAAW,CACX,WAAY,CACZ,qBAAuB,CACvB,KACJ","file":"main.7ca2e33a.chunk.css","sourcesContent":[".layout {\r\n    position: fixed;\r\n    width: 100%;\r\n    height: auto;\r\n    background-color: black;\r\n    top: 0;\r\n}"]}
