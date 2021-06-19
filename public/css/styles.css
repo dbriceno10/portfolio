@@ -3324,7 +3324,7 @@ input[type="button"].btn--primary:focus {
  * responsive:
  * header
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .s-header {
         top: 0;
     }
@@ -3407,22 +3407,22 @@ input[type="button"].btn--primary:focus {
         -webkit-transition-delay: .5s;
         transition-delay: .5s;
     }
-}
+} */
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .s-header__nav {
         padding: 6.8rem 4rem 3.6rem;
     }
-}
+} */
 
 /* -------------------------------------------------------------------
  * make sure the menu is visible on larger screens
  * ------------------------------------------------------------------- */
-@media only screen and (min-width: 801px) {
+/* @media only screen and (min-width: 801px) {
     .s-header__nav {
         display: block !important;
     }
-}
+} */
 
 
 /* ===================================================================

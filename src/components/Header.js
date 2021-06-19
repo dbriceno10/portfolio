@@ -27,8 +27,8 @@ class Header extends React.Component {
                                 element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
-                                element = document.getElementById("testimonials")
-                                element.classList.remove("current")
+                                // element = document.getElementById("testimonials")
+                                // element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
                             }}><Link className="smoothscroll" to="/">Home</Link></li>
@@ -45,8 +45,8 @@ class Header extends React.Component {
                                 element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
-                                element = document.getElementById("testimonials")
-                                element.classList.remove("current")
+                                // element = document.getElementById("testimonials")
+                                // element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
                             }}><Link className="smoothscroll" to="/about">About</Link></li>
@@ -63,8 +63,8 @@ class Header extends React.Component {
                                 element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
-                                element = document.getElementById("testimonials")
-                                element.classList.remove("current")
+                                // element = document.getElementById("testimonials")
+                                // element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
                             }}><Link className="smoothscroll" to="/resume">Resume</Link></li>
@@ -81,12 +81,12 @@ class Header extends React.Component {
                                 element.classList.remove("current")
                                 element = document.getElementById("home")
                                 element.classList.remove("current")
-                                element = document.getElementById("testimonials")
-                                element.classList.remove("current")
+                                // element = document.getElementById("testimonials")
+                                // element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
                             }}><Link className="smoothscroll" to="/portfolio">Works</Link></li>
-                            <li id="testimonials" onClick = { ()=> {
+                            {/* <li id="testimonials" onClick = { ()=> {
                                 const i =  getHash()
                                 console.log(`i es: ${i}`)
                                 let element = document.getElementById("testimonials")
@@ -103,7 +103,7 @@ class Header extends React.Component {
                                 element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
-                            }}><Link className="smoothscroll" to="/testimonials">Testimonials</Link></li>
+                            }}><Link className="smoothscroll" to="/testimonials">Testimonials</Link></li> */}
                             <li id="contact" onClick = { ()=> {
                                 const i =  getHash()
                                 console.log(`i es: ${i}`)
@@ -117,8 +117,8 @@ class Header extends React.Component {
                                 element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
-                                element = document.getElementById("testimonials")
-                                element.classList.remove("current")
+                                // element = document.getElementById("testimonials")
+                                // element.classList.remove("current")
                                 element = document.getElementById("home")
                                 element.classList.remove("current")
                             }}><Link className="smoothscroll" to="/contact">Say Hello</Link></li>
