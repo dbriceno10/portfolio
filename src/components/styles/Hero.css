@@ -1,0 +1,22 @@
+.hero--logo {
+    width: 25px;
+    height: 25px;
+    border: solid 1px white;
+    border-radius: 100%
+}
+
+.white-logo {
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.s-hero__bg {
+    background-image: url("../../assets/image/estructura-conexion2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links {
+    display: grid;
+}

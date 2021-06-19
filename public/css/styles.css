@@ -3430,7 +3430,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-hero {
-    background-color: var(--color-gray-18);
+    /* background-color: var(--color-gray-18); */
     width: 100%;
     height: 100vh;
     min-height: calc(25.5 * var(--space));
@@ -3447,10 +3447,11 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    /* background-image: url("../images/header-bg-3000.jpg"); */
+    /* background-image: url(../../src/assets/image/estructura-conexion.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
 }
 
 .s-hero__bg::before {
@@ -3477,7 +3478,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(360deg, black 15%, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(360deg, black 15%, rgba(0, 0, 0, 0) 100%); */
     opacity: .4;
 }
 

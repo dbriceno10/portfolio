@@ -19,6 +19,11 @@
         height: 136px;
         transition-delay: 0.5s;
         transition: 0.5s 0.5s;
+        margin-bottom: 20px;
+    }
+
+    .s-hero {
+        margin-top: 20px;
     }
     .s-header {
         /* --header-height: 6.8rem;

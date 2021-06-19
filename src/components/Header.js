@@ -2,6 +2,13 @@ import React from "react"
 import { Link } from "react-router-dom"
 import getHash from "../utils/getHash"
 class Header extends React.Component {
+
+    componentDidMount() {
+        window.addEventListener("hashchange", e => {
+            console.log(window.location.hash)
+        })
+    }
+
     render() {
         return (
             <header className="s-header layout">
