@@ -3777,9 +3777,9 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-about {
     --color-border: var(--color-gray-16);
-    background-color: var(--color-gray-17);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    /* background-color: var(--color-gray-17); */
+    padding-top: calc(4 * var(--space));
+    /* padding-bottom: var(--vspace-4); */
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -3884,8 +3884,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-resume {
     background-color: white;
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    padding-top: calc(2 * var(--space));
+    /* padding-bottom: var(--vspace-4); */
 }
 
 .s-resume__section {
