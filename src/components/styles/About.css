@@ -17,6 +17,7 @@
 
 .about-me{
     color: white;
+    text-decoration: underline #11abb0;
 }
 
 .s-about{
@@ -28,4 +29,8 @@
 
 .about-description {
     background-color: #000;
+}
+
+.center {
+    text-align: center;
 }

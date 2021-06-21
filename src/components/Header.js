@@ -30,8 +30,8 @@ class Header extends React.Component {
                                 }
                                 element = document.getElementById("about")
                                 element.classList.remove("current")
-                                element = document.getElementById("resume")
-                                element.classList.remove("current")
+                                // element = document.getElementById("resume")
+                                // element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
                                 // element = document.getElementById("testimonials")
@@ -48,8 +48,8 @@ class Header extends React.Component {
                                 }
                                 element = document.getElementById("home")
                                 element.classList.remove("current")
-                                element = document.getElementById("resume")
-                                element.classList.remove("current")
+                                // element = document.getElementById("resume")
+                                // element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
                                 // element = document.getElementById("testimonials")
@@ -57,7 +57,7 @@ class Header extends React.Component {
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
                             }}><Link className="smoothscroll" to="/about">About</Link></li>
-                            <li id="resume" onClick = { ()=> {
+                            {/* <li id="resume" onClick = { ()=> {
                                 const i =  getHash()
                                 console.log(`i es: ${i}`)
                                 let element = document.getElementById("resume")
@@ -74,7 +74,7 @@ class Header extends React.Component {
                                 // element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
-                            }}><Link className="smoothscroll" to="/resume">Resume</Link></li>
+                            }}><Link className="smoothscroll" to="/resume">Resume</Link></li> */}
                             <li id="portfolio" onClick = { ()=> {
                                 const i =  getHash()
                                 console.log(`i es: ${i}`)
@@ -84,8 +84,8 @@ class Header extends React.Component {
                                 }
                                 element = document.getElementById("about")
                                 element.classList.remove("current")
-                                element = document.getElementById("resume")
-                                element.classList.remove("current")
+                                // element = document.getElementById("resume")
+                                // element.classList.remove("current")
                                 element = document.getElementById("home")
                                 element.classList.remove("current")
                                 // element = document.getElementById("testimonials")
@@ -120,8 +120,8 @@ class Header extends React.Component {
                                 }
                                 element = document.getElementById("about")
                                 element.classList.remove("current")
-                                element = document.getElementById("resume")
-                                element.classList.remove("current")
+                                // element = document.getElementById("resume")
+                                // element.classList.remove("current")
                                 element = document.getElementById("portfolio")
                                 element.classList.remove("current")
                                 // element = document.getElementById("testimonials")

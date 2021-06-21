@@ -31,6 +31,11 @@ class About extends React.Component {
                 Hi, I'm Daniel, Font-end developer, I have completed my training thanks to the IBM CAD101EN course: Introduction to Cloud Development with HTML, CSS, and JavaScript. I am passionate about technologies and tools for the web, JavaScript enthusiast, although especially for React Js, since I started using it I couldn't stop, I love it.I’m currently available for technology work. If you have a collaborative project work looking for a profile like mine, then get in touch.
                 </p>
                 <hr />
+                <h2 className="about-me">What I Do</h2>
+                <br/>
+                <h3 className="about-me center">Front-end</h3>
+                <p className="about-description">As a javascript developer, I have experience in using HTML and CSS, also in handling some frameworks like JQuery, mainly React JS. I can connect applications with an API with no problem to fetch data.</p>
+                <hr/>
                 <div className="row s-about__content-bottom">
                   {/* <div className="column w-1000-stack">
                     <h3>Contact Details</h3>
@@ -80,16 +85,20 @@ class About extends React.Component {
                         <strong>Javascript</strong>
                       </li>
                       <li>
-                        <div className="progress percent90" />
+                        <div className="progress percent75" />
                         <strong>Figma</strong>
                       </li>
                       <li>
-                        <div className="progress percent75" />
+                        <div className="progress percent80" />
                         <strong>React JS</strong>
                       </li>
                       <li>
-                        <div className="progress percent80" />
+                        <div className="progress percent85" />
                         <strong>Git</strong>
+                      </li>
+                      <li>
+                        <div className="progress percent50" />
+                        <strong>NodeJS</strong>
                       </li>
                     </ul>
                   </div>
