@@ -17,20 +17,17 @@ const Modals = () => {
     const [isOpenModal2, openModal2, closeModal2] = useModal(false)
 
     return(
-        <React.Fragment>
-        <div className="column folio-item">
-            <a onClick={openModal1}><ModalElement image={Modal01} /></a>
+        <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+            <ModalElement image={Modal01} e={openModal1} />
             <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
                 <Proyect01 />
             </Modal>
-        </div>
-        <div className="colum folio-item">
-            <a onClick={openModal2}><ModalElement image={Modal02}/></a>
+    
+            <ModalElement image={Modal02} e={openModal2} />
             <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
-                <Proyect02 />
+                <Proyect01 />
             </Modal>
         </div>
-        </React.Fragment>
     )
 }
 

@@ -1,12 +1,14 @@
 import React from "react"
 import "../styles/Modal.css"
 
-const ModalElement = ({ image }) => {
+const ModalElement = ({ image, e }) => {
     return(
-        <div className="column folio-item modal__container__image">
-        <div className="folio-item__thumb">
-          <img src={image} alt="image" className="modal__image" />
-        </div>
+        <div className="column folio-item">
+        <a className="folio-item__thumb" onClick={e}>
+          <div className="folio-item__thumb">
+            <img src={image} alt="image" className="modal__image" />
+          </div>
+        </a>
       </div>
     )
 }

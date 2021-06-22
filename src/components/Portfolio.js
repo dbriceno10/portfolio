@@ -11,7 +11,7 @@ render() {
         <h3>A Few Of My Latest Creations</h3>
       </div>
     </div>
-    <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+    
     <Modals />
       {/* <div className="column folio-item">
         <a href="#modal-01" className="folio-item__thumb">
@@ -61,7 +61,7 @@ render() {
       images/portfolio/sanddunes@2x.jpg 2x" alt />
       </a>
       </div> */}
-    </div> {/* end folio-list */}
+   {/* end folio-list */}
     {/* Modal Templates Popup
     =========================================================== */}
     {/* <div id="modal-01" hidden>
