@@ -92,7 +92,7 @@ class Header extends React.Component {
                                 // element.classList.remove("current")
                                 element = document.getElementById("contact")
                                 element.classList.remove("current")
-                            }}><Link className="smoothscroll" to="/portfolio">Works</Link></li>
+                            }}><Link className="smoothscroll" to="/portfolio">Portfolio</Link></li>
                             {/* <li id="testimonials" onClick = { ()=> {
                                 const i =  getHash()
                                 console.log(`i es: ${i}`)
