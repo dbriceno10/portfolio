@@ -25,7 +25,7 @@ const Modals = () => {
     
             <ModalElement image={Modal02} e={openModal2} />
             <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
-                <Proyect01 />
+                <Proyect02 />
             </Modal>
         </div>
     )
