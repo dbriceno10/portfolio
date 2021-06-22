@@ -100,12 +100,13 @@
 
 .modal__image{
   border-radius: 16px;
+  width: 280px;
+  height: 490px;
 }
 
-.modal__container__image{
-  width: 300px;
-  height: 500px;
-}
+/* .modal__container__image{
+  
+} */
 
 .column.folio-item {
   margin: 10px;
