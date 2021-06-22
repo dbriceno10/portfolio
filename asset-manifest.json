@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d29b70bc.chunk.css",
-    "main.js": "/portfolio/static/js/main.b98d5e4e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b98d5e4e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ef563816.chunk.css",
+    "main.js": "/portfolio/static/js/main.a5107122.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a5107122.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.c69ebcfc.chunk.js": "/portfolio/static/js/2.c69ebcfc.chunk.js",
     "static/js/2.c69ebcfc.chunk.js.map": "/portfolio/static/js/2.c69ebcfc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.d29b70bc.chunk.css.map": "/portfolio/static/css/main.d29b70bc.chunk.css.map",
+    "static/css/main.ef563816.chunk.css.map": "/portfolio/static/css/main.ef563816.chunk.css.map",
     "static/js/2.c69ebcfc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c69ebcfc.chunk.js.LICENSE.txt",
     "static/media/Daniel_Briceno_CV.648a224c.pdf": "/portfolio/static/media/Daniel_Briceno_CV.648a224c.pdf",
     "static/media/avatar1.04a7f659.jpg": "/portfolio/static/media/avatar1.04a7f659.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.c69ebcfc.chunk.js",
-    "static/css/main.d29b70bc.chunk.css",
-    "static/js/main.b98d5e4e.chunk.js"
+    "static/css/main.ef563816.chunk.css",
+    "static/js/main.a5107122.chunk.js"
   ]
 }
