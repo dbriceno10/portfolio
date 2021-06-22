@@ -6,7 +6,7 @@ import { useModal } from "./useModal"
 // const image = "http://placekitten.com/200/300"
 // const image2 = "https://placekitten.com/200/138"
 import Modal01 from "./modals/Modal01"
-// import Proyect01 from "./modals/Proyect01"
+import Proyect01 from "./modals/Proyect01"
 
 const Modals = () => {
     const [isOpenModal1, openModal1, closeModal1] = useModal(false)
@@ -17,7 +17,7 @@ const Modals = () => {
             
             <a onClick={openModal1}><Modal01/></a>
             <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
-                {/* <Proyect01 /> */}
+                <Proyect01 />
             </Modal>
         </div>
         // <div>

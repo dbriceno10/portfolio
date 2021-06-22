@@ -1,11 +1,11 @@
 import React from "react"
-// import images from "../../../public/images/portfolio/droplet.jpg"
-const image = "http://placekitten.com/200/300"
+import image from "../../assets/image/screenshot/batata.jpg"
+
 const Modal01 = () => {
     return(
         <div className="column folio-item">
         <div className="folio-item__thumb">
-          <img src={image} />
+          <img src={image} alt="image" />
         </div>
       </div>
     )

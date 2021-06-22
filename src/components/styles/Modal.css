@@ -55,16 +55,44 @@
 
 .modal.is-open {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 .modal-container {
   position: relative;
   min-width: 320px;
   background-color: #fff;
+  max-width: 600px;
+  border-radius: 16px;
 }
 
 .modal-close {
   position: absolute;
   top: 1rem;
   right: 1rem;
+}
+
+.modal-popup__image {
+  width: 200px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.modal-internal-container {
+  padding: 20px;
+}
+
+.modal__title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.link-container {
+  display: grid;
+  
 }

@@ -1,22 +1,30 @@
 import React from "react"
-// import image from "../../../public/images/portfolio/gallery/g-droplet.jpg"
-const image = "http://placekitten.com/200/300"
+import image from "../../assets/image/screenshot/batatabit-baner.png"
+import "../styles/Modal.css"
+
 const Proyect01 = () => {
     return(
-        <div id="modal-01">
-            <div className="modal-popup">
-                <img src={image} alt />
-                <div className="modal-popup__desc">
-                    <h5>Droplet</h5>
+        <React.Fragment>
+            <div className="modal-internal-container">
+                <img src={image} alt="image" className="" />
+                <div className="">
+                <p className="modal__title">Batatabit trading page</p>
+                <p>
+                Be attentive to the real-time update of various crypto-assets, it has a validation for credit card purchases based on the Luhn algorithm. This website is made with the mobile first technique, fully responsive.<br />Technologies applied: HTML, CSS, JavaScrip, Figma, Git/Github.
+                </p>
+                <div className="link-container">
+                    <a href="https://dbriceno10.github.io/Daniel-proyecto-2-Curso-de-Responsive-Design-Maquetaci-n-Mobile-First/" target="__blank" className="btn btn_primary">Visit Page</a>
+                </div>
+                    {/* <h5>Droplet</h5>
                     <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p>
                     <ul className="modal-popup__cat">
                         <li>Branding</li>
                         <li>Product Design</li>
                     </ul>
-                </div>
-                <a href="https://www.behance.net/" className="modal-popup__details">Project link</a>
+                    <a href="https://www.behance.net/" className="">Project link</a> */}
+                </div>               
             </div>
-        </div>
+        </React.Fragment>
     )
 }
 
