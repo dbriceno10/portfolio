@@ -128,7 +128,7 @@ class Header extends React.Component {
                                 // element.classList.remove("current")
                                 element = document.getElementById("home")
                                 element.classList.remove("current")
-                            }}><Link className="smoothscroll" to="/contact">Say Hello</Link></li>
+                            }}><Link className="smoothscroll" to="/contact">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
