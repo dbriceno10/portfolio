@@ -2,6 +2,7 @@ import React from "react"
 import userPhoto from "../assets/image/photo-perfil5.jpg"
 import "./styles/About.css"
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf"
+import swal from "sweetalert"
 
 import { Link } from "react-router-dom"
 
@@ -46,9 +47,18 @@ class About extends React.Component {
                 <hr/>
                 <div className="row s-about__content-bottom">
                   <div className="column w-1000-stack cv">
-                    <a className="btn btn--download" href={CV} download="Daniel_Briceno_CV">Download CV</a>
+                    {/* <a className="btn btn--download" href={CV} download="Daniel_Briceno_CV">Download CV</a> */}
+                    <a className="btn btn--download"
+                      onClick={() => {
+                        swal({
+                          title: "Coming Soon",
+                          text: "We hope to activate this soon",
+                          icon: "info",
+                        })
+                    }}>Download CV</a>
                   </div>
                 </div> 
+                
               </div>
             </div>
           </section>
