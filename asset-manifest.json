@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1933877a.chunk.css",
-    "main.js": "/portfolio/static/js/main.1fbf9ead.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1fbf9ead.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d833c823.chunk.css",
+    "main.js": "/portfolio/static/js/main.b212a619.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b212a619.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
-    "static/js/2.04c21c43.chunk.js": "/portfolio/static/js/2.04c21c43.chunk.js",
-    "static/js/2.04c21c43.chunk.js.map": "/portfolio/static/js/2.04c21c43.chunk.js.map",
+    "static/js/2.d9130db3.chunk.js": "/portfolio/static/js/2.d9130db3.chunk.js",
+    "static/js/2.d9130db3.chunk.js.map": "/portfolio/static/js/2.d9130db3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.1933877a.chunk.css.map": "/portfolio/static/css/main.1933877a.chunk.css.map",
-    "static/js/2.04c21c43.chunk.js.LICENSE.txt": "/portfolio/static/js/2.04c21c43.chunk.js.LICENSE.txt",
+    "static/css/main.d833c823.chunk.css.map": "/portfolio/static/css/main.d833c823.chunk.css.map",
+    "static/js/2.d9130db3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d9130db3.chunk.js.LICENSE.txt",
     "static/media/Daniel_Briceno_CV.648a224c.pdf": "/portfolio/static/media/Daniel_Briceno_CV.648a224c.pdf",
     "static/media/avatar1.04a7f659.jpg": "/portfolio/static/media/avatar1.04a7f659.jpg",
     "static/media/batata.9f372bcf.jpg": "/portfolio/static/media/batata.9f372bcf.jpg",
@@ -17,6 +17,8 @@
     "static/media/Hero.css": "/portfolio/static/media/estructura-conexion2.ec9e3425.jpg",
     "static/media/github (1).e4de7065.png": "/portfolio/static/media/github (1).e4de7065.png",
     "static/media/linkedin.6892b3ae.png": "/portfolio/static/media/linkedin.6892b3ae.png",
+    "static/media/memoapp-baner.2a5f0eb4.jpg": "/portfolio/static/media/memoapp-baner.2a5f0eb4.jpg",
+    "static/media/memoapp.89bc2aab.jpg": "/portfolio/static/media/memoapp.89bc2aab.jpg",
     "static/media/productapp.65f54127.jpg": "/portfolio/static/media/productapp.65f54127.jpg",
     "static/media/spacebadges-baner3.8fe56acf.png": "/portfolio/static/media/spacebadges-baner3.8fe56acf.png",
     "static/media/spacebadges.946cf88f.jpg": "/portfolio/static/media/spacebadges.946cf88f.jpg",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f2aa3c76.js",
-    "static/js/2.04c21c43.chunk.js",
-    "static/css/main.1933877a.chunk.css",
-    "static/js/main.1fbf9ead.chunk.js"
+    "static/js/2.d9130db3.chunk.js",
+    "static/css/main.d833c823.chunk.css",
+    "static/js/main.b212a619.chunk.js"
   ]
 }
