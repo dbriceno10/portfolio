@@ -1,21 +1,21 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, HashRouter } from "react-router-dom"
+import {Switch, Route, HashRouter } from "react-router-dom"
 //import Header from "./components/header/Header"
-import Layout from "./components/layout"
+// import Layout from "./components/layout"
 import Hero from "./components/Hero"
 import About from "./components/About"
-import Resume from "./components/Resume"
+// import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
-import Testimonials from  "./components/Testimonials"
+// import Testimonials from  "./components/Testimonials"
 import Contactus from "./components/Contactus"
-import Footer from "./components/Footer"
+// import Footer from "./components/Footer"
 import Error404 from "./components/Error404"
 import "./global.css"
 
 const App = () => {
   return(
     <HashRouter>
-      <Layout>
+      {/* <Layout> */}
         <Switch>
           <Route exact path="/" component={Hero} />
           <Route exact path="/about" component={About} />
@@ -25,7 +25,7 @@ const App = () => {
           <Route exact path="/contact" component={Contactus} />
           <Route path="*" component={Error404} />
         </Switch>
-      </Layout>
+      {/* </Layout> */}
     </HashRouter>
   )
 }

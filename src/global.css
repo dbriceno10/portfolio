@@ -14,7 +14,7 @@
     font-size: 3rem !important;
 }
 
-    @media (max-width: 403px) {
+    @media (max-width: 394px) {
 
     .layout.s-header {
         flex-direction: column;
