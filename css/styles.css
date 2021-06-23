@@ -2284,8 +2284,12 @@ input[type="button"] {
     letter-spacing: .35em;
     height: var(--btn-height);
     line-height: calc(var(--btn-height) - .4rem);
-    padding: 0 3.6rem;
-    margin: 0 .4rem 1.6rem 0;
+    /*Modificado por mi*/
+    /* padding: 0 3.6rem; */
+    /* padding: 10px; */
+    padding-right: 5px;
+    padding-left: 5px;
+    /* margin: 0 .4rem 1.6rem 0; */
     color: var(--color-btn-text);
     text-decoration: none;
     text-align: center;
@@ -3238,10 +3242,10 @@ input[type="button"].btn--primary:focus {
 .s-header__nav a:hover, .s-header__nav a:focus {
     color: white;
 }
-
-.s-header__nav .current a {
+/*Esto lo desabilite yo*/
+/* .s-header__nav .current a {
     color: var(--color-2);
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## mobile menu toggle 
