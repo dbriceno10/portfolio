@@ -10,7 +10,7 @@ const Proyect01 = () => {
                 <div className="">
                     <p className="modal__title">Batatabit trading page</p>
                     {/* <p>
-                    Be attentive to the real-time update of various crypto-assets, it has a validation for credit card purchases based on the Luhn algorithm. This website is made with the mobile first technique, fully responsive.<br />Technologies applied: HTML, CSS, JavaScrip, Figma, Git/Github.
+                    Be attentive to the real-time update of various crypto-assets, it has a validation for credit card purchases based on the Luhn algorithm. This website is made with the mobile first technique, fully responsive.<br />Technologies applied: HTML, CSS, JavaScript, Figma, Git/Github.
                     </p> */}
                     <p>
                     Be attentive to the real-time update of various crypto-assets. This website is made with the mobile first technique, fully responsive.<br />Technologies applied: HTML, CSS, Figma, Git/Github.

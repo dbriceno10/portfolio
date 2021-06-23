@@ -10,7 +10,7 @@ const Proyect04 = () => {
                 <div className="">
                     <p className="modal__title">Memo App</p>
                     <p>
-                    A simple notes app, to organize quick tasks, made with bootstrap and fully responsive.<br />Technologies applied: HTML, CSS, JavaScrip, Git/Github, Bootstrap.
+                    A simple notes app, to organize quick tasks, made with bootstrap and fully responsive.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github, Bootstrap.
                     </p>
                     <div className="link-container">
                         <a href="https://dbriceno10.github.io/memo-app/" target="__blank" className="btn btn_primary">Visit Page</a>
