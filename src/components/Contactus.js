@@ -47,7 +47,7 @@ class Contactus extends React.Component {
                         Email
                       </h5>
                       <p className="contact-block__content">
-                        <a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a>
+                        {/* <a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a> */}
                       </p>
                     </div>
                   </div>
@@ -57,7 +57,7 @@ class Contactus extends React.Component {
                         Phone
                       </h5>
                       <p className="contact-block__content">
-                        <a href="tel:+1975432345">+58 0424-950-1974</a>
+                        {/* <a href="tel:+1975432345">+58 0424-950-1974</a> */}
                       </p>
                       <h5 className="contact-block__header">
                         Github
