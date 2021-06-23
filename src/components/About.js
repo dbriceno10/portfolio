@@ -1,5 +1,5 @@
 import React from "react"
-import userPhoto from "../assets/image/avatar1.jpg"
+import userPhoto from "../assets/image/photo-perfil5.jpg"
 import "./styles/About.css"
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf"
 
@@ -36,7 +36,7 @@ class About extends React.Component {
               <div className="column large-9 tab-12 s-about__content">
                 <h1 className="about-me">About Me</h1>
                 <p className="about-description">
-                Hi, I'm Daniel, Font-end developer, I have completed my training thanks to the IBM CAD101EN course: Introduction to Cloud Development with HTML, CSS, and JavaScript. I am passionate about technologies and tools for the web, JavaScript enthusiast, although especially for React Js, since I started using it I couldn't stop, I love it.I’m currently available for technology work. If you have a collaborative project work looking for a profile like mine, then get in touch.
+                Hi, I'm Daniel, Font-end developer, I have completed my training thanks to the IBM CAD101EN course: Introduction to Cloud Development with HTML, CSS, and JavaScript. I am passionate about technologies and tools for the web, JavaScript enthusiast, although especially for React Js, since I started using it I couldn't stop, I love it. I’m currently available for technology work. If you have a collaborative project work looking for a profile like mine, then get in touch.
                 </p>
                 <hr />
                 <h2 className="about-me">What I Do</h2>

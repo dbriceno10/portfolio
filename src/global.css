@@ -14,6 +14,10 @@
     font-size: 3rem !important;
 }
 
+.s-header__nav .current a {
+    color: hsla(182, 82%, 38%, 1);
+}
+
     @media (max-width: 394px) {
 
     .layout.s-header {

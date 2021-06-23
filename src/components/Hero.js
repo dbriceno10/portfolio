@@ -35,7 +35,7 @@ class Hero extends React.Component {
               <div className="s-hero__content-about">
                 <h1>I'm Daniel Briceño</h1>
                 <h3>
-                  <span>I'm a  Front-end Developer, and electrical engineering student.</span>
+                  <span>I'm a  Front-end Developer.</span>
                 </h3>
                 <div className="s-hero__content-social">
                   <a href={linkedinLink} target="_blank"><img className="hero--logo" src={logoLinkedin} alt="logo de linkedin" title="my linkedin" /></a>
