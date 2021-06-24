@@ -101,3 +101,11 @@
     height: 392px;
   }
 }
+.folio-item__thumb {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+}
+
+.folio-item__thumb:hover {
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+}
