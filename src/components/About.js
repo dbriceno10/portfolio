@@ -35,7 +35,7 @@ class About extends React.Component {
                 <img className="s-about__pic" src={userPhoto} alt="user avatar" />
               </div>
               <div className="column large-9 tab-12 s-about__content">
-                <h1 className="about-me">About Me</h1>
+                <h1 className="about-me"><span className="about-description">About Me</span></h1>
                 <p className="about-description">
                   Hi, I'm Daniel, Font-end developer, I have completed my training thanks to the IBM CAD101EN course: Introduction to Cloud Development with HTML, CSS, and JavaScript. I am passionate about technologies and tools for the web, JavaScript enthusiast, although especially for React Js, since I started using it I couldn't stop, I love it. I’m currently available for technology work. If you have a collaborative project work looking for a profile like mine, then get in touch.
                 </p>
