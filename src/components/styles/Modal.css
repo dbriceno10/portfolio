@@ -73,8 +73,9 @@
 }
 
 .modal__image{
+  border: solid 1px #000;
   border-radius: 16px;
-  width: 280px;
+  width: 270px;
   height: 490px;
 }
 
@@ -92,4 +93,11 @@
 
 .col {
   margin: 20px;
+}
+
+@media (max-width: 500px) {
+  .modal__image {
+    width: 216px;
+    height: 392px;
+  }
 }
