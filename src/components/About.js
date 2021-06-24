@@ -42,7 +42,7 @@ class About extends React.Component {
                 <hr />
                 <h2 className="about-me"><span className="about-description">What I Do</span></h2>
                 <br/>
-                <h3 className="about-me center"></h3>
+                <h3 className="about-me center">Front-end</h3>
                 <p className="about-description">As a javascript developer, I have experience in using HTML and CSS, also in handling some frameworks like JQuery, mainly React JS. I can connect applications with an API with no problem to fetch data.</p>
                 <hr/>
                 <div className="row s-about__content-bottom">
