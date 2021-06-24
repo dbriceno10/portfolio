@@ -3468,8 +3468,8 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: black;
-    opacity: .5;
+    /* background: black; */
+    /* opacity: .5; */
 }
 
 .s-hero__bg::after {
@@ -3999,9 +3999,9 @@ input[type="button"].btn--primary:focus {
     display: block;
     /*Modificado por Mi*/
     /* background-color: rgba(0, 0, 0, 0.8); */
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     /* background-color: rgba(255, 255, 255,0.1); */
-    border-radius: 16px;
+    /* border-radius: 16px; */
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -4401,7 +4401,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-gray-18);
+    /* background-color: var(--color-gray-18); */
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-3_5);
 }
