@@ -73,7 +73,7 @@
 }
 
 .modal__image{
-  border: solid 1px #000;
+  /* border: solid 2px #000; */
   border-radius: 16px;
   width: 270px;
   height: 490px;
