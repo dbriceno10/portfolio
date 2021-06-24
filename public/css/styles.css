@@ -3468,8 +3468,8 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: black;
-    opacity: .5;
+    /* background: black; */
+    /* opacity: .5; */
 }
 
 .s-hero__bg::after {
@@ -4401,7 +4401,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-gray-18);
+    /* background-color: var(--color-gray-18); */
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-3_5);
 }

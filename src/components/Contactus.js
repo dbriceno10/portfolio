@@ -1,6 +1,6 @@
 import React from "react"
-
 import { Link } from "react-router-dom"
+import "./styles/Contactus.css"
 
 class Header extends React.Component {
   render() {
@@ -29,14 +29,16 @@ class Contactus extends React.Component {
         <section id="contact" className="s-contact target-section">
           <div className="row s-contact__header">
             <div className="column large-12">
-              <h3 className="section-header-allcaps">Say Hello</h3>
+              <h3 className="section-header-allcaps"><span className="black-background">Say Hello</span></h3>
             </div>
           </div>
           <div className="row s-contact__content">
             <div className="column large-7 medium-12">
               <h4 className="huge-text">
-              Have a new project in mind? Let's collaborate and build something awesome. 
-              Let's turn that idea to an even greater product :)
+              <span className="black-background">
+                Have a new project in mind? Let's collaborate and build something awesome. 
+                Let's turn that idea to an even greater product :)
+              </span>
               </h4>
             </div>
               <div className="column large-4 medium-12">
@@ -44,32 +46,32 @@ class Contactus extends React.Component {
                   <div className="column large-12 medium-6 tab-12">
                     <div className="contact-block">
                       <h5 className="contact-block__header">
-                        Email
+                        <span className="black-background">Email</span>
                       </h5>
                       <p className="contact-block__content">
-                        {/* <a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a> */}
+                        {/* <span className="black-background"><a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a></span> */}
                       </p>
                     </div>
                   </div>
                   <div className="column large-12 medium-6 tab-12">
                     <div className="contact-block">
                       <h5 className="contact-block__header">
-                        Phone
+                        <span className="black-background">Phone</span>
                       </h5>
                       <p className="contact-block__content">
-                        {/* <a href="tel:+1975432345">+58 0424-950-1974</a> */}
+                        {/*<span className="black-background"><a href="tel:+0424-950-1974">+58 0424-950-1974</a></span> */}
                       </p>
                       <h5 className="contact-block__header">
-                        Github
+                        <span className="black-background">Github</span>
                       </h5>
                       <p className="contact-block__content">
-                        <a href="https://github.com/dbriceno10" target="__blank">dbriceno10</a>
+                        <span className="black-background"><a href="https://github.com/dbriceno10" target="__blank">dbriceno10</a></span>
                       </p>
                       <h5 className="contact-block__header">
-                        Linkedin
+                        <span className="black-background">Linkedin</span>
                       </h5>
                       <p className="contact-block__content">
-                        <a href="https://www.linkedin.com/in/daniel-alejandro-687539137/" target="__blank">Daniel Alejandro Briceño Salazar</a>
+                        <span className="black-background"><a href="https://www.linkedin.com/in/daniel-alejandro-687539137/" target="__blank">Daniel Alejandro Briceño Salazar</a></span>
                       </p>
                     </div>
                   </div>

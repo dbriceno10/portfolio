@@ -33,7 +33,7 @@ class Hero extends React.Component {
           <div className="row s-hero__content">
             <div className="column">
               <div className="s-hero__content-about">
-                <h1>I'm Daniel Briceño</h1>
+                <h1><span>I'm Daniel Briceño</span></h1>
                 <h3>
                   <span>I'm a  Front-end Developer.</span>
                 </h3>
