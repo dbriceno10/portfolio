@@ -5,4 +5,12 @@
 
 .s-portfolio.target-section h3 {
     background-color: #e5e5e5;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+@media (max-width: 500px) {
+    .s-portfolio.target-section h3 {
+        font-size: 30px;
+    }
 }
