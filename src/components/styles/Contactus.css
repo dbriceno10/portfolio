@@ -2,9 +2,8 @@
     background: url("../../assets/image/stars.svg"), #000;
     background-repeat: repeat;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
-
 .black-background {
     background-color: #000;
 }

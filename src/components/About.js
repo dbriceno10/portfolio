@@ -1,7 +1,7 @@
 import React from "react"
 import userPhoto from "../assets/image/photo-perfil5.jpg"
 import "./styles/About.css"
-import CV from "../assets/cv/Daniel_Briceno_CV.pdf"
+// import CV from "../assets/cv/Daniel_Briceno_CV.pdf"
 import swal from "sweetalert"
 
 import { Link } from "react-router-dom"
