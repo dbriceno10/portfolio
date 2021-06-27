@@ -34,3 +34,25 @@
 .center {
     text-align: center;
 }
+
+hr {
+    height: 1px;
+    background-color: white;
+}
+
+.row.s-about__content-bottom {
+    margin-bottom: 50px;
+}
+
+.s-resume.target-section {
+    background: url("../../assets/image/stars.svg"), #e5e5e5;
+    background-repeat: repeat;
+}
+
+.s-resume.target-section h3 {
+    background-color: #e5e5e5;
+}
+
+.s-resume.target-section strong {
+    background-color: #e5e5e5;
+}

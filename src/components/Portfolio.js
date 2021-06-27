@@ -1,5 +1,6 @@
 import React from "react"
 import Modals from "./Modals"
+import "./styles/Portfolio.css"
 
 import { Link } from "react-router-dom"
 class Header extends React.Component {

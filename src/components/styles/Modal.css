@@ -43,9 +43,17 @@
   display: flex;
   text-align: center;
   align-items: center;
-  align-self: center;
+  /* align-self: center; */
   justify-content: center;
-  vertical-align: center;
+  /* vertical-align: center; */
+  /* border: none; */
+  /* background-color: transparent; */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.modal-close:hover {
+  font-size: 50px;
 }
 
 /* .x {
@@ -109,4 +117,19 @@
 
 .folio-item__thumb:hover {
   box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* .x {
+  font-size: 40px;
+  font-weight: bold;
+} */
+
+.proyect-image{
+  border: solid black 2px;
+  border-radius: 4px;
+}
+
+.link-container a:hover {
+  background-color: #818081 !important;
+  border: none;
 }

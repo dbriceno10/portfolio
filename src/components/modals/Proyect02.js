@@ -6,7 +6,7 @@ const Proyect02 = () => {
     return(
         <React.Fragment>
             <div className="modal-internal-container">
-                <img src={image} alt="image" className="" />
+                <img src={image} alt="image" className="proyect-image" />
                 <div className="">
                     <p className="modal__title">Space Badges</p>
                     <p>

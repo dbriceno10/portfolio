@@ -35,9 +35,12 @@ class Contactus extends React.Component {
           <div className="row s-contact__content">
             <div className="column large-7 medium-12">
               <h4 className="huge-text">
-              <span className="black-background">
+              {/* <span className="black-background">
                 Have a new project in mind? Let's collaborate and build something awesome. 
                 Let's turn that idea to an even greater product :)
+              </span> */}
+              <span className="black-background">
+                Let's start a new project together, I want to collaborate to materialize that idea into a successful project.
               </span>
               </h4>
             </div>
@@ -49,7 +52,7 @@ class Contactus extends React.Component {
                         <span className="black-background">Email</span>
                       </h5>
                       <p className="contact-block__content">
-                        {/* <span className="black-background"><a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a></span> */}
+                        <span className="black-background"><a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a></span>
                       </p>
                     </div>
                   </div>
@@ -59,7 +62,7 @@ class Contactus extends React.Component {
                         <span className="black-background">Phone</span>
                       </h5>
                       <p className="contact-block__content">
-                        {/*<span className="black-background"><a href="tel:+0424-950-1974">+58 0424-950-1974</a></span> */}
+                        <span className="black-background"><a href="tel:+0424-950-1974">+58 424-950-1974</a></span>
                       </p>
                       <h5 className="contact-block__header">
                         <span className="black-background">Github</span>

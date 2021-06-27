@@ -1,0 +1,8 @@
+.s-portfolio.target-section {
+    background: url("../../assets/image/stars.svg"), #e5e5e5;
+    background-repeat: repeat;
+}
+
+.s-portfolio.target-section h3 {
+    background-color: #e5e5e5;
+}

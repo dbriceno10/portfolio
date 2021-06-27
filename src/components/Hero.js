@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import logoGithub from "../assets/image/github (1).png"
+import logoGithub from "../assets/image/github (3).png"
 import logoLinkedin from "../assets/image/linkedin.png"
 import "./styles/Hero.css"
 const linkedinLink = "https://www.linkedin.com/in/daniel-alejandro-687539137/"
@@ -45,8 +45,8 @@ class Hero extends React.Component {
             </div>
           </div>
           <div className="s-hero__scroll links">
-            <Link className="btn" to="/contact">Hire Me</Link>
-            <Link className="btn" to="/portfolio">Explore Me</Link>
+            <Link className="btn btn-hero" to="/contact">Hire Me</Link>
+            <Link className="btn btn-hero" to="/portfolio">Explore Me</Link>
           </div>
         </section>
       </React.Fragment>
