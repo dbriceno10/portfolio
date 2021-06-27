@@ -2271,7 +2271,7 @@ label>input[type="radio"] {
  *
  * ------------------------------------------------------------------- */
 .btn, 
-button, 
+/* button,  */
 input[type="submit"], 
 input[type="reset"], 
 input[type="button"] {
@@ -2305,12 +2305,12 @@ input[type="button"] {
 }
 
 .btn:hover, 
-button:hover, 
+/* button:hover,  */
 input[type="submit"]:hover, 
 input[type="reset"]:hover, 
 input[type="button"]:hover, 
 .btn:focus, 
-button:focus, 
+/* button:focus,  */
 input[type="submit"]:focus, 
 input[type="reset"]:focus, 
 input[type="button"]:focus {
@@ -2586,7 +2586,9 @@ input[type="button"].btn--primary:focus {
 }
 
 .skill-bars-fat li .progress {
-    background: var(--color-gray-3);
+    /* background: var(--color-gray-3); */
+    /* background: #818081; */
+    background: #fff ;
     position: relative;
     height: 100%;
     border-radius: 3px;
