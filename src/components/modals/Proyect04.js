@@ -1,6 +1,7 @@
 import React from "react"
 import image from "../../assets/image/screenshot/memoapp-baner.jpg"
 import "../styles/Modal.css"
+const URL = "https://dbriceno10.github.io/memo-app/"
 
 const Proyect04 = () => {
     return(
@@ -13,7 +14,7 @@ const Proyect04 = () => {
                     A simple notes app, to organize quick tasks, made with bootstrap and fully responsive.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github, Bootstrap.
                     </p>
                     <div className="link-container">
-                        <a href="https://dbriceno10.github.io/memo-app/" target="__blank" className="btn btn_primary">Visit Page</a>
+                        <a href={URL} target="__blank" className="btn btn_primary">Visit Page</a>
                     </div>
                 </div>               
             </div>

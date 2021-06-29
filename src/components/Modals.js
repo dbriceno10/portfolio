@@ -11,13 +11,15 @@ import Modal03 from "../assets/image/screenshot/product-app-def.jpg"
 import Proyect03 from "./modals/Proyect03"
 import Modal04 from "../assets/image/screenshot/memo-app-def.jpg"
 import Proyect04 from "./modals/Proyect04"
-
+import Modal05 from "../assets/image/screenshot/datasheet.jpg"
+import Proyect05 from "./modals/Proyect05"
 
 const Modals = () => {
     const [isOpenModal1, openModal1, closeModal1] = useModal(false)
     const [isOpenModal2, openModal2, closeModal2] = useModal(false)
     const [isOpenModal3, openModal3, closeModal3] = useModal(false)
     const [isOpenModal4, openModal4, closeModal4] = useModal(false)
+    const [isOpenModal5, openModal5, closeModal5] = useModal(false)
 
     return(
         <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
@@ -39,6 +41,11 @@ const Modals = () => {
             <ModalElement image={Modal04} e={openModal4} />
             <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
                 <Proyect04 />
+            </Modal>
+
+            <ModalElement image={Modal05} e={openModal5} />
+            <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
+                <Proyect05 />
             </Modal>
         </div>
     )
