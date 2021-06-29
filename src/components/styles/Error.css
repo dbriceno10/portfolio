@@ -1,3 +1,7 @@
+:root {
+  --hover-gray: #818081;
+}
+
 .PageError {
     display: flex;
     flex-direction: column;
@@ -30,3 +34,7 @@
   .PageError h1 {
     margin: 40px;
   }
+
+  .btn-home:hover {
+    background-color: var(--hover-gray);
+}

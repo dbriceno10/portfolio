@@ -28,14 +28,14 @@ class Error404 extends React.Component {
             <React.Fragment>
             <Header />
                 <div className="PageError">
-            <Link to={`/`}>
-              <img className="error-img" src={error500} alt="server-internal error" />
-            </Link>
-            {/* <h1 className="h1-title">Error404 Not Found.</h1> */}
-            <div className="Badges__buttons">
-              <Link className="btn btn-primary" to={`/`}>Home</Link>
+                <Link to={`/`}>
+                    <img className="error-img" src={error500} alt="server-internal error" />
+                </Link>
+                {/* <h1 className="h1-title">Error404 Not Found.</h1> */}
+                <div className="Badges__buttons">
+                    <Link className="btn btn-primary btn-home" to={`/`}>Home</Link>
+                </div>
             </div>
-          </div>
             </React.Fragment>
         )
     }

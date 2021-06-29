@@ -11,7 +11,7 @@ const Proyect02 = () => {
                 <div className="">
                     <p className="modal__title">Space Badges</p>
                     <p>
-                    A Single-page application, built with react js and bootstrap, fully responsive, which consumes the https://rickandmortyapi.com/ api. Brings the possibility of an infinite pseudo scroll bringing all the characters.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github, React JS, Bootstrap.
+                    A Single-page application, built with react js and bootstrap, fully responsive, which consumes the api https://rickandmortyapi.com/. Brings the possibility of an infinite pseudo scroll bringing all the characters.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github, React JS, Bootstrap.
                     </p>
                     <div className="link-container">
                         <a href={URL} target="__blank" className="btn btn_primary">Visit Page</a>

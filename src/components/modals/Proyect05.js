@@ -11,7 +11,7 @@ const Proyect05 = () => {
                 <div className="">
                     <p className="modal__title">Rick and Morty Data Sheet</p>
                     <p>
-                    A simple application, made with vanilla JavaJcript, CSS and HTML, fully responsive, which consumes the https://rickandmortyapi.com/ api. We will change the page bringing all the characters in the series and showing their data.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github.
+                    A simple application, made with vanilla JavaJcript, CSS and HTML, fully responsive, which consumes the api https://rickandmortyapi.com/. We will change the page bringing all the characters in the series and showing their data.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github.
                     </p>
                     <div className="link-container">
                         <a href={URL} target="__blank" className="btn btn_primary">Visit Page</a>
