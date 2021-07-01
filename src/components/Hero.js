@@ -41,7 +41,7 @@ class Hero extends React.Component {
                   <a href={linkedinLink} target="_blank"><img className="hero--logo" src={logoLinkedin} alt="logo de linkedin" title="my linkedin" /></a>
                   <a href={gihubLink} target="_blank"><img className="hero--logo" src={logoGithub} alt="logo de github" title="my github" /></a>
                 </div>
-              </div> {/* end s-hero__content-about */}
+              </div>
             </div>
           </div>
           <div className="s-hero__scroll links">
