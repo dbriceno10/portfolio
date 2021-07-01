@@ -3535,8 +3535,11 @@ input[type="button"].btn--primary:focus {
     content: "";
     text-align: center;
     height: 1px;
+    /*Agregado por mi*/
+    background-color: #fff;
+    /*Agregado por mi*/
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.05);
+    /* background-color: rgba(255, 255, 255, 0.05); */
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     position: absolute;
