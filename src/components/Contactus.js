@@ -1,7 +1,11 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./styles/Contactus.css"
-
+const email = "daniel.b100726@gmail.com"
+const cellPhone = "tel:+0424-950-1974"
+const githubLink = "https://github.com/dbriceno10"
+const linkedinLink = "https://www.linkedin.com/in/daniel-alejandro-687539137/"
+const telegramLink = "https://t.me/dbriceno"
 class Header extends React.Component {
   render() {
       return (
@@ -52,7 +56,7 @@ class Contactus extends React.Component {
                         <span className="black-background">Email</span>
                       </h5>
                       <p className="contact-block__content">
-                        <span className="black-background"><a className="mailtoui" href="daniel.b100726@gmail.com">daniel.b100726@gmail.com</a></span>
+                        <span className="black-background"><a className="mailtoui" href={email}>daniel.b100726@gmail.com</a></span>
                       </p>
                     </div>
                   </div>
@@ -62,19 +66,25 @@ class Contactus extends React.Component {
                         <span className="black-background">Phone</span>
                       </h5>
                       <p className="contact-block__content">
-                        <span className="black-background"><a href="tel:+0424-950-1974">+58 424-950-1974</a></span>
+                        <span className="black-background"><a href={cellPhone}>+58 424-950-1974</a></span>
                       </p>
                       <h5 className="contact-block__header">
                         <span className="black-background">Github</span>
                       </h5>
                       <p className="contact-block__content">
-                        <span className="black-background"><a href="https://github.com/dbriceno10" target="__blank">dbriceno10</a></span>
+                        <span className="black-background"><a href={githubLink} target="__blank">dbriceno10</a></span>
                       </p>
                       <h5 className="contact-block__header">
                         <span className="black-background">Linkedin</span>
                       </h5>
                       <p className="contact-block__content">
-                        <span className="black-background"><a href="https://www.linkedin.com/in/daniel-alejandro-687539137/" target="__blank">Daniel Alejandro Briceño Salazar</a></span>
+                        <span className="black-background"><a href={linkedinLink} target="__blank">Daniel Alejandro Briceño Salazar</a></span>
+                      </p>
+                      <h5 className="contact-block__header">
+                        <span className="black-background">Telegram</span>
+                      </h5>
+                      <p className="contact-block__content">
+                        <span className="black-background"><a href={telegramLink} target="__blank">@dbriceno10</a></span>
                       </p>
                     </div>
                   </div>

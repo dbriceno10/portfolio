@@ -2,9 +2,11 @@ import React from "react"
 import { Link } from "react-router-dom"
 import logoGithub from "../assets/image/github (3).png"
 import logoLinkedin from "../assets/image/linkedin.png"
+import logoTelegram from "../assets/image/telegram-logo.png"
 import "./styles/Hero.css"
 const linkedinLink = "https://www.linkedin.com/in/daniel-alejandro-687539137/"
 const gihubLink = "https://github.com/dbriceno10"
+const telegramLink = "https://t.me/dbriceno"
 class Header extends React.Component {
   render() {
       return (
@@ -40,6 +42,7 @@ class Hero extends React.Component {
                 <div className="s-hero__content-social">
                   <a href={linkedinLink} target="_blank"><img className="hero--logo" src={logoLinkedin} alt="logo de linkedin" title="my linkedin" /></a>
                   <a href={gihubLink} target="_blank"><img className="hero--logo" src={logoGithub} alt="logo de github" title="my github" /></a>
+                  <a href={telegramLink} target="_blank"><img className="hero--logo" src={logoTelegram} alt="logo de telegram" title="Telegram: @dbriceno10" /></a>
                 </div>
               </div>
             </div>
