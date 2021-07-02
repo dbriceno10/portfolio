@@ -91,7 +91,7 @@ class About extends React.Component {
                       </li>
                       <li>
                         <div className="progress percent50" />
-                        <strong>NodeJS</strong>
+                        <strong>Node JS</strong>
                       </li>
                     </ul>
                   </div>
