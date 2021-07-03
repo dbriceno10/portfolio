@@ -84,7 +84,7 @@ class Contactus extends React.Component {
                         <span className="black-background">Telegram</span>
                       </h5>
                       <p className="contact-block__content">
-                        <span className="black-background"><a href={telegramLink} target="__blank">@dbriceno10</a></span>
+                        <span className="black-background"><a href={telegramLink} target="__blank">@dbriceno</a></span>
                       </p>
                     </div>
                   </div>

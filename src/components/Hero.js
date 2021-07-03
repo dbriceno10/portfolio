@@ -42,7 +42,7 @@ class Hero extends React.Component {
                 <div className="s-hero__content-social">
                   <a href={linkedinLink} target="_blank"><img className="hero--logo" src={logoLinkedin} alt="logo de linkedin" title="my linkedin" /></a>
                   <a href={gihubLink} target="_blank"><img className="hero--logo" src={logoGithub} alt="logo de github" title="my github" /></a>
-                  <a href={telegramLink} target="_blank"><img className="hero--logo" src={logoTelegram} alt="logo de telegram" title="Telegram: @dbriceno10" /></a>
+                  <a href={telegramLink} target="_blank"><img className="hero--logo" src={logoTelegram} alt="logo de telegram" title="Telegram: @dbriceno" /></a>
                 </div>
               </div>
             </div>
