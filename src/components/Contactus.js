@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./styles/Contactus.css"
+import image from "../assets/image/frontend-banner.jpg"
 const email = "daniel.b100726@gmail.com"
 const cellPhone = "tel:+0424-950-1974"
 const githubLink = "https://github.com/dbriceno10"
 const linkedinLink = "https://www.linkedin.com/in/daniel-alejandro-687539137/"
 const telegramLink = "https://t.me/dbriceno"
+
 class Header extends React.Component {
   render() {
       return (
@@ -47,6 +49,7 @@ class Contactus extends React.Component {
                 Let's start a new project together, I want to collaborate to materialize that idea into a successful project.
               </span>
               </h4>
+              <img className="banner" src={image} alt="banner" title="banner" />
             </div>
               <div className="column large-4 medium-12">
                 <div className="row contact-infos">
