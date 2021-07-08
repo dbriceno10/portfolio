@@ -11,7 +11,7 @@ const Proyect06 = () => {
                 <div className="">
                     <p className="modal__title">Simon Says</p>
                     <p>
-                    A recreation of the addictive simon says game, perfect to relax for a while while playing, on the pc or on the cell phone.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github
+                    A recreation of the addictive simon says game, perfect to relax for a while playing, on the pc or on the cell phone.<br />Technologies applied: HTML, CSS, JavaScript, Git/Github
                     </p>
                     <div className="link-container">
                         <a href={URL} target="__blank" className="btn btn_primary">Visit Page</a>
