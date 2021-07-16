@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7ae2a9c7.chunk.css",
-    "main.js": "/portfolio/static/js/main.6073b7c7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6073b7c7.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c5affb95.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c5affb95.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.926aad87.chunk.js": "/portfolio/static/js/2.926aad87.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.7ae2a9c7.chunk.css.map": "/portfolio/static/css/main.7ae2a9c7.chunk.css.map",
     "static/js/2.926aad87.chunk.js.LICENSE.txt": "/portfolio/static/js/2.926aad87.chunk.js.LICENSE.txt",
-    "static/media/Daniel_Briceno_CV.a3d94356.pdf": "/portfolio/static/media/Daniel_Briceno_CV.a3d94356.pdf",
+    "static/media/Daniel_Briceno_CV.1d055703.pdf": "/portfolio/static/media/Daniel_Briceno_CV.1d055703.pdf",
     "static/media/Error404.9cc6dc2a.jpg": "/portfolio/static/media/Error404.9cc6dc2a.jpg",
     "static/media/batatabit-baner.7aea46db.png": "/portfolio/static/media/batatabit-baner.7aea46db.png",
     "static/media/batatabit-def.7f809c15.jpg": "/portfolio/static/media/batatabit-def.7f809c15.jpg",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.926aad87.chunk.js",
     "static/css/main.7ae2a9c7.chunk.css",
-    "static/js/main.6073b7c7.chunk.js"
+    "static/js/main.c5affb95.chunk.js"
   ]
 }
