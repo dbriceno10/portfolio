@@ -4,7 +4,7 @@ import logoGithub from "../assets/image/github (3).png"
 import logoLinkedin from "../assets/image/linkedin.png"
 import logoTelegram from "../assets/image/telegram-logo.png"
 import "./styles/Hero.css"
-const linkedinLink = "https://www.linkedin.com/in/daniel-alejandro-687539137/"
+const linkedinLink = "https://www.linkedin.com/in/dbriceno10/"
 const gihubLink = "https://github.com/dbriceno10"
 const telegramLink = "https://t.me/dbriceno"
 class Header extends React.Component {

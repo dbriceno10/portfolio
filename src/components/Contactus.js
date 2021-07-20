@@ -5,7 +5,7 @@ import image from "../assets/image/frontend-banner.jpg"
 const email = "daniel.b100726@gmail.com"
 const cellPhone = "tel:+0424-950-1974"
 const githubLink = "https://github.com/dbriceno10"
-const linkedinLink = "https://www.linkedin.com/in/daniel-alejandro-687539137/"
+const linkedinLink = "https://www.linkedin.com/in/dbriceno10/"
 const telegramLink = "https://t.me/dbriceno"
 
 class Header extends React.Component {
