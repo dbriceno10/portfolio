@@ -1,11 +1,11 @@
 .about-description {
-    color: #fff;
+  color: #fff;
 }
 
 .cv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* .skills {
@@ -15,44 +15,44 @@
     align-self: center;
 } */
 
-.about-me{
-    color: white;
-    /* text-decoration: underline #11abb0; */
+.about-me {
+  color: white;
+  /* text-decoration: underline #11abb0; */
 }
 
-.s-about{
-    background: url("../../assets/image/stars.svg"), #000;
-    /* background-position: center; */
-    background-repeat: repeat;
-    /* background-size: cover; */
+.s-about {
+  background: url("../../assets/image/stars.svg"), #000;
+  /* background-position: center; */
+  background-repeat: repeat;
+  /* background-size: cover; */
 }
 
 .about-description {
-    background-color: #000;
+  background-color: #000;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    height: 1px;
-    background-color: white;
+  height: 1px;
+  background-color: white;
 }
 
 .row.s-about__content-bottom {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .s-resume.target-section {
-    background: url("../../assets/image/stars.svg"), #e5e5e5;
-    background-repeat: repeat;
+  background: url("../../assets/image/stars.svg"), #e5e5e5;
+  background-repeat: repeat;
 }
 
 .s-resume.target-section h3 {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .s-resume.target-section strong {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }

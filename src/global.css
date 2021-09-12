@@ -1,43 +1,42 @@
 .layout {
-    position: fixed;
-    width: 100%;
-    height: auto;
-    background-color: black;
-    top: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  top: 0;
 }
 
 .s-portfolio.target-section {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-.huge-text{
-    font-size: 3rem !important;
+.huge-text {
+  font-size: 3rem !important;
 }
 
 .s-header__nav .current a {
-    color: hsla(182, 82%, 38%, 1);
+  color: hsla(182, 82%, 38%, 1);
 }
 
-    @media (max-width: 394px) {
+@media (max-width: 394px) {
+  .layout.s-header {
+    flex-direction: column;
+    align-items: center;
+    align-self: start;
+    height: 136px;
+    transition-delay: 0.5s;
+    transition: 0.5s 0.5s;
+    margin-bottom: 20px;
+  }
 
-    .layout.s-header {
-        flex-direction: column;
-        align-items: center;
-        align-self: start;
-        height: 136px;
-        transition-delay: 0.5s;
-        transition: 0.5s 0.5s;
-        margin-bottom: 20px;
-    }
+  .s-hero {
+    margin-top: 20px;
+  }
 
-    .s-hero {
-        margin-top: 20px;
-    }
-
-    /* .s-about {
+  /* .s-about {
         margin-top: 20px;
     } */
-    .s-contact {
-        margin-top: 20px;
-    }
+  .s-contact {
+    margin-top: 20px;
+  }
 }

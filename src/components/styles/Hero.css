@@ -1,33 +1,33 @@
 :root {
-    --hover-gray: #818081;
+  --hover-gray: #818081;
 }
 
 .hero--logo {
-    width: 75px;
-    height: 75px;
-    /* border: solid 2px white; */
-    /* border-radius: 100% */
+  width: 75px;
+  height: 75px;
+  /* border: solid 2px white; */
+  /* border-radius: 100% */
 }
 
 .white-logo {
-    background-color: #fff;
-    border-radius: 100%;
-    border: 2px;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 2px;
 }
 
 .s-hero__bg {
-    background: url("../../assets/image/stars.svg"), #000;
-    background-repeat: repeat;
+  background: url("../../assets/image/stars.svg"), #000;
+  background-repeat: repeat;
 }
 
 .links {
-    display: grid;
+  display: grid;
 }
 
 .s-hero span {
-    background-color: #000;
+  background-color: #000;
 }
 
 .btn-hero:hover {
-    background-color: var(--hover-gray);
+  background-color: var(--hover-gray);
 }

@@ -78,10 +78,9 @@
 
 .link-container {
   display: grid;
-  
 }
 
-.modal__image{
+.modal__image {
   /* border: solid 2px #000; */
   border-radius: 16px;
   width: 270px;
@@ -124,7 +123,7 @@
   font-weight: bold;
 } */
 
-.proyect-image{
+.proyect-image {
   border: solid black 2px;
   border-radius: 4px;
 }
