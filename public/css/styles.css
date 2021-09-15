@@ -3911,10 +3911,12 @@ button.btn--pill {
 }
 
 .s-about__pic {
-  width: var(--vspace-5);
-  height: var(--vspace-5);
+  /* width: var(--vspace-5); */
+  /* height: var(--vspace-5); */
+  width: 19.2rem;
   border: 1.6rem solid rgba(255, 255, 255, 0.02);
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  border-radius: 32px;
 }
 
 .s-about__content-bottom {
@@ -3963,16 +3965,18 @@ button.btn--pill {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-about__pic {
-    width: var(--vspace-4_5);
-    height: var(--vspace-4_5);
+    /* width: var(--vspace-4_5); */
+    /* height: var(--vspace-4_5); */
+    width: var(--vspace-5);
     border-width: 1.4rem;
   }
 }
 
 @media screen and (max-width: 900px) {
   .s-about__pic {
-    width: var(--vspace-4);
-    height: var(--vspace-4);
+    /* width: var(--vspace-4); */
+    /* height: var(--vspace-4); */
+    width: var(--vspace-4_5);
     border-width: 1.2rem;
   }
 }
