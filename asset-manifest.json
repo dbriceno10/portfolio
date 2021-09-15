@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2928f619.chunk.css",
-    "main.js": "/portfolio/static/js/main.46492331.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.46492331.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c62557c7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c62557c7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.926aad87.chunk.js": "/portfolio/static/js/2.926aad87.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/linkedin.6892b3ae.png": "/portfolio/static/media/linkedin.6892b3ae.png",
     "static/media/memo-app-def.92546463.jpg": "/portfolio/static/media/memo-app-def.92546463.jpg",
     "static/media/memoapp-baner.2a5f0eb4.jpg": "/portfolio/static/media/memoapp-baner.2a5f0eb4.jpg",
-    "static/media/photo-perfil5.d5e0ad4c.jpg": "/portfolio/static/media/photo-perfil5.d5e0ad4c.jpg",
+    "static/media/photo-perfil2.e3f91152.jpg": "/portfolio/static/media/photo-perfil2.e3f91152.jpg",
     "static/media/product-app-def.32e5355c.jpg": "/portfolio/static/media/product-app-def.32e5355c.jpg",
     "static/media/simon-says-baner2.1ddf66ee.jpg": "/portfolio/static/media/simon-says-baner2.1ddf66ee.jpg",
     "static/media/simon-says2.edf176f0.jpg": "/portfolio/static/media/simon-says2.edf176f0.jpg",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.926aad87.chunk.js",
     "static/css/main.2928f619.chunk.css",
-    "static/js/main.46492331.chunk.js"
+    "static/js/main.c62557c7.chunk.js"
   ]
 }
