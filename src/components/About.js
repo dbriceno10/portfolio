@@ -1,5 +1,5 @@
 import React from "react";
-import userPhoto from "../assets/image/photo-perfil2.jpg";
+import userPhoto from "../assets/image/photo-perfil.jpg";
 import "./styles/About.css";
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf";
 import { Link } from "react-router-dom";
