@@ -15,6 +15,8 @@ import Modal05 from "../assets/image/screenshot/datasheet.jpg";
 import Proyect05 from "./modals/Proyect05";
 import Modal06 from "../assets/image/screenshot/simon-says2.jpg";
 import Proyect06 from "./modals/Proyect06";
+import Modal07 from "../assets/image/screenshot/food-app.jpg"
+import Proyect07 from "./modals/Proyect07";
 
 const Modals = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -23,6 +25,7 @@ const Modals = () => {
   const [isOpenModal4, openModal4, closeModal4] = useModal(false);
   const [isOpenModal5, openModal5, closeModal5] = useModal(false);
   const [isOpenModal6, openModal6, closeModal6] = useModal(false);
+  const [isOpenModal7, openModal7, closeModal7] = useModal(false);
 
   return (
     <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
@@ -36,14 +39,9 @@ const Modals = () => {
         <Proyect02 />
       </Modal>
 
-      <ModalElement image={Modal03} e={openModal3} />
-      <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
-        <Proyect03 />
-      </Modal>
-
-      <ModalElement image={Modal04} e={openModal4} />
-      <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
-        <Proyect04 />
+      <ModalElement image={Modal07} e={openModal7} />
+      <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
+        <Proyect07 />
       </Modal>
 
       <ModalElement image={Modal05} e={openModal5} />
@@ -54,6 +52,16 @@ const Modals = () => {
       <ModalElement image={Modal06} e={openModal6} />
       <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
         <Proyect06 />
+      </Modal>
+
+      <ModalElement image={Modal04} e={openModal4} />
+      <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+        <Proyect04 />
+      </Modal>
+
+      <ModalElement image={Modal03} e={openModal3} />
+      <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
+        <Proyect03 />
       </Modal>
     </div>
   );
