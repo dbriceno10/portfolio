@@ -78,18 +78,20 @@
 
 .link-container {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.link-container a {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .modal__image {
-  /* border: solid 2px #000; */
   border-radius: 16px;
   width: 270px;
   height: 490px;
 }
 
-/* .modal__container__image{
-  
-} */
 
 .column.folio-item {
   margin: 10px;
@@ -118,10 +120,6 @@
   box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* .x {
-  font-size: 40px;
-  font-weight: bold;
-} */
 
 .proyect-image {
   border: solid black 2px;
