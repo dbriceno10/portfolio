@@ -17,7 +17,7 @@ const Proyect07 = () => {
             the orders to pass them on to the cook. It integrates an API
             developed with node js, express and mongodb as a database.
             <br />
-            Technologies applied: HTML, CSS, JavaScript, Git/Github
+            Technologies applied: HTML, CSS, JavaScript, Nodejs, Express, MongoDB, Git/Github.
           </p>
           <div className="link-container">
             <a href={URL} target="__blank" className="btn btn_primary">

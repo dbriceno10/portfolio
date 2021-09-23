@@ -17,7 +17,7 @@ const Proyect06 = () => {
             A recreation of the addictive simon says game, perfect to relax for
             a while playing, on the pc or on the cell phone.
             <br />
-            Technologies applied: HTML, CSS, JavaScript, Git/Github
+            Technologies applied: HTML, CSS, JavaScript, Git/Github.
           </p>
           <div className="link-container">
             <a href={URL} target="__blank" className="btn btn_primary">
