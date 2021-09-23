@@ -84,6 +84,14 @@ class About extends React.Component {
                 JS. I can connect applications with an API with no problem to
                 fetch data.
               </p>
+              <br />
+              <h3 className="about-me center">Back-end</h3>
+              <p className="about-description">
+                Utilising frameworks such as Express and Nodejs, I've written
+                services supporting thousands of users, including REST APIs.
+                Implementing mongodb as a database, achieving applications with
+                functionality to log in and create users.
+              </p>
               <hr />
               <div className="row s-about__content-bottom">
                 <div className="column w-1000-stack cv">
