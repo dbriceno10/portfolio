@@ -109,10 +109,12 @@ class About extends React.Component {
         </section>
         <section className="s-resume target-section">
           <div className="row s-resume__section ">
+            <div className="column  tab-12">
             <h3 id="skills" className="section-header-allcaps">
               Skills
             </h3>
-            <div className="column large-12 tab-12">
+            </div>
+            <div className="column large-10 tab-12">
               <div className="resume-block">
                 <ul className="skill-bars-fat">
                   <li className="grid">
