@@ -107,3 +107,7 @@ hr {
     grid-template-columns: 1fr 3fr;
   }
 }
+
+.suavice-border {
+  border-radius: 8px;
+}

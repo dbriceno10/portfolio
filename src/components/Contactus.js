@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/Contactus.css";
-import image from "../assets/image/frontend-banner.jpg";
+import image from "../assets/image/baner2.jpg";
 const email = "daniel.b100726@gmail.com";
 const cellPhone = "tel:+0424-950-1974";
 const githubLink = "https://github.com/dbriceno10";

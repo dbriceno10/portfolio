@@ -4,7 +4,7 @@ import userPhoto from "../assets/image/photo-perfil.jpg";
 import "./styles/About.css";
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf";
 import htmlStiker from "../assets/image/html.png";
-import cssStiker from "../assets/image/css-3.png";
+import cssStiker from "../assets/image/css-logo.png";
 import javascriptStiker from "../assets/image/javascript-logo-svg-vector.svg";
 import figmaStiker from "../assets/image/figma-1-logo-svg-vector.svg";
 import reactStiker from "../assets/image/react-logo22.png";
@@ -142,7 +142,7 @@ class About extends React.Component {
                   <li className="grid">
                     <strong>Javascript</strong>
                     <img
-                      className="stiker"
+                      className="stiker suavice-border"
                       src={javascriptStiker}
                       title="javascript-skill"
                       alt="javascript-logo"
