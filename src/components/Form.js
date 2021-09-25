@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/From.css";
-
+import swal from "sweetalert";
+const urlApi = "https://portfolio-contact-form-api.vercel.app/api/data";
 class Form extends React.Component {
   constructor(props) {
     super(props);
@@ -19,8 +20,27 @@ class Form extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     const values = JSON.stringify(this.state);
-    console.log(values)
-    alert(values);
+    fetch(urlApi, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: values,
+    })
+      .then((element) => {
+        swal({
+          title: "Ok",
+          text: "Thank you for your comments! We will write to you shortly",
+          icon: "success",
+        });
+      })
+      .catch((error) => {
+        swal({
+          title: "Error",
+          text: "An unexpected error has occurred, please try again",
+          icon: "Error",
+        });
+      });
   };
 
   render() {
@@ -65,7 +85,11 @@ class Form extends React.Component {
             ></textarea>
           </div>
           <div className="btn-form-container">
-            <input Value="Send" type="submit" className="btn btn-primary send"/>
+            <input
+              Value="Send"
+              type="submit"
+              className="btn btn-primary send"
+            />
           </div>
         </form>
       </React.Fragment>
