@@ -11,10 +11,6 @@
   width: 100%;
   padding-top: 120px;
   padding-bottom: 40px;
-  /* background-image: url("../../assets/image/estructura-conexion2.jpg");
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover; */
   background: url("../../assets/image/stars.svg"), #000;
   background-repeat: repeat;
 }
