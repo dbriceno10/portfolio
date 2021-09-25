@@ -1,0 +1,62 @@
+#valid-form {
+  min-width: 300px;
+  max-width: 600px;
+  color: #000;
+  background: url("../../assets/image/stars.svg"), #e5e5e5;
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inputs-container {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.inputs-container div {
+  margin: 0 auto;
+}
+
+.inputs-container input {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  background-color: #eee;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.form-paceholder {
+  text-align: center;
+  font-weight: bold;
+}
+
+#valid-form textarea {
+  margin: 0 auto;
+  width: 100%;
+  resize: vertical;
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 400px;
+  min-height: 150px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.send {
+  width: 60%;
+  margin: 0 auto;
+}
