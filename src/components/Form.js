@@ -19,6 +19,9 @@ class Form extends React.Component {
 
   handleSubmit = (event) => {
     const button = document.getElementById("input");
+    const fullname = document.getElementById("fullname");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
     button.setAttribute("disabled", true);
     event.preventDefault();
     const values = JSON.stringify(this.state);
@@ -34,7 +37,12 @@ class Form extends React.Component {
           title: "Ok",
           text: "Thank you for your comments! We will write to you shortly",
           icon: "success",
-        }).then(() => button.removeAttribute("disabled"));
+        }).then(() => {
+          button.removeAttribute("disabled");
+          fullname.value = "";
+          email.value = "";
+          message.value = "";
+        });
       })
       .catch((error) => {
         swal({
