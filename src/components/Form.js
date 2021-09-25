@@ -18,6 +18,8 @@ class Form extends React.Component {
   };
 
   handleSubmit = (event) => {
+    const button = document.getElementById("input");
+    button.setAttribute("disabled", true);
     event.preventDefault();
     const values = JSON.stringify(this.state);
     fetch(urlApi, {
@@ -32,14 +34,14 @@ class Form extends React.Component {
           title: "Ok",
           text: "Thank you for your comments! We will write to you shortly",
           icon: "success",
-        });
+        }).then(() => button.removeAttribute("disabled"));
       })
       .catch((error) => {
         swal({
           title: "Error",
           text: "An unexpected error has occurred, please try again",
           icon: "Error",
-        });
+        }).then(() => button.removeAttribute("disabled"));
       });
   };
 
@@ -86,9 +88,10 @@ class Form extends React.Component {
           </div>
           <div className="btn-form-container">
             <input
-              Value="Send"
+              value="Send"
               type="submit"
               className="btn btn-primary send"
+              id="input"
             />
           </div>
         </form>

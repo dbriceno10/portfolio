@@ -60,3 +60,8 @@
   width: 60%;
   margin: 0 auto;
 }
+
+input[type = "submit"]:disabled {
+  background-color: #000;
+  color: #fff;
+}
