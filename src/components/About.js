@@ -60,7 +60,7 @@ class About extends React.Component {
             </div>
             <div className="column large-9 tab-12 s-about__content">
               <h1 className="about-me">
-                <span className="about-description">About Me</span>
+                <span className="about-description font-500">About Me</span>
               </h1>
               <p className="about-description">
                 Hi, I'm Daniel, Font-end developer, I have completed my training
@@ -74,10 +74,10 @@ class About extends React.Component {
               </p>
               <hr size="8px" color="white" />
               <h2 className="about-me">
-                <span className="about-description">What I Do</span>
+                <span className="about-description font-500">What I Do</span>
               </h2>
               <br />
-              <h3 className="about-me center">Front-end</h3>
+              <h3 className="about-me center font-500">Front-end</h3>
               <p className="about-description">
                 As a javascript developer, I have experience in using HTML and
                 CSS, also in handling some frameworks like JQuery, mainly React
@@ -85,7 +85,7 @@ class About extends React.Component {
                 fetch data.
               </p>
               <br />
-              <h3 className="about-me center">Back-end</h3>
+              <h3 className="about-me center font-500">Back-end</h3>
               <p className="about-description">
                 Utilising frameworks such as Express and Nodejs, I've written
                 services supporting thousands of users, including REST APIs.

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/Contactus.css";
 import Form from "./Form";
-// import image from "../assets/image/baner2.jpg";
 const email = "daniel.b100726@gmail.com";
 const cellPhone = "tel:+0424-950-1974";
 const githubLink = "https://github.com/dbriceno10";
@@ -65,7 +64,6 @@ class Contactus extends React.Component {
                   materialize that idea into a successful project.
                 </span>
               </h4>
-              {/* <img className="banner" src={image} alt="banner" title="banner" /> */}
               <Form />
             </div>
             <div className="column large-4 medium-12">

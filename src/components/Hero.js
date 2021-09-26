@@ -52,7 +52,7 @@ class Hero extends React.Component {
             <div className="column">
               <div className="s-hero__content-about">
                 <h1>
-                  <span>I'm Daniel Briceño</span>
+                  <span className="font-500">I'm Daniel Briceño</span>
                 </h1>
                 <h3>
                   <span>I'm a Front-end Developer.</span>

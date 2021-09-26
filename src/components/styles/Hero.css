@@ -28,6 +28,11 @@
   background-color: #000;
 }
 
+.btn-hero {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .btn-hero:hover {
   background-color: var(--hover-gray);
 }

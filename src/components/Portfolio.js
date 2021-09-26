@@ -46,7 +46,7 @@ class Portfolio extends React.Component {
         <section id="portfolio" className="s-portfolio target-section">
           <div className="row s-portfolio__header">
             <div className="column large-12">
-              <h3>A Few Of My Latest Creations</h3>
+              <h3 className="font-500">A Few Of My Latest Creations</h3>
             </div>
           </div>
           <Modals />
