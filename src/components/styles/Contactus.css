@@ -12,6 +12,28 @@
   color: #11ABB0;
 }
 
-.banner {
+/* .banner {
   margin-top: 60px;
+} */
+
+.stiker2 {
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 0 0 0 0;
+  /* margin-right: 10px; */
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  /* align-self: center; */
+  align-items: center;
+  /* text-align: start; */
+  margin-bottom: 10px;
+}
+
+.contact-block__content span a {
+  font-size: 2.4rem;
 }
