@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.be8b96db.chunk.css",
-    "main.js": "/portfolio/static/js/main.8212c0a4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8212c0a4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9eef8a1f.chunk.css",
+    "main.js": "/portfolio/static/js/main.ca434d95.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ca434d95.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.8b6e8625.chunk.js": "/portfolio/static/js/2.8b6e8625.chunk.js",
     "static/js/2.8b6e8625.chunk.js.map": "/portfolio/static/js/2.8b6e8625.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.be8b96db.chunk.css.map": "/portfolio/static/css/main.be8b96db.chunk.css.map",
+    "static/css/main.9eef8a1f.chunk.css.map": "/portfolio/static/css/main.9eef8a1f.chunk.css.map",
     "static/js/2.8b6e8625.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8b6e8625.chunk.js.LICENSE.txt",
+    "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
     "static/media/Daniel_Briceno_CV.2687be3a.pdf": "/portfolio/static/media/Daniel_Briceno_CV.2687be3a.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
     "static/media/batatabit-baner.6afdb82c.png": "/portfolio/static/media/batatabit-baner.6afdb82c.png",
@@ -37,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.8b6e8625.chunk.js",
-    "static/css/main.be8b96db.chunk.css",
-    "static/js/main.8212c0a4.chunk.js"
+    "static/css/main.9eef8a1f.chunk.css",
+    "static/js/main.ca434d95.chunk.js"
   ]
 }
