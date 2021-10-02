@@ -96,7 +96,7 @@ class About extends React.Component {
               <div className="row s-about__content-bottom">
                 <div className="column w-1000-stack cv">
                   <a
-                    className="btn btn--download"
+                    className="btn btn--download btn-donwload"
                     href={CV}
                     download="Daniel_Briceno_CV"
                   >

@@ -71,6 +71,11 @@ li div {
   grid-template-columns: 1fr 10fr;
 }
 
+.btn-donwload {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .suavice-border {
   border-radius: 8px;
 }

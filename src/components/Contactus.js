@@ -7,7 +7,7 @@ import phoneStiker from "../assets/image/1220365_whatsapp_chat_communication_mes
 import githubStiker from "../assets/image/github (3).png";
 import linkedinStiker from "../assets/image/linkedin.png";
 import telegranStiker from "../assets/image/telegram-logo.png";
-const email = "daniel.b100726@gmail.com";
+// const email = "daniel.b100726@gmail.com";
 const cellPhone = "tel:+0424-950-1974";
 const githubLink = "https://github.com/dbriceno10";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
@@ -88,9 +88,7 @@ class Contactus extends React.Component {
                     </div>
                     <p className="contact-block__content">
                       <span className="black-background">
-                        <a className="mailtoui" href={email}>
-                          daniel.b100726@gmail.com
-                        </a>
+                        <a className="mailtoui">daniel.b100726@gmail.com</a>
                       </span>
                     </p>
                   </div>
