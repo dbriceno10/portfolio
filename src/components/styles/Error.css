@@ -29,6 +29,10 @@
 .PageError h1 {
   margin: 40px;
 }
+.btn-home {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .btn-home:hover {
   background-color: var(--hover-gray);
