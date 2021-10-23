@@ -1,26 +1,9 @@
-.layout {
-  position: fixed;
-  width: 100%;
-  height: auto;
-  background-color: black;
-  top: 0;
-}
-
 .s-portfolio.target-section {
   background-color: #fff;
 }
 
 .huge-text {
   font-size: 3rem !important;
-}
-
-.s-header__nav .current a {
-  color: #11ABB0;
-  /* color: hsla(182, 82%, 38%, 1); */
-  /* color: #007ab9; */
-  /* color: #5c6bc0; */
-  /* color: #2ca4d7; */
-  font-weight: 600;
 }
 
 @media (max-width: 394px) {

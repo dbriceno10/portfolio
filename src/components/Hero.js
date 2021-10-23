@@ -7,45 +7,11 @@ import "./styles/Hero.css";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
 const gihubLink = "https://github.com/dbriceno10";
 const telegramLink = "https://t.me/dbriceno";
-class Header extends React.Component {
-  render() {
-    return (
-      <header className="s-header layout">
-        <div className="row s-header__nav-wrap">
-          <nav className="s-header__nav">
-            <ul>
-              <li id="home" className="current">
-                <Link className="smoothscroll" to="/">
-                  Home
-                </Link>
-              </li>
-              <li id="about">
-                <Link className="smoothscroll" to="/about">
-                  About
-                </Link>
-              </li>
-              <li id="portfolio">
-                <Link className="smoothscroll" to="/portfolio">
-                  Portfolio
-                </Link>
-              </li>
-              <li id="contact">
-                <Link className="smoothscroll" to="/contact">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    );
-  }
-}
+
 class Hero extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
         <section id="hero" className="s-hero target-section">
           <div className="s-hero__bg rellax" data-rellax-speed={-7} />
           <div className="row s-hero__content">

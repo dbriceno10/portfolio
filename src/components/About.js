@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import userPhoto from "../assets/image/photo-perfil.jpg";
 import "./styles/About.css";
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf";
@@ -14,45 +13,10 @@ import expressStiker from "../assets/image/javascript.png";
 import typrscriptStiker from "../assets/image/TypeScript-logo.png";
 import mongodbtStiker from "../assets/image/mongodb-leaf-logo.png";
 
-class Header extends React.Component {
-  render() {
-    return (
-      <header className="s-header layout">
-        <div className="row s-header__nav-wrap">
-          <nav className="s-header__nav">
-            <ul>
-              <li id="home">
-                <Link className="smoothscroll" to="/">
-                  Home
-                </Link>
-              </li>
-              <li id="about" className="current">
-                <Link className="smoothscroll" to="/about">
-                  About
-                </Link>
-              </li>
-              <li id="portfolio">
-                <Link className="smoothscroll" to="/portfolio">
-                  Portfolio
-                </Link>
-              </li>
-              <li id="contact">
-                <Link className="smoothscroll" to="/contact">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    );
-  }
-}
 class About extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
         <section id="about" className="s-about target-section">
           <div className="row">
             <div className="column large-3 tab-12">
@@ -110,9 +74,9 @@ class About extends React.Component {
         <section className="s-resume target-section">
           <div className="row s-resume__section ">
             <div className="column  tab-12">
-            <h3 id="skills" className="section-header-allcaps">
-              Skills
-            </h3>
+              <h3 id="skills" className="section-header-allcaps">
+                Skills
+              </h3>
             </div>
             <div className="column large-10 tab-12">
               <div className="resume-block">
