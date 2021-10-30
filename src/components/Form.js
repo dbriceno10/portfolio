@@ -1,30 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/From.css";
 import swal from "sweetalert";
 const urlApi = "https://portfolio-contact-form-api.vercel.app/api/data";
-class Form extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      fullname: "",
-      email: "",
-      message: "",
-    };
-  }
-
-  handleChange = (event) => {
-    const { name, value } = event.target;
-    this.setState({ [name]: value });
+const Form = () => {
+  const [data, setData] = useState({
+    fullname: "",
+    email: "",
+    message: "",
+  });
+  const [error, setError] = useState(true);
+  const handleChange = (e) => {
+    setData({
+      ...data,
+      [e.target.name]: e.target.value,
+    });
   };
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    const button = document.getElementById("input");
-    const fullname = document.getElementById("fullname");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
-    button.setAttribute("disabled", true);
-    const values = JSON.stringify(this.state);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setError(true);
+    const values = JSON.stringify(data);
     fetch(urlApi, {
       method: "POST",
       headers: {
@@ -32,80 +27,81 @@ class Form extends React.Component {
       },
       body: values,
     })
-      .then((element) => {
+      .then(() => {
         swal({
           title: "Ok",
           text: "Thank you for your comments! We will write to you shortly",
           icon: "success",
         }).then(() => {
-          fullname.value = "";
-          email.value = "";
-          message.value = "";
-          button.removeAttribute("disabled");
+          setData({
+            fullname: "",
+            email: "",
+            message: "",
+          });
+          setError(false);
         });
       })
-      .catch((error) => {
+      .catch(() => {
         swal({
           title: "Error",
           text: "An unexpected error has occurred, please try again",
           icon: "Error",
-        }).then(() => button.removeAttribute("disabled"));
+        }).then(() => setError(false));
       });
   };
 
-  render() {
-    const { fullname, email, message } = this.state;
-    return (
-      <React.Fragment>
-        <form id="valid-form" onSubmit={this.handleSubmit}>
-          <div className="inputs-container">
-            <div>
-              <label className="form-paceholder">Full Name</label>
-              <input
-                id="fullname"
-                type="text"
-                name="fullname"
-                value={fullname}
-                placeholder="Full Name"
-                onChange={this.handleChange}
-                required
-              />
-            </div>
-            <div>
-              <label className="form-paceholder">Email</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                value={email}
-                placeholder="Email"
-                onChange={this.handleChange}
-                required
-              />
-            </div>
-          </div>
-          <div className="textarea-container">
-            <textarea
-              id="message"
-              placeholder="Message"
-              maxLength="2000"
-              name="message"
-              value={message}
-              onChange={this.handleChange}
-            ></textarea>
-          </div>
-          <div className="btn-form-container">
+  useEffect(() => {
+    if (data.fullname.length > 0 && data.email.length > 0) setError(false);
+    else setError(true);
+  }, [data, setError]);
+  return (
+    <React.Fragment>
+      <form id="valid-form" onSubmit={handleSubmit}>
+        <div className="inputs-container">
+          <div>
+            <label className="form-paceholder">Full Name</label>
             <input
-              value="Send"
-              type="submit"
-              className="btn btn-primary send"
-              id="input"
+              type="text"
+              name="fullname"
+              value={data.fullname}
+              placeholder="Full Name"
+              onChange={handleChange}
             />
           </div>
-        </form>
-      </React.Fragment>
-    );
-  }
-}
+          <div>
+            <label className="form-paceholder">Email</label>
+            <input
+              name="email"
+              type="email"
+              value={data.email}
+              placeholder="Email"
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+        <div className="textarea-container">
+          <textarea
+            placeholder="Message"
+            maxLength="2000"
+            name="message"
+            value={data.message}
+            onChange={handleChange}
+          ></textarea>
+          {/* <p className="form-paceholder">{data.message.length} of 2000</p> */}
+        </div>
+        <div className="btn-form-container">
+          <button
+            type="submit"
+            className="btn btn-primary send"
+            id="input"
+            disabled={error}
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </React.Fragment>
+  );
+};
 
 export default Form;
