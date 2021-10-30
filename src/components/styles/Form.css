@@ -1,8 +1,15 @@
+:root {
+  --active-nav-blue: #11abb0;
+  --hover-gray: #818081;
+  --normal-gray: #d0d1d1;
+  --normal-black: #000;
+}
+
 #valid-form {
   margin: 0 auto;
   min-width: 300px;
   max-width: 600px;
-  color: #000;
+  color: var(--normal-black);
   background: url("../../assets/image/stars.svg"), #e5e5e5;
   border-radius: 8px;
   padding: 10px;
@@ -67,7 +74,18 @@
   margin: 0 auto;
 }
 
-input[type="submit"]:disabled {
-  background-color: #000;
+#input {
+  background-color: var(--normal-gray);
+  color: var(--normal-black);
+  border: none;
+}
+
+#input:hover {
+  background-color: var(--hover-gray);
   color: #fff;
+}
+
+#input:disabled {
+  background-color: #fff;
+  color: var(--normal-black);
 }

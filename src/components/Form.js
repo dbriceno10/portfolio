@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles/From.css";
+import "./styles/Form.css";
 import swal from "sweetalert";
 const urlApi = "https://portfolio-contact-form-api.vercel.app/api/data";
 const Form = () => {
