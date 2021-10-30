@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.460f538d.chunk.css",
-    "main.js": "/portfolio/static/js/main.b24782ec.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b24782ec.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b3135027.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b3135027.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
-    "static/js/2.d049b6ef.chunk.js": "/portfolio/static/js/2.d049b6ef.chunk.js",
-    "static/js/2.d049b6ef.chunk.js.map": "/portfolio/static/js/2.d049b6ef.chunk.js.map",
+    "static/js/2.da1cedb8.chunk.js": "/portfolio/static/js/2.da1cedb8.chunk.js",
+    "static/js/2.da1cedb8.chunk.js.map": "/portfolio/static/js/2.da1cedb8.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.460f538d.chunk.css.map": "/portfolio/static/css/main.460f538d.chunk.css.map",
-    "static/js/2.d049b6ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d049b6ef.chunk.js.LICENSE.txt",
+    "static/js/2.da1cedb8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.da1cedb8.chunk.js.LICENSE.txt",
     "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
     "static/media/Daniel_Briceno_CV.5385e701.pdf": "/portfolio/static/media/Daniel_Briceno_CV.5385e701.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f2aa3c76.js",
-    "static/js/2.d049b6ef.chunk.js",
+    "static/js/2.da1cedb8.chunk.js",
     "static/css/main.460f538d.chunk.css",
-    "static/js/main.b24782ec.chunk.js"
+    "static/js/main.b3135027.chunk.js"
   ]
 }
