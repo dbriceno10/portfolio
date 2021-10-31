@@ -55,7 +55,6 @@ const Form = () => {
     else setError(true);
   }, [data, setError]);
   return (
-    <React.Fragment>
       <form id="valid-form" onSubmit={handleSubmit}>
         <div className="inputs-container">
           <div>
@@ -100,7 +99,6 @@ const Form = () => {
           </button>
         </div>
       </form>
-    </React.Fragment>
   );
 };
 

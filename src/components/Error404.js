@@ -5,9 +5,8 @@ import error500 from "../assets/image/Error404.jpg";
 
 const Error404 = () => {
   return (
-    <React.Fragment>
       <div className="PageError">
-        <Link to={`/`}>
+        <Link to="/">
           <img
             className="error-img"
             src={error500}
@@ -15,12 +14,11 @@ const Error404 = () => {
           />
         </Link>
         <div className="Badges__buttons">
-          <Link className="btn btn-primary btn-home" to={`/`}>
+          <Link className="btn btn-primary btn-home" to="/">
             Home
           </Link>
         </div>
       </div>
-    </React.Fragment>
   );
 };
 

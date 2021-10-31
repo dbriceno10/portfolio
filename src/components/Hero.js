@@ -11,7 +11,6 @@ const telegramLink = "https://t.me/dbriceno";
 
 const Hero = () => {
   return (
-    <React.Fragment>
       <section id="hero" className="s-hero target-section">
         <div className="s-hero__bg rellax" data-rellax-speed={-7} />
         <div className="row s-hero__content">
@@ -51,7 +50,6 @@ const Hero = () => {
           <HeroButton path="/portfolio" text="Explore Me" />
         </div>
       </section>
-    </React.Fragment>
   );
 };
 

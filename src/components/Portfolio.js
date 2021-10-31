@@ -3,7 +3,6 @@ import Modals from "./Modals";
 import "./styles/Portfolio.css";
 const Portfolio = () => {
   return (
-    <React.Fragment>
       <section id="portfolio" className="s-portfolio target-section">
         <div className="row s-portfolio__header">
           <div className="column large-12">
@@ -12,7 +11,6 @@ const Portfolio = () => {
         </div>
         <Modals />
       </section>
-    </React.Fragment>
   );
 };
 

@@ -15,7 +15,6 @@ const telegramLink = "https://t.me/dbriceno";
 
 const Contactus = () => {
   return (
-    <React.Fragment>
       <section id="contact" className="s-contact target-section">
         <div className="row s-contact__header">
           <div className="column large-12">
@@ -89,7 +88,6 @@ const Contactus = () => {
           </div>
         </div>
       </section>
-    </React.Fragment>
   );
 };
 
