@@ -6,7 +6,6 @@ import Portfolio from "./components/Portfolio";
 import Contactus from "./components/Contactus";
 import Layout from "./components/Layout";
 import Error404 from "./components/Error404";
-import "./global.css";
 
 const App = () => {
   return (
