@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logoGithub from "../assets/image/github (3).png";
 import logoLinkedin from "../assets/image/linkedin.png";
 import logoTelegram from "../assets/image/telegram-logo.png";
+import HeroButton from "./HeroButton";
+import HeroSocial from "./HeroSocial";
 import "./styles/Hero.css";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
 const gihubLink = "https://github.com/dbriceno10";
@@ -23,41 +24,31 @@ const Hero = () => {
                 <span>I'm a Front-end Developer.</span>
               </h3>
               <div className="s-hero__content-social">
-                <a href={linkedinLink} target="_blank">
-                  <img
-                    className="hero--logo"
-                    src={logoLinkedin}
-                    alt="logo de linkedin"
-                    title="my linkedin"
-                  />
-                </a>
-                <a href={gihubLink} target="_blank">
-                  <img
-                    className="hero--logo"
-                    src={logoGithub}
-                    alt="logo de github"
-                    title="my github"
-                  />
-                </a>
-                <a href={telegramLink} target="_blank">
-                  <img
-                    className="hero--logo"
-                    src={logoTelegram}
-                    alt="logo de telegram"
-                    title="Telegram: @dbriceno"
-                  />
-                </a>
+                <HeroSocial
+                  href={linkedinLink}
+                  src={logoLinkedin}
+                  alt="logo de linkedin"
+                  title="my linkedin"
+                />
+                <HeroSocial
+                  href={gihubLink}
+                  src={logoGithub}
+                  alt="logo de github"
+                  title="my github"
+                />
+                <HeroSocial
+                  href={telegramLink}
+                  src={logoTelegram}
+                  alt="logo de telegram"
+                  title="Telegram: @dbriceno"
+                />
               </div>
             </div>
           </div>
         </div>
         <div className="s-hero__scroll links">
-          <Link className="btn btn-hero" to="/contact">
-            Hire Me
-          </Link>
-          <Link className="btn btn-hero" to="/portfolio">
-            Explore Me
-          </Link>
+          <HeroButton path="/contact" text="Hire Me" />
+          <HeroButton path="/portfolio" text="Explore Me" />
         </div>
       </section>
     </React.Fragment>

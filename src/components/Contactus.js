@@ -62,7 +62,7 @@ const Contactus = () => {
                     title="Github Stiker"
                     header="Github"
                     href={githubLink}
-                    target="_blank"
+                    target="_black"
                     linkName="dbriceno10"
                   />
                   <ContactNetwork
@@ -71,7 +71,7 @@ const Contactus = () => {
                     title="Linkedin Stiker"
                     header="Linkedin"
                     href={linkedinLink}
-                    target="_blank"
+                    target="_black"
                     linkName="Daniel Briceño"
                   />
                   <ContactNetwork
@@ -80,7 +80,7 @@ const Contactus = () => {
                     title="Telegram Stiker"
                     header="Telegram"
                     href={telegramLink}
-                    target="_blank"
+                    target="_black"
                     linkName="@dbriceno"
                   />
                 </div>

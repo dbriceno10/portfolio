@@ -6,6 +6,7 @@
   --normal-white: #fff;
   --soft-gray: #eee;
   --starts-gray: #e5e5e5;
+  --dowload-orange: #f06000;
 }
 
 #valid-form {
@@ -82,17 +83,17 @@
 }
 
 #input {
-  background-color: var(--normal-gray);
-  color: var(--normal-black);
+  background-color: var(--active-nav-blue);
+  color: var(--normal-white);
   border: none;
 }
 
 #input:hover {
-  background-color: var(--hover-gray);
+  background-color: var(--dowload-orange);
   color: #fff;
 }
 
 #input:disabled {
-  background-color: #fff;
+  background-color: var(--normal-gray);
   color: var(--normal-black);
 }

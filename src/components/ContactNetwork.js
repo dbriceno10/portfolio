@@ -5,8 +5,8 @@ const ContactNetwork = ({
   alt,
   title,
   header,
-  href = "",
-  target = "",
+  href,
+  target,
   linkName,
 }) => {
   return (
@@ -19,9 +19,11 @@ const ContactNetwork = ({
         </div>
         <p className="contact-block__content">
           <span className="black-background">
-            <a className="mailtoui" href={href} target={target}>
+            {!target?<a className="mailtoui" href={href}>
               {linkName}
-            </a>
+            </a>:<a className="mailtoui" href={href} target={target}>
+              {linkName}
+            </a>}
           </span>
         </p>
     </section>
