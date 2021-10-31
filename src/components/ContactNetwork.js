@@ -29,15 +29,3 @@ const ContactNetwork = ({
 };
 
 export default ContactNetwork;
-
-
-
-
-
-
-
-
-
-/**
- * 
- */
