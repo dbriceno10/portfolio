@@ -8,7 +8,7 @@ import linkedinStiker from "../assets/image/linkedin.png";
 import telegranStiker from "../assets/image/telegram-logo.png";
 import ContactNetwork from "./ContactNetwork";
 // const email = "daniel.b100726@gmail.com";
-const cellPhone = "tel:+0424-950-1974";
+const cellPhone = "tel:+58 424-950-1974";
 const githubLink = "https://github.com/dbriceno10";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
 const telegramLink = "https://t.me/dbriceno";
