@@ -84,6 +84,7 @@
 .link-container a {
   margin-left: 5px;
   margin-right: 5px;
+  border: solid 1px transparent;
 }
 
 .modal__image {

@@ -16,22 +16,22 @@
   --font-1: "Inter", sans-serif;
   --font-2: "IBM Plex Serif", serif;
   /* monospace
-     */
+      */
   --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
 /* ------------------------------------------------------------------- 
- * ## colors
- * ------------------------------------------------------------------- */
+  * ## colors
+  * ------------------------------------------------------------------- */
 :root {
   /* color-1(#11ABB0)
-     * color-2(#F06000)
-     */
+      * color-2(#F06000)
+      */
   --color-1: hsla(182, 82%, 38%, 1);
   --color-2: hsla(24, 100%, 47%, 1);
 
   /* theme color variations
-     */
+      */
   --color-1-lighter: hsla(182, 82%, 58%, 1);
   --color-1-light: hsla(182, 82%, 48%, 1);
   --color-1-dark: hsla(182, 82%, 28%, 1);
@@ -42,9 +42,9 @@
   --color-2-darker: hsla(24, 100%, 27%, 1);
 
   /* feedback colors
-     * color-error(#ffd1d2), color-success(#c8e675), 
-     * color-info(#d7ecfb), color-notice(#fff099)
-     */
+      * color-error(#ffd1d2), color-success(#c8e675), 
+      * color-info(#d7ecfb), color-notice(#fff099)
+      */
   --color-error: hsla(359, 100%, 91%, 1);
   --color-success: hsla(76, 69%, 68%, 1);
   --color-info: hsla(205, 82%, 91%, 1);
@@ -55,10 +55,10 @@
   --color-notice-content: hsla(51, 30%, 30%, 1);
 
   /* shades 
-     * generated using 
-     * Tint & Shade Generator 
-     * (https://maketintsandshades.com/)
-     */
+      * generated using 
+      * Tint & Shade Generator 
+      * (https://maketintsandshades.com/)
+      */
   --color-black: #000000;
   --color-gray-19: #0a0a0a;
   --color-gray-18: #141414;
@@ -82,14 +82,14 @@
   --color-white: #ffffff;
 
   /* text
-     */
+      */
   --color-text: var(--color-gray-16);
   --color-text-dark: var(--color-black);
   --color-text-light: var(--color-gray-7);
   --color-placeholder: var(--color-gray-7);
 
   /* buttons
-     */
+      */
   --color-btn: var(--color-gray-3);
   --color-btn-text: var(--color-black);
   --color-btn-hover: var(--color-black);
@@ -104,26 +104,26 @@
   --color-btn-stroke-hover-text: var(--color-white);
 
   /* others
-     */
+      */
   --color-bg: var(--color-gray-18);
   --color-border: var(--color-gray-2);
   --border-radius: 5px;
 }
 
 /* ------------------------------------------------------------------- 
- * ## vertical spacing and typescale
- * ------------------------------------------------------------------- */
+  * ## vertical spacing and typescale
+  * ------------------------------------------------------------------- */
 :root {
   /* spacing
-     * base font size: 18px 
-     * vertical space unit : 32px
-     */
+      * base font size: 18px 
+      * vertical space unit : 32px
+      */
   --base-size: 62.5%;
   --base-font-size: 1.8rem;
   --space: 3.2rem;
 
   /* vertical spacing 
-     */
+      */
   --vspace-0_125: calc(0.125 * var(--space));
   --vspace-0_25: calc(0.25 * var(--space));
   --vspace-0_5: calc(0.5 * var(--space));
@@ -142,23 +142,23 @@
   --vspace-5: calc(5 * var(--space));
 
   /* type scale
-     * ratio 1:2 | base: 18px
-     * -------------------------------------------------------
-     *
-     * --text-display-3 = (77.40px)
-     * --text-display-2 = (64.50px)
-     * --text-display-1 = (53.75px)
-     * --text-xxxl      = (44.79px)
-     * --text-xxl       = (37.32px)
-     * --text-xl        = (31.10px)
-     * --text-lg        = (25.92px)
-     * --text-md        = (21.60px)
-     * --text-size      = (18.00px) BASE
-     * --text-sm        = (15.00px)
-     * --text-xs        = (12.50px)
-     *
-     * -------------------------------------------------------
-     */
+      * ratio 1:2 | base: 18px
+      * -------------------------------------------------------
+      *
+      * --text-display-3 = (77.40px)
+      * --text-display-2 = (64.50px)
+      * --text-display-1 = (53.75px)
+      * --text-xxxl      = (44.79px)
+      * --text-xxl       = (37.32px)
+      * --text-xl        = (31.10px)
+      * --text-lg        = (25.92px)
+      * --text-md        = (21.60px)
+      * --text-size      = (18.00px) BASE
+      * --text-sm        = (15.00px)
+      * --text-xs        = (12.50px)
+      *
+      * -------------------------------------------------------
+      */
   --text-scale-ratio: 1.2;
   --text-size: var(--base-font-size);
   --text-xs: calc(
@@ -177,12 +177,12 @@
   --text-display-3: calc(var(--text-display-2) * var(--text-scale-ratio));
 
   /* default button height
-     */
+      */
   --vspace-btn: var(--vspace-2);
 }
 
 /* on mobile devices below 600px
- */
+  */
 @media screen and (max-width: 600px) {
   :root {
     --base-font-size: 1.6rem;
@@ -191,11 +191,11 @@
 }
 
 /* ------------------------------------------------------------------- 
- * ## grid variables
- * ------------------------------------------------------------------- */
+  * ## grid variables
+  * ------------------------------------------------------------------- */
 :root {
   /* widths for rows and containers
-     */
+      */
   --width-full: 100%;
   --width-max: 1080px;
   --width-wide: 1400px;
@@ -206,25 +206,25 @@
   --width-grid-max: var(--width-max);
 
   /* gutters
-     */
+      */
   --gutter-lg: 2.4rem;
   --gutter-md: 2rem;
   --gutter-mob: 1rem;
 }
 
 /* ==========================================================================
- * # normalize
- * normalize.css v8.0.1 | MIT License |
- * github.com/necolas/normalize.css
- *
- * -------------------------------------------------------------------------- */
+  * # normalize
+  * normalize.css v8.0.1 | MIT License |
+  * github.com/necolas/normalize.css
+  *
+  * -------------------------------------------------------------------------- */
 
 /* ------------------------------------------------------------------- 
- * ## document
- * ------------------------------------------------------------------- */
+  * ## document
+  * ------------------------------------------------------------------- */
 
 /* 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.*/
+  * 2. Prevent adjustments of font size after orientation changes in iOS.*/
 
 html {
   line-height: 1.15;
@@ -234,8 +234,8 @@ html {
 }
 
 /* ------------------------------------------------------------------- 
- * ## sections
- * ------------------------------------------------------------------- */
+  * ## sections
+  * ------------------------------------------------------------------- */
 
 /* Remove the margin in all browsers. */
 
@@ -250,7 +250,7 @@ main {
 }
 
 /* Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari. */
+  * `article` contexts in Chrome, Firefox, and Safari. */
 
 h1 {
   font-size: 2em;
@@ -258,11 +258,11 @@ h1 {
 }
 
 /* ------------------------------------------------------------------- 
- * ## grouping
- * ------------------------------------------------------------------- */
+  * ## grouping
+  * ------------------------------------------------------------------- */
 
 /* 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE. */
+  * 2. Show the overflow in Edge and IE. */
 
 hr {
   -webkit-box-sizing: content-box;
@@ -275,7 +275,7 @@ hr {
 }
 
 /* 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers. */
+  * 2. Correct the odd `em` font sizing in all browsers. */
 
 pre {
   font-family: monospace, monospace;
@@ -285,8 +285,8 @@ pre {
 }
 
 /* ------------------------------------------------------------------- 
- * ## text-level semantics
- * ------------------------------------------------------------------- */
+  * ## text-level semantics
+  * ------------------------------------------------------------------- */
 
 /* Remove the gray background on active links in IE 10. */
 
@@ -295,7 +295,7 @@ a {
 }
 
 /* 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
 
 abbr[title] {
   border-bottom: none;
@@ -315,7 +315,7 @@ strong {
 }
 
 /* 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers. */
+  * 2. Correct the odd `em` font sizing in all browsers. */
 
 code,
 kbd,
@@ -333,7 +333,7 @@ small {
 }
 
 /* Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers. */
+  * all browsers. */
 
 sub,
 sup {
@@ -352,8 +352,8 @@ sup {
 }
 
 /* ------------------------------------------------------------------- 
- * ## embedded content
- * ------------------------------------------------------------------- */
+  * ## embedded content
+  * ------------------------------------------------------------------- */
 
 /* Remove the border on images inside links in IE 10. */
 
@@ -362,11 +362,11 @@ img {
 }
 
 /* ------------------------------------------------------------------- 
- * ## forms
- * ------------------------------------------------------------------- */
+  * ## forms
+  * ------------------------------------------------------------------- */
 
 /* 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari. */
+  * 2. Remove the margin in Firefox and Safari. */
 
 button,
 input,
@@ -384,7 +384,7 @@ textarea {
 }
 
 /* Show the overflow in IE.
- * 1. Show the overflow in Edge. */
+  * 1. Show the overflow in Edge. */
 
 button,
 input {
@@ -393,7 +393,7 @@ input {
 }
 
 /* Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox. */
+  * 1. Remove the inheritance of text transform in Firefox. */
 
 button,
 select {
@@ -436,9 +436,9 @@ fieldset {
 }
 
 /* 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers. */
+  * 2. Correct the color inheritance from `fieldset` elements in IE.
+  * 3. Remove the padding so developers are not caught out when they zero out
+  *    `fieldset` elements in all browsers. */
 
 legend {
   -webkit-box-sizing: border-box;
@@ -469,7 +469,7 @@ textarea {
 }
 
 /* 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10. */
+  * 2. Remove the padding in IE 10. */
 
 [type="checkbox"],
 [type="radio"] {
@@ -488,7 +488,7 @@ textarea {
 }
 
 /* 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari. */
+  * 2. Correct the outline style in Safari. */
 
 [type="search"] {
   -webkit-appearance: textfield;
@@ -504,7 +504,7 @@ textarea {
 }
 
 /* 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari. */
+  * 2. Change font properties to `inherit` in Safari. */
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -514,8 +514,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## interactive
- * ------------------------------------------------------------------- */
+  * ## interactive
+  * ------------------------------------------------------------------- */
 
 /* Add the correct display in Edge, IE 10+, and Firefox. */
 
@@ -530,8 +530,8 @@ summary {
 }
 
 /* ------------------------------------------------------------------- 
- * ## misc
- * ------------------------------------------------------------------- */
+  * ## misc
+  * ------------------------------------------------------------------- */
 
 /* Add the correct display in IE 10+. */
 
@@ -546,9 +546,9 @@ template {
 }
 
 /* ===================================================================
- * # basic/base setup styles
- *
- * ------------------------------------------------------------------- */
+  * # basic/base setup styles
+  *
+  * ------------------------------------------------------------------- */
 html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
@@ -574,8 +574,8 @@ body {
 }
 
 /* ------------------------------------------------------------------- 
- * ## media
- * ------------------------------------------------------------------- */
+  * ## media
+  * ------------------------------------------------------------------- */
 svg,
 img,
 video embed,
@@ -586,8 +586,8 @@ object {
 }
 
 /* ------------------------------------------------------------------- 
- * ## typography resets
- * ------------------------------------------------------------------- */
+  * ## typography resets
+  * ------------------------------------------------------------------- */
 div,
 dl,
 dt,
@@ -643,8 +643,8 @@ li {
 }
 
 /* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
+  * ## links
+  * ------------------------------------------------------------------- */
 a {
   text-decoration: none;
   line-height: inherit;
@@ -655,8 +655,8 @@ a img {
 }
 
 /* ------------------------------------------------------------------- 
- * ## inputs
- * ------------------------------------------------------------------- */
+  * ## inputs
+  * ------------------------------------------------------------------- */
 fieldset {
   margin: 0;
   padding: 0;
@@ -676,7 +676,7 @@ textarea {
 }
 
 /* rows
- * ------------------------------------- */
+  * ------------------------------------- */
 .row {
   width: 92%;
   max-width: var(--width-grid-max);
@@ -698,7 +698,7 @@ textarea {
 }
 
 /* columns
- * -------------------------------------- */
+  * -------------------------------------- */
 .column {
   -ms-flex: 1 1 0%;
   -webkit-box-flex: 1;
@@ -712,7 +712,7 @@ textarea {
 }
 
 /* flex row containers utility classes
- */
+  */
 .row.row-wrap {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -772,7 +772,7 @@ textarea {
 }
 
 /* flex item utility alignment classes
- */
+  */
 .align-center {
   margin: auto;
   -webkit-align-self: center;
@@ -830,7 +830,7 @@ textarea {
 }
 
 /* large screen column widths 
- */
+  */
 .large-1 {
   -ms-flex: 0 0 8.33333%;
   -webkit-box-flex: 0;
@@ -916,8 +916,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## medium screen devices
- * ------------------------------------------------------------------- */
+  * ## medium screen devices
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .row .row {
     margin-left: calc(var(--gutter-md) * -1);
@@ -1001,8 +1001,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
+  * ## tablets
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .row {
     width: 90%;
@@ -1085,8 +1085,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
+  * ## mobile devices
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
   .row {
     width: 100%;
@@ -1180,8 +1180,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## small mobile devices <= 400px
- * ------------------------------------------------------------------- */
+  * ## small mobile devices <= 400px
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
   .row .row {
     margin-left: 0;
@@ -1202,11 +1202,11 @@ textarea {
 }
 
 /* ===================================================================
- * # block grids
- *
- * -------------------------------------------------------------------
- * Equally-sized columns define at parent/row level.
- * ------------------------------------------------------------------- */
+  * # block grids
+  *
+  * -------------------------------------------------------------------
+  * Equally-sized columns define at parent/row level.
+  * ------------------------------------------------------------------- */
 .block-large-1-8 > .column {
   -ms-flex: 0 0 12.5%;
   -webkit-box-flex: 0;
@@ -1257,8 +1257,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## block grids - medium screen devices
- * ------------------------------------------------------------------- */
+  * ## block grids - medium screen devices
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .block-medium-1-8 > .column {
     -ms-flex: 0 0 12.5%;
@@ -1305,8 +1305,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## block grids - tablets
- * ------------------------------------------------------------------- */
+  * ## block grids - tablets
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .block-tab-1-8 > .column {
     -ms-flex: 0 0 12.5%;
@@ -1353,8 +1353,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## block grids - mobile devices
- * ------------------------------------------------------------------- */
+  * ## block grids - mobile devices
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
   .block-mob-1-8 > .column {
     -ms-flex: 0 0 12.5%;
@@ -1401,8 +1401,8 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
- * ## block grids - small mobile devices <= 400px
- * ------------------------------------------------------------------- */
+  * ## block grids - small mobile devices <= 400px
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
   .stack > .column {
     -ms-flex: 0 0 100%;
@@ -1416,9 +1416,9 @@ textarea {
 }
 
 /* ===================================================================
- * # MISC 
- *
- * ------------------------------------------------------------------- */
+  * # MISC 
+  *
+  * ------------------------------------------------------------------- */
 .h-group:after {
   content: "";
   display: table;
@@ -1426,7 +1426,7 @@ textarea {
 }
 
 /* misc helper classes
- */
+  */
 .is-hidden {
   display: none;
 }
@@ -1502,9 +1502,9 @@ textarea {
 }
 
 /* ===================================================================
- * # custom grid, block grid STACK breakpoints
- *
- * ------------------------------------------------------------------- */
+  * # custom grid, block grid STACK breakpoints
+  *
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .w-1000-stack,
   .block-1000-stack > .column {
@@ -1536,9 +1536,9 @@ textarea {
 }
 
 /* ===================================================================
- * # base style overrides 
- *
- * ------------------------------------------------------------------- */
+  * # base style overrides 
+  *
+  * ------------------------------------------------------------------- */
 html {
   font-size: var(--base-size);
 }
@@ -1561,8 +1561,8 @@ body {
 }
 
 /* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
+  * ## links
+  * ------------------------------------------------------------------- */
 a {
   color: var(--color-1);
   -webkit-transition: all 0.3s ease-in-out;
@@ -1581,24 +1581,24 @@ a:active {
 }
 
 /* ===================================================================
- * # typography & general theme styles
- * 
- * ------------------------------------------------------------------- */
+  * # typography & general theme styles
+  * 
+  * ------------------------------------------------------------------- */
 
 /* type scale - ratio 1:2 | base: 18px
- * -------------------------------------------------------------------
- * --text-display-3 = (77.40px)
- * --text-display-2 = (64.50px)
- * --text-display-1 = (53.75px)
- * --text-xxxl      = (44.79px)
- * --text-xxl       = (37.32px)
- * --text-xl        = (31.10px)
- * --text-lg        = (25.92px)
- * --text-md        = (21.60px)
- * --text-size      = (18.00px) BASE
- * --text-sm        = (15.00px)
- * --text-xs        = (12.50px)
- * -------------------------------------------------------------------- */
+  * -------------------------------------------------------------------
+  * --text-display-3 = (77.40px)
+  * --text-display-2 = (64.50px)
+  * --text-display-1 = (53.75px)
+  * --text-xxxl      = (44.79px)
+  * --text-xxl       = (37.32px)
+  * --text-xl        = (31.10px)
+  * --text-lg        = (25.92px)
+  * --text-md        = (21.60px)
+  * --text-size      = (18.00px) BASE
+  * --text-sm        = (15.00px)
+  * --text-xs        = (12.50px)
+  * -------------------------------------------------------------------- */
 h1,
 h2,
 h3,
@@ -1880,8 +1880,8 @@ hr.fancy::before {
 }
 
 /* ------------------------------------------------------------------- 
- * ## Lists
- * ------------------------------------------------------------------- */
+  * ## Lists
+  * ------------------------------------------------------------------- */
 ol {
   list-style: decimal;
 }
@@ -1940,8 +1940,8 @@ dd {
 }
 
 /* ------------------------------------------------------------------- 
- * ## responsive video container
- * ------------------------------------------------------------------- */
+  * ## responsive video container
+  * ------------------------------------------------------------------- */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1961,8 +1961,8 @@ dd {
 }
 
 /* ------------------------------------------------------------------- 
- * ## floated image 
- * ------------------------------------------------------------------- */
+  * ## floated image 
+  * ------------------------------------------------------------------- */
 img.h-pull-right {
   margin: var(--vspace-0_5) 0 var(--vspace-0_5) 2.8rem;
 }
@@ -1972,8 +1972,8 @@ img.h-pull-left {
 }
 
 /* ------------------------------------------------------------------- 
- * ## tables
- * ------------------------------------------------------------------- */
+  * ## tables
+  * ------------------------------------------------------------------- */
 table {
   border-width: 0;
   width: 100%;
@@ -2012,8 +2012,8 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
- * ## spacing
- * ------------------------------------------------------------------- */
+  * ## spacing
+  * ------------------------------------------------------------------- */
 fieldset,
 button,
 .btn {
@@ -2040,9 +2040,9 @@ img,
 }
 
 /* =================================================================== 
- * # preloader
- *
- * ------------------------------------------------------------------- */
+  * # preloader
+  *
+  * ------------------------------------------------------------------- */
 #preloader {
   position: fixed;
   top: 0;
@@ -2117,8 +2117,8 @@ img,
 }
 
 /* ------------------------------------------------------------------- 
- * ## page loaded
- * ------------------------------------------------------------------- */
+  * ## page loaded
+  * ------------------------------------------------------------------- */
 .ss-loaded #preloader {
   opacity: 0;
   visibility: hidden;
@@ -2133,9 +2133,9 @@ img,
 }
 
 /* ===================================================================
- * # forms 
- *
- * ------------------------------------------------------------------- */
+  * # forms 
+  *
+  * ------------------------------------------------------------------- */
 fieldset {
   border: none;
 }
@@ -2261,8 +2261,8 @@ label > input[type="radio"] {
 }
 
 /* ------------------------------------------------------------------- 
- * ## Style Placeholder Text
- * ------------------------------------------------------------------- */
+  * ## Style Placeholder Text
+  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: var(--color-placeholder);
@@ -2284,14 +2284,14 @@ label > input[type="radio"] {
 }
 
 /* ===================================================================
- * # buttons 
- *
- * ------------------------------------------------------------------- */
+  * # buttons 
+  *
+  * ------------------------------------------------------------------- */
 .btn, 
-/* button,  */
-input[type="submit"], 
-input[type="reset"], 
-input[type="button"] {
+ /* button,  */
+ input[type="submit"], 
+ input[type="reset"], 
+ input[type="button"] {
   --btn-height: var(--vspace-btn);
   display: inline-block;
   font-family: var(--font-1);
@@ -2322,15 +2322,15 @@ input[type="button"] {
 }
 
 .btn:hover, 
-/* button:hover,  */
-input[type="submit"]:hover, 
-input[type="reset"]:hover, 
-input[type="button"]:hover, 
-.btn:focus, 
-/* button:focus,  */
-input[type="submit"]:focus, 
-input[type="reset"]:focus, 
-input[type="button"]:focus {
+ /* button:hover,  */
+ input[type="submit"]:hover, 
+ input[type="reset"]:hover, 
+ input[type="button"]:hover, 
+ .btn:focus, 
+ /* button:focus,  */
+ input[type="submit"]:focus, 
+ input[type="reset"]:focus, 
+ input[type="button"]:focus {
   background-color: var(--color-btn-hover);
   border-color: var(--color-btn-hover);
   color: var(--color-btn-hover-text);
@@ -2338,7 +2338,7 @@ input[type="button"]:focus {
 }
 
 /* button primary
- * ------------------------------------------------- */
+  * ------------------------------------------------- */
 .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
@@ -2365,7 +2365,7 @@ input[type="button"].btn--primary:focus {
 }
 
 /* button modifiers
- * ------------------------------------------------- */
+  * ------------------------------------------------- */
 .btn.h-full-width,
 button.h-full-width {
   width: 100%;
@@ -2409,13 +2409,13 @@ button.btn--pill {
 }
 
 /* =================================================================== 
- * # additional components
- *
- * ------------------------------------------------------------------- */
+  * # additional components
+  *
+  * ------------------------------------------------------------------- */
 
 /* ------------------------------------------------------------------- 
- * ## additional typo styles - (_additional-typo.scss)
- * ------------------------------------------------------------------- */
+  * ## additional typo styles - (_additional-typo.scss)
+  * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
   font-family: var(--font-1);
@@ -2429,7 +2429,7 @@ button.btn--pill {
 }
 
 /* line definition style 
- * ----------------------------------------------- */
+  * ----------------------------------------------- */
 .lining dt,
 .lining dd {
   display: inline;
@@ -2456,7 +2456,7 @@ button.btn--pill {
 }
 
 /* dictionary definition style 
- * ----------------------------------------------- */
+  * ----------------------------------------------- */
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
@@ -2481,8 +2481,8 @@ button.btn--pill {
 /* Stats Tab ELiminado */
 
 /* ------------------------------------------------------------------- 
- * ## skillbars
- * ------------------------------------------------------------------- */
+  * ## skillbars
+  * ------------------------------------------------------------------- */
 .skill-bars-fat {
   list-style: none;
   margin: var(--vspace-2) 0 var(--vspace-1);
@@ -2614,9 +2614,9 @@ button.btn--pill {
 /* * responsive: pagination Eliminado */
 
 /* ===================================================================
- * # common and reusable styles
- *
- * ------------------------------------------------------------------- */
+  * # common and reusable styles
+  *
+  * ------------------------------------------------------------------- */
 .wide {
   max-width: var(--width-wide);
 }
@@ -2660,9 +2660,9 @@ button.btn--pill {
 /* MailtoUI style overrides Eliminado */
 
 /* ------------------------------------------------------------------- 
- * responsive:
- * common and reusable styles
- * ------------------------------------------------------------------- */
+  * responsive:
+  * common and reusable styles
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .section-header-allcaps {
     font-size: calc(var(--text-size) * 0.9444);
@@ -2684,9 +2684,9 @@ button.btn--pill {
 }
 
 /* ===================================================================
- * # site header
- *
- * ------------------------------------------------------------------- */
+  * # site header
+  *
+  * ------------------------------------------------------------------- */
 .s-header {
   --header-height: 6.8rem;
   z-index: 100;
@@ -2733,8 +2733,8 @@ button.btn--pill {
 }
 
 /* -------------------------------------------------------------------
- * ## header nav
- * ------------------------------------------------------------------- */
+  * ## header nav
+  * ------------------------------------------------------------------- */
 .s-header__nav {
   font-family: var(--font-1);
   font-size: 1.45rem;
@@ -2772,15 +2772,15 @@ button.btn--pill {
 }
 /*Esto lo desabilite yo*/
 /* .s-header__nav .current a {
-    color: var(--color-2);
-} */
+     color: var(--color-2);
+ } */
 
 /* Eliminada sección toggle para header */
 
 /* ===================================================================
- * # hero
- *
- * ------------------------------------------------------------------- */
+  * # hero
+  *
+  * ------------------------------------------------------------------- */
 .s-hero {
   /* background-color: var(--color-gray-18); */
   width: 100%;
@@ -2835,8 +2835,8 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * ## hero content
- * ------------------------------------------------------------------- */
+  * ## hero content
+  * ------------------------------------------------------------------- */
 .s-hero__content {
   height: 100%;
   -ms-flex-align: center;
@@ -2895,8 +2895,8 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * ## hero social
- * ------------------------------------------------------------------- */
+  * ## hero social
+  * ------------------------------------------------------------------- */
 .s-hero__content-social {
   display: -ms-inline-flexbox;
   display: -webkit-inline-box;
@@ -2925,8 +2925,8 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * ## hero scrolldown
- * ------------------------------------------------------------------- */
+  * ## hero scrolldown
+  * ------------------------------------------------------------------- */
 .s-hero__scroll {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -2999,8 +2999,8 @@ button.btn--pill {
 }
 
 /* -------------------------------------------------------------------
- * ## animate hero content
- * ------------------------------------------------------------------- */
+  * ## animate hero content
+  * ------------------------------------------------------------------- */
 .ss-preload .s-header,
 .ss-preload .s-hero {
   visibility: hidden;
@@ -3026,9 +3026,9 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * responsive:
- * hero
- * ------------------------------------------------------------------- */
+  * responsive:
+  * hero
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
   .s-hero__content h1 {
     font-size: 9.4rem;
@@ -3127,9 +3127,9 @@ button.btn--pill {
 }
 
 /* ===================================================================
- * # about
- *
- * ------------------------------------------------------------------- */
+  * # about
+  *
+  * ------------------------------------------------------------------- */
 .s-about {
   --color-border: var(--color-gray-16);
   /* background-color: var(--color-gray-17); */
@@ -3193,9 +3193,9 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
+  * responsive:
+  * about
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-about__pic {
     /* width: var(--vspace-4_5); */
@@ -3237,9 +3237,9 @@ button.btn--pill {
 }
 
 /* ===================================================================
- * # portfolio
- *
- * ------------------------------------------------------------------- */
+  * # portfolio
+  *
+  * ------------------------------------------------------------------- */
 .s-portfolio {
   background-color: var(--color-gray-1);
   padding-top: calc(6 * var(--space));
@@ -3255,8 +3255,8 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * ## portfolio list
- * ------------------------------------------------------------------- */
+  * ## portfolio list
+  * ------------------------------------------------------------------- */
 .folio-list {
   max-width: 1180px;
   margin-top: var(--vspace-2_5);
@@ -3324,7 +3324,7 @@ button.btn--pill {
 }
 
 /* on hover
- *---------------------------------------------- */
+  *---------------------------------------------- */
 .folio-item:hover .folio-item__thumb::before {
   opacity: 1;
   visibility: visible;
@@ -3347,9 +3347,9 @@ button.btn--pill {
 /* # CTA Eliminado */
 
 /* ===================================================================
- * # contact
- *
- * ------------------------------------------------------------------- */
+  * # contact
+  *
+  * ------------------------------------------------------------------- */
 .s-contact {
   /* background-color: var(--color-gray-18); */
   /* padding-top: calc(6 * var(--space)); */
@@ -3375,8 +3375,8 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * ## contact block
- * ------------------------------------------------------------------- */
+  * ## contact block
+  * ------------------------------------------------------------------- */
 .contact-infos .btn {
   margin-top: var(--vspace-0_75);
 }
@@ -3405,9 +3405,9 @@ button.btn--pill {
 }
 
 /* ------------------------------------------------------------------- 
- * responsive:
- * contact
- * ------------------------------------------------------------------- */
+  * responsive:
+  * contact
+  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-contact {
     padding-bottom: var(--vspace-2);
