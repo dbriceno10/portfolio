@@ -1,5 +1,15 @@
+:root {
+  --active-nav-blue: #11abb0;
+  --hover-gray: #818081;
+  --normal-gray: #d0d1d1;
+  --normal-black: #000;
+  --normal-white: #fff;
+  --soft-gray: #eee;
+  --starts-gray: #e5e5e5;
+  --dowload-orange: #f06000;
+}
 .about-description {
-  color: #fff;
+  color: var(--normal-white);
 }
 
 .cv {
@@ -9,16 +19,16 @@
 }
 
 .about-me {
-  color: white;
+  color: var(--normal-white);
 }
 
 .s-about {
-  background: url("../../assets/image/stars.svg"), #000;
+  background: url("../../assets/image/stars.svg"), var(--normal-black);
   background-repeat: repeat;
 }
 
 .about-description {
-  background-color: #000;
+  background-color: var(--normal-black);
 }
 
 .center {
@@ -27,7 +37,7 @@
 
 hr {
   height: 1px;
-  background-color: white;
+  background-color: var(--normal-white);
 }
 
 .row.s-about__content-bottom {
@@ -35,16 +45,16 @@ hr {
 }
 
 .s-resume.target-section {
-  background: url("../../assets/image/stars.svg"), #e5e5e5;
+  background: url("../../assets/image/stars.svg"), var(--starts-gray);
   background-repeat: repeat;
 }
 
 .s-resume.target-section h3 {
-  background-color: #e5e5e5;
+  background-color: var(--starts-gray);
 }
 
 .s-resume.target-section strong {
-  background-color: #e5e5e5;
+  background-color: var(--starts-gray);
 }
 
 #skills {
@@ -71,9 +81,16 @@ li div {
   grid-template-columns: 1fr 10fr;
 }
 
-.btn-donwload {
+#btn-donwload-cv {
+  border: solid 1px transparent;
+  background-color: var(--active-nav-blue);
+  color: var(--normal-white);
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#btn-donwload-cv:hover {
+  background-color: var(--dowload-orange);
 }
 
 .suavice-border {

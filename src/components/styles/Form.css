@@ -85,7 +85,7 @@
 #input {
   background-color: var(--active-nav-blue);
   color: var(--normal-white);
-  border: none;
+  border: solid 1px transparent;
 }
 
 #input:hover {

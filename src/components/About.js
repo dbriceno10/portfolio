@@ -1,17 +1,8 @@
 import React from "react";
+import Skills from "./Skills";
 import userPhoto from "../assets/image/photo-perfil.jpg";
 import "./styles/About.css";
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf";
-import htmlStiker from "../assets/image/html.png";
-import cssStiker from "../assets/image/css-logo.png";
-import javascriptStiker from "../assets/image/javascript-logo-svg-vector.svg";
-import figmaStiker from "../assets/image/figma-1-logo-svg-vector.svg";
-import reactStiker from "../assets/image/react-logo22.png";
-import gitStiker from "../assets/image/git-logo2.png";
-import nodeStiker from "../assets/image/nodejs-icon-logo-svg-vector.svg";
-import expressStiker from "../assets/image/javascript.png";
-import typrscriptStiker from "../assets/image/TypeScript-logo.png";
-import mongodbtStiker from "../assets/image/mongodb-leaf-logo.png";
 
 const About = () => {
   return (
@@ -59,6 +50,7 @@ const About = () => {
             <div className="row s-about__content-bottom">
               <div className="column w-1000-stack cv">
                 <a
+                  id="btn-donwload-cv"
                   className="btn btn--download btn-donwload"
                   href={CV}
                   download="Daniel_Briceno_CV"
@@ -70,133 +62,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="s-resume target-section">
-        <div className="row s-resume__section ">
-          <div className="column  tab-12">
-            <h3 id="skills" className="section-header-allcaps">
-              Skills
-            </h3>
-          </div>
-          <div className="column large-10 tab-12">
-            <div className="resume-block">
-              <ul className="skill-bars-fat">
-                <li className="grid">
-                  <strong>HTML</strong>
-                  <img
-                    className="stiker"
-                    src={htmlStiker}
-                    title="html-skill"
-                    alt="html-logo"
-                  />
-                  <div className="progress percent95" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>CSS</strong>
-                  <img
-                    className="stiker"
-                    src={cssStiker}
-                    title="css-skill"
-                    alt="css-logo"
-                  />
-                  <div className="progress percent95" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>Javascript</strong>
-                  <img
-                    className="stiker suavice-border"
-                    src={javascriptStiker}
-                    title="javascript-skill"
-                    alt="javascript-logo"
-                  />
-                  <div className="progress percent95" />
-                </li>
-
-                <br />
-                <li className="grid">
-                  <strong>Git</strong>
-                  <img
-                    className="stiker"
-                    src={gitStiker}
-                    title="git-skill"
-                    alt="git-logo"
-                  />
-                  <div className="progress percent95" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>Figma</strong>
-                  <img
-                    className="stiker"
-                    src={figmaStiker}
-                    title="figma-skill"
-                    alt="figma-logo"
-                  />
-                  <div className="progress percent75" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>React JS</strong>
-                  <img
-                    className="stiker"
-                    src={reactStiker}
-                    title="react-skill"
-                    alt="react-logo"
-                  />
-                  <div className="progress percent80" />
-                </li>
-                <br />
-
-                <li className="grid">
-                  <strong>Node JS</strong>
-                  <img
-                    className="stiker"
-                    src={nodeStiker}
-                    title="node-skill"
-                    alt="node-logo"
-                  />
-                  <div className="progress percent70" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>Express</strong>
-                  <img
-                    className="stiker"
-                    src={expressStiker}
-                    title="express-skill"
-                    alt="file.js-logo"
-                  />
-                  <div className="progress percent65" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>TypeScript</strong>
-                  <img
-                    className="stiker"
-                    src={typrscriptStiker}
-                    title="typescript-skill"
-                    alt="typescript-logo"
-                  />
-                  <div className="progress percent50" />
-                </li>
-                <br />
-                <li className="grid">
-                  <strong>MongoDB</strong>
-                  <img
-                    className="stiker"
-                    src={mongodbtStiker}
-                    title="mongodb-skill"
-                    alt="mongodb-leaf-logo"
-                  />
-                  <div className="progress percent60" />
-                </li>
-                <br />
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Skills />
     </React.Fragment>
   );
 };

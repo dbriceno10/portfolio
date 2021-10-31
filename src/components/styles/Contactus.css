@@ -1,20 +1,24 @@
+:root {
+  --active-nav-blue: #11abb0;
+  --hover-gray: #818081;
+  --normal-gray: #d0d1d1;
+  --normal-black: #000;
+  --normal-white: #fff;
+  --soft-gray: #eee;
+  --starts-gray: #e5e5e5;
+  --dowload-orange: #f06000;
+}
 .s-contact {
-  background: url("../../assets/image/stars.svg"), #000;
+  background: url("../../assets/image/stars.svg"), var(--normal-black);
   background-repeat: repeat;
   width: 100vw;
-  /* height: 100vh; */
 }
 .black-background {
-  background-color: #000;
+  background-color: var(--normal-black);
 }
 .s-contact.target-section h5 {
-  /* color: #f06000; */
-  color: #11ABB0;
+  color: var(--active-nav-blue);
 }
-
-/* .banner {
-  margin-top: 60px;
-} */
 
 .stiker2 {
   max-width: 40px;
@@ -22,15 +26,12 @@
   min-width: 20px;
   min-height: 20px;
   margin: 0 0 0 0;
-  /* margin-right: 10px; */
 }
 
 .grid2 {
   display: grid;
   grid-template-columns: 50px 1fr;
-  /* align-self: center; */
   align-items: center;
-  /* text-align: start; */
   margin-bottom: 10px;
 }
 
