@@ -6,6 +6,7 @@ import phoneStiker from "../assets/image/1220365_whatsapp_chat_communication_mes
 import githubStiker from "../assets/image/github (3).png";
 import linkedinStiker from "../assets/image/linkedin.png";
 import telegranStiker from "../assets/image/telegram-logo.png";
+import ContactNetwork from "./ContactNetwork";
 // const email = "daniel.b100726@gmail.com";
 const cellPhone = "tel:+0424-950-1974";
 const githubLink = "https://github.com/dbriceno10";
@@ -35,99 +36,53 @@ const Contactus = () => {
           </div>
           <div className="column large-4 medium-12">
             <div className="row contact-infos">
-              <div className="column large-12 medium-6 tab-12">
+              <div
+                className="column large-12 medium-6 tab-12"
+                id="ContactNetwork-Container"
+              >
                 <div className="contact-block">
-                  <div className="grid2">
-                    <img
-                      className="stiker2"
-                      src={gmailStiker}
-                      alt="gmail-Stiker"
-                      title="Gmail Stiker"
-                    />
-                    <h5 className="contact-block__header">
-                      <span className="black-background">Email</span>
-                    </h5>
-                  </div>
-                  <p className="contact-block__content">
-                    <span className="black-background">
-                      <a className="mailtoui">daniel.b100726@gmail.com</a>
-                    </span>
-                  </p>
-                </div>
-              </div>
-              <div className="column large-12 medium-6 tab-12">
-                <div className="contact-block">
-                  <div className="grid2">
-                    <img
-                      className="stiker2"
-                      src={phoneStiker}
-                      alt="phone-Stiker"
-                      title="Phone Stiker"
-                    />
-                    <h5 className="contact-block__header">
-                      <span className="black-background">Phone</span>
-                    </h5>
-                  </div>
-                  <p className="contact-block__content">
-                    <span className="black-background">
-                      <a href={cellPhone}>+58 424-950-1974</a>
-                    </span>
-                  </p>
-                  <div className="grid2">
-                    <img
-                      className="stiker2"
-                      src={githubStiker}
-                      alt="github-Stiker"
-                      title="Github Stiker"
-                    />
-                    <h5 className="contact-block__header">
-                      <span className="black-background">Github</span>
-                    </h5>
-                  </div>
-                  <p className="contact-block__content">
-                    <span className="black-background">
-                      <a href={githubLink} target="__blank">
-                        dbriceno10
-                      </a>
-                    </span>
-                  </p>
-
-                  <div className="grid2">
-                    <img
-                      className="stiker2"
-                      src={linkedinStiker}
-                      alt="linkedin-Stiker"
-                      title="Linkedin Stiker"
-                    />
-                    <h5 className="contact-block__header">
-                      <span className="black-background">Linkedin</span>
-                    </h5>
-                  </div>
-                  <p className="contact-block__content">
-                    <span className="black-background">
-                      <a href={linkedinLink} target="__blank">
-                        Daniel Briceño
-                      </a>
-                    </span>
-                  </p>
-                  <div className="grid2">
-                    <img
-                      className="stiker2"
-                      src={telegranStiker}
-                      alt="telegram-Stiker"
-                      title="Telegram Stiker"
-                    />
-                    <h5 className="contact-block__header">
-                      <span className="black-background">Telegram</span>
-                    </h5>
-                  </div>
-                  <p className="contact-block__content">
-                    <span className="black-background">
-                      <a href={telegramLink} target="__blank">
-                        @dbriceno
-                      </a>
-                    </span>
-                  </p>
+                  <ContactNetwork
+                    stiker={gmailStiker}
+                    alt="gmail-Stiker"
+                    title="Gmail Stiker"
+                    header="Email"
+                    linkName="daniel.b100726@gmail.com"
+                  />
+                  <ContactNetwork
+                    stiker={phoneStiker}
+                    alt="phone-Stiker"
+                    title="Phone Stiker"
+                    header="Phone"
+                    href={cellPhone}
+                    linkName="+58 424-950-1974"
+                  />
+                  <ContactNetwork
+                    stiker={githubStiker}
+                    alt="github-Stiker"
+                    title="Github Stiker"
+                    header="Github"
+                    href={githubLink}
+                    target="_blank"
+                    linkName="dbriceno10"
+                  />
+                  <ContactNetwork
+                    stiker={linkedinStiker}
+                    alt="linkedin-Stiker"
+                    title="Linkedin Stiker"
+                    header="Linkedin"
+                    href={linkedinLink}
+                    target="_blank"
+                    linkName="Daniel Briceño"
+                  />
+                  <ContactNetwork
+                    stiker={telegranStiker}
+                    alt="telegram-Stiker"
+                    title="Telegram Stiker"
+                    header="Telegram"
+                    href={telegramLink}
+                    target="_blank"
+                    linkName="@dbriceno"
+                  />
                 </div>
               </div>
             </div>
