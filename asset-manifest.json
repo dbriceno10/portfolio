@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b2c27274.chunk.css",
-    "main.js": "/portfolio/static/js/main.6d80849b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6d80849b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.827d504b.chunk.css",
+    "main.js": "/portfolio/static/js/main.19465235.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.19465235.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
-    "static/js/2.704a4371.chunk.js": "/portfolio/static/js/2.704a4371.chunk.js",
-    "static/js/2.704a4371.chunk.js.map": "/portfolio/static/js/2.704a4371.chunk.js.map",
+    "static/js/2.5da9b23a.chunk.js": "/portfolio/static/js/2.5da9b23a.chunk.js",
+    "static/js/2.5da9b23a.chunk.js.map": "/portfolio/static/js/2.5da9b23a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b2c27274.chunk.css.map": "/portfolio/static/css/main.b2c27274.chunk.css.map",
-    "static/js/2.704a4371.chunk.js.LICENSE.txt": "/portfolio/static/js/2.704a4371.chunk.js.LICENSE.txt",
+    "static/css/main.827d504b.chunk.css.map": "/portfolio/static/css/main.827d504b.chunk.css.map",
+    "static/js/2.5da9b23a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5da9b23a.chunk.js.LICENSE.txt",
     "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
     "static/media/Daniel_Briceno_CV.5385e701.pdf": "/portfolio/static/media/Daniel_Briceno_CV.5385e701.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
@@ -29,16 +29,18 @@
     "static/media/photo-perfil.1315a995.jpg": "/portfolio/static/media/photo-perfil.1315a995.jpg",
     "static/media/product-app-def.62a18984.jpg": "/portfolio/static/media/product-app-def.62a18984.jpg",
     "static/media/react-logo22.077af94a.png": "/portfolio/static/media/react-logo22.077af94a.png",
+    "static/media/redux.04851e4f.svg": "/portfolio/static/media/redux.04851e4f.svg",
     "static/media/simon-says-baner2.f77b5386.jpg": "/portfolio/static/media/simon-says-baner2.f77b5386.jpg",
     "static/media/simon-says2.edf176f0.jpg": "/portfolio/static/media/simon-says2.edf176f0.jpg",
     "static/media/spacebadges-def.e2698f4f.jpg": "/portfolio/static/media/spacebadges-def.e2698f4f.jpg",
     "static/media/Error.css": "/portfolio/static/media/stars.7544bae9.svg",
-    "static/media/telegram-logo.635b3f85.png": "/portfolio/static/media/telegram-logo.635b3f85.png"
+    "static/media/telegram-logo.635b3f85.png": "/portfolio/static/media/telegram-logo.635b3f85.png",
+    "static/media/typescript-programming-language.488c7100.svg": "/portfolio/static/media/typescript-programming-language.488c7100.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f2aa3c76.js",
-    "static/js/2.704a4371.chunk.js",
-    "static/css/main.b2c27274.chunk.css",
-    "static/js/main.6d80849b.chunk.js"
+    "static/js/2.5da9b23a.chunk.js",
+    "static/css/main.827d504b.chunk.css",
+    "static/js/main.19465235.chunk.js"
   ]
 }
