@@ -1,3 +1,13 @@
+:root {
+  --active-nav-blue: #11abb0;
+  --hover-gray: #818081;
+  --normal-gray: #d0d1d1;
+  --normal-black: #000;
+  --normal-white: #fff;
+  --soft-gray: #eee;
+  --starts-gray: #e5e5e5;
+  --dowload-orange: #f06000;
+}
 .modal {
   position: fixed;
   z-index: 999;
@@ -24,7 +34,7 @@
 .modal-container {
   position: relative;
   min-width: 320px;
-  background-color: #fff;
+  background-color: var(--normal-white);
   max-width: 600px;
   border-radius: 16px;
   /* width: 80%; */
@@ -46,14 +56,24 @@
   /* align-self: center; */
   justify-content: center;
   /* vertical-align: center; */
-  /* border: none; */
+  border: none;
+  border-radius: 8px;
   /* background-color: transparent; */
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal_element {
+  cursor: pointer;
 }
 
 .modal-close:hover {
-  font-size: 50px;
+  /* font-size: 50px; */
+  background-color: var(--hover-gray);
+  border: none;
+  color: var(--normal-white);
 }
 
 /* .x {
@@ -123,11 +143,15 @@
 
 
 .proyect-image {
-  border: solid black 2px;
-  border-radius: 4px;
+  /* border: solid black 2px; */
+  border-radius: 8px;
+}
+
+.link-container a {
+  border: none;
 }
 
 .link-container a:hover {
   background-color: #818081 !important;
-  border: none;
+  /* border: none; */
 }

@@ -17,10 +17,10 @@ const Hero = () => {
           <div className="column">
             <div className="s-hero__content-about">
               <h1>
-                <span className="font-500">I'm Daniel Briceño</span>
+                <span className="font-500">Daniel Briceño</span>
               </h1>
               <h3>
-                <span>I'm a Front-end Developer.</span>
+                <span>Full-Stack JavaScript Developer.</span>
               </h3>
               <div className="s-hero__content-social">
                 <HeroSocial

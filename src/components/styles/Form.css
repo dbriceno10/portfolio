@@ -7,6 +7,7 @@
   --soft-gray: #eee;
   --starts-gray: #e5e5e5;
   --dowload-orange: #f06000;
+  --red-bootstrap: #dc3545;
 }
 
 #valid-form {
@@ -96,4 +97,9 @@
 #input:disabled {
   background-color: var(--normal-gray);
   color: var(--normal-black);
+  cursor: default;
+}
+
+.error {
+  border: solid 1px var(--red-bootstrap) !important;
 }

@@ -19,7 +19,7 @@ const Contactus = () => {
         <div className="row s-contact__header">
           <div className="column large-12">
             <h3 className="section-header-allcaps">
-              <span className="black-background">Say Hello</span>
+              <span className="black-background">{/*Say Hello*/}Contáctame</span>
             </h3>
           </div>
         </div>
@@ -27,8 +27,9 @@ const Contactus = () => {
           <div className="column large-7 medium-12">
             <h4 className="huge-text">
               <span className="black-background">
-                Let's start a new project together, I want to collaborate to
-                materialize that idea into a successful project.
+                {/* Let's start a new project together, I want to collaborate to
+                materialize that idea into a successful project. */}
+                Estoy listo para iniciar un nuevo proyecto y ayudarte a llevar a cabo tu idea.
               </span>
             </h4>
             <Form />

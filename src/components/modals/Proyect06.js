@@ -11,9 +11,10 @@ const Proyect06 = () => {
     <Proyect
       srcImg={image}
       proyectTile="Simon Says"
-      proyectDesc="A recreation of the addictive simon says game, perfect to relax for
-            a while playing, on the pc or on the cell phone."
-      tecn="Technologies applied: HTML, CSS, JavaScript, Git/Github."
+      // proyectDesc="A recreation of the addictive simon says game, perfect to relax for
+      //       a while playing, on the pc or on the cell phone."
+      proyectDesc="Una recreación del adictivo juego simon says, perfecto para relajarse un rato jugando desde la computadora o celular."
+      tecn="Tecnologías utilizadas: HTML, CSS, JavaScript, Git/Github."
       urlPage={URL}
       urlRepo={urlRepo}
     />

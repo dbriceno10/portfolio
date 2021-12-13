@@ -9,9 +9,10 @@ const Proyect04 = () => {
     <Proyect
       srcImg={image}
       proyectTile="Memo App"
-      proyectDesc="A simple notes app, to organize quick tasks, made with bootstrap and
-            fully responsive."
-      tecn="Technologies applied: HTML, CSS, JavaScript, Git/Github, Bootstrap."
+      // proyectDesc="A simple notes app, to organize quick tasks, made with bootstrap and
+      //       fully responsive."
+      proyectDesc="Una simple app de notas, para anotar tareas rápidas."
+      tecn="Tecnologías utilizadas: HTML, CSS, JavaScript, Git/Github, Bootstrap."
       urlPage={URL}
       urlRepo={urlRepo}
     />

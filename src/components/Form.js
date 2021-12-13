@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { validateEmail } from "../utils/utils.js";
 import "./styles/Form.css";
 import swal from "sweetalert";
 const urlApi = "https://portfolio-contact-form-api.vercel.app/api/data";
@@ -9,13 +10,27 @@ const Form = () => {
     message: "",
   });
   const [error, setError] = useState(true);
+  const [required, setRequired] = useState({});
+  const [warning, setWarning] = useState(false);
   const handleChange = (e) => {
     setData({
       ...data,
       [e.target.name]: e.target.value,
     });
+    setRequired(
+      validate({
+        ...data,
+        [e.target.name]: e.target.value,
+      })
+    );
   };
-
+  const validate = (data) => {
+    let errors = {};
+    if (!data.fullname) errors.fullname = "Fullname is Required";
+    if (!data.email || !validateEmail(data.email))
+      errors.email = "Email isRequired";
+    return errors;
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     setError(true);
@@ -51,54 +66,63 @@ const Form = () => {
   };
 
   useEffect(() => {
-    if (data.fullname.length > 0 && data.email.length > 0) setError(false);
-    else setError(true);
+    if (
+      data.fullname.length > 0 &&
+      data.email.length > 0 &&
+      validateEmail(data.email)
+    ) {
+      setError(false);
+    } else {
+      setError(true);
+    }
   }, [data, setError]);
   return (
-      <form id="valid-form" onSubmit={handleSubmit}>
-        <div className="inputs-container">
-          <div>
-            <label className="form-paceholder">Full Name</label>
-            <input
-              type="text"
-              name="fullname"
-              value={data.fullname}
-              placeholder="Full Name"
-              onChange={handleChange}
-            />
-          </div>
-          <div>
-            <label className="form-paceholder">Email</label>
-            <input
-              name="email"
-              type="email"
-              value={data.email}
-              placeholder="Email"
-              onChange={handleChange}
-            />
-          </div>
-        </div>
-        <div className="textarea-container">
-          <textarea
-            placeholder="Message"
-            maxLength="2000"
-            name="message"
-            value={data.message}
+    <form id="valid-form" onSubmit={handleSubmit}>
+      <div className="inputs-container">
+        <div>
+          <label className="form-paceholder">Full Name</label>
+          <input
+            type="text"
+            name="fullname"
+            value={data.fullname}
+            placeholder="Full Name"
             onChange={handleChange}
-          ></textarea>
-          {/* <p className="form-paceholder">{data.message.length} of 2000</p> */}
+            className={required.hasOwnProperty("fullname") ? "error" : null}
+          />
         </div>
-        <div className="btn-form-container">
-          <button
-            type="submit"
-            className="btn btn-primary send"
-            id="input"
-            disabled={error}
-          >
-            Send
-          </button>
+        <div>
+          <label className="form-paceholder">Email</label>
+          <input
+            name="email"
+            type="email"
+            value={data.email}
+            placeholder="Email"
+            onChange={handleChange}
+            className={required.hasOwnProperty("email") ? "error" : null}
+          />
         </div>
-      </form>
+      </div>
+      <div className="textarea-container">
+        <textarea
+          placeholder="Message"
+          maxLength="5000"
+          name="message"
+          value={data.message}
+          onChange={handleChange}
+        ></textarea>
+        {/* <p className="form-paceholder">{data.message.length} of 2000</p> */}
+      </div>
+      <div className="btn-form-container">
+        <button
+          type="submit"
+          className="btn btn-primary send"
+          id="input"
+          disabled={error}
+        >
+          Send
+        </button>
+      </div>
+    </form>
   );
 };
 

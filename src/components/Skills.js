@@ -7,10 +7,12 @@ import figmaStiker from "../assets/image/figma-1-logo-svg-vector.svg";
 import reactStiker from "../assets/image/react-logo22.png";
 import gitStiker from "../assets/image/git-logo2.png";
 import nodeStiker from "../assets/image/nodejs-icon-logo-svg-vector.svg";
-import expressStiker from "../assets/image/javascript.png";
+import expressStiker from "../assets/image/express.png";
 import typescriptStiker from "../assets/image/typescript-programming-language.svg";
 import mongodbtStiker from "../assets/image/mongodb-leaf-logo.png";
 import reduxStiker from "../assets/image/redux.svg";
+import psqlStiker from "../assets/image/postgresql-icon.svg";
+import sequelizeStiker from "../assets/image/sequelizejs-icon.svg";
 
 const Skills = () => {
   return (
@@ -52,7 +54,7 @@ const Skills = () => {
                 porcent="90"
               />
               <Skill
-                skill="Redux"
+                skill="React-Redux"
                 src={reduxStiker}
                 title="redux-skill"
                 alt="rexu-logo"
@@ -85,6 +87,18 @@ const Skills = () => {
                 title="mongodb-skill"
                 alt="mongodb-leaf-logo"
                 porcent="65"
+              />
+              <Skill
+                skill="Postgresql"
+                src={psqlStiker}
+                alt="psql-logo"
+                porcent="70"
+              />
+              <Skill
+                skill="Sequelize"
+                src={sequelizeStiker}
+                alt="sequelize-logo"
+                porcent="70"
               />
               <Skill
                 skill="Git"
