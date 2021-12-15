@@ -20,7 +20,7 @@ const Hero = () => {
                 <span className="font-500">Daniel Briceño</span>
               </h1>
               <h3>
-                <span>Full-Stack JavaScript Developer.</span>
+                <span>Full-Stack Web Developer.</span>
               </h3>
               <div className="s-hero__content-social">
                 <HeroSocial
