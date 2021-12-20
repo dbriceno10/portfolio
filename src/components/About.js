@@ -25,7 +25,7 @@ const About = () => {
               couldn't stop, I love it. I’m currently available for technology
               work. If you have a collaborative project work looking for a
               profile like mine, then get in touch. */}
-              Hola, mi nombre es Daniel Briceño, Frontend Developer, actualmente formándome como fullstack web developer en Henry, donde también me desempeño como Teacher Assistant. Soy entusiasta de la educación digital y apasionado de la educación efectiva, del rápido aprendizaje y del crecimiento personal y profesional, me encanta crear productos digitales. Aunque mi especialidad es frontend, hoy me estoy desarrollando como especialista en backend para ser un fullstack web developer.
+              Hola, mi nombre es Daniel Briceño, Frontend Developer, actualmente formándome como fullstack web developer en Henry, donde también me desempeño como Teacher Assistant para FullStack Developer. Soy entusiasta de la educación digital y apasionado de la educación efectiva, del rápido aprendizaje y del crecimiento personal y profesional, me encanta crear productos digitales. Aunque mi especialidad es frontend, hoy me estoy desarrollando como especialista en backend para ser un fullstack web developer.
               La comunicación y el trabajo en equipo es para mí escencial para poder crecer como desarrollador. Soy proacivo y metódico, siempre busco nuevos retos y me adapto fácilmente a los cambios, estoy abierto a aprender nuevas tecnologías y lenguajes.
             </p>
             <hr size="8px" color="white" />

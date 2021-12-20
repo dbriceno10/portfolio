@@ -41,6 +41,7 @@ const Skills = () => {
                 porcent="95"
               />
               <Skill
+              skill="JavaScript"
                 src={javascriptStiker}
                 title="javascript-skill"
                 alt="javascript-logo"

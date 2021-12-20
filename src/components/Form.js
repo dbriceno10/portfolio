@@ -11,7 +11,6 @@ const Form = () => {
   });
   const [error, setError] = useState(true);
   const [required, setRequired] = useState({});
-  const [warning, setWarning] = useState(false);
   const handleChange = (e) => {
     setData({
       ...data,

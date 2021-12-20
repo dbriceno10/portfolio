@@ -6,6 +6,7 @@ const Proyect = ({
   tecn,
   urlPage,
   urlRepo,
+  btnPage,
 }) => {
   return (
     <div className="modal-internal-container">
@@ -19,7 +20,7 @@ const Proyect = ({
         </p>
         <div className="link-container">
           <a href={urlPage} target="__blank" className="btn btn_primary">
-            Visit Page
+            {btnPage ? btnPage : <p>Visit Page</p>}
           </a>
           <a href={urlRepo} target="__blank" className="btn btn_secundary">
             View Code
