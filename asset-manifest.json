@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bbc91860.chunk.css",
-    "main.js": "/portfolio/static/js/main.522f7051.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.522f7051.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c59b17cd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c59b17cd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.589d3087.chunk.js": "/portfolio/static/js/2.589d3087.chunk.js",
@@ -27,6 +27,8 @@
     "static/media/mongodb-leaf-logo.43d74a85.png": "/portfolio/static/media/mongodb-leaf-logo.43d74a85.png",
     "static/media/nodejs-icon-logo-svg-vector.ed133d54.svg": "/portfolio/static/media/nodejs-icon-logo-svg-vector.ed133d54.svg",
     "static/media/photo-perfil.1315a995.jpg": "/portfolio/static/media/photo-perfil.1315a995.jpg",
+    "static/media/pi-baner.9af8ea09.png": "/portfolio/static/media/pi-baner.9af8ea09.png",
+    "static/media/pi.bf9a4bd8.png": "/portfolio/static/media/pi.bf9a4bd8.png",
     "static/media/postgresql-icon.b941b412.svg": "/portfolio/static/media/postgresql-icon.b941b412.svg",
     "static/media/product-app-def.62a18984.jpg": "/portfolio/static/media/product-app-def.62a18984.jpg",
     "static/media/react-logo22.077af94a.png": "/portfolio/static/media/react-logo22.077af94a.png",
@@ -43,6 +45,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.589d3087.chunk.js",
     "static/css/main.bbc91860.chunk.css",
-    "static/js/main.522f7051.chunk.js"
+    "static/js/main.c59b17cd.chunk.js"
   ]
 }
