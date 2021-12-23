@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bbc91860.chunk.css",
-    "main.js": "/portfolio/static/js/main.5b9d8410.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5b9d8410.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.24853b85.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.24853b85.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.589d3087.chunk.js": "/portfolio/static/js/2.589d3087.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.bbc91860.chunk.css.map": "/portfolio/static/css/main.bbc91860.chunk.css.map",
     "static/js/2.589d3087.chunk.js.LICENSE.txt": "/portfolio/static/js/2.589d3087.chunk.js.LICENSE.txt",
     "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
-    "static/media/Daniel_Briceno_CV.14d9768a.pdf": "/portfolio/static/media/Daniel_Briceno_CV.14d9768a.pdf",
+    "static/media/Daniel_Briceno_CV.357de3f6.pdf": "/portfolio/static/media/Daniel_Briceno_CV.357de3f6.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
     "static/media/batatabit-baner.6afdb82c.png": "/portfolio/static/media/batatabit-baner.6afdb82c.png",
     "static/media/batatabit-def.a15ec6fd.jpg": "/portfolio/static/media/batatabit-def.a15ec6fd.jpg",
@@ -30,7 +30,6 @@
     "static/media/pi-baner.9af8ea09.png": "/portfolio/static/media/pi-baner.9af8ea09.png",
     "static/media/pi.bf9a4bd8.png": "/portfolio/static/media/pi.bf9a4bd8.png",
     "static/media/postgresql-icon.b941b412.svg": "/portfolio/static/media/postgresql-icon.b941b412.svg",
-    "static/media/product-app-def.62a18984.jpg": "/portfolio/static/media/product-app-def.62a18984.jpg",
     "static/media/react-logo22.077af94a.png": "/portfolio/static/media/react-logo22.077af94a.png",
     "static/media/redux.04851e4f.svg": "/portfolio/static/media/redux.04851e4f.svg",
     "static/media/sequelizejs-icon.ed8fdada.svg": "/portfolio/static/media/sequelizejs-icon.ed8fdada.svg",
@@ -45,6 +44,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.589d3087.chunk.js",
     "static/css/main.bbc91860.chunk.css",
-    "static/js/main.5b9d8410.chunk.js"
+    "static/js/main.24853b85.chunk.js"
   ]
 }
