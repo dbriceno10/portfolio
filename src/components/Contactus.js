@@ -7,8 +7,7 @@ import githubStiker from "../assets/image/github (3).png";
 import linkedinStiker from "../assets/image/linkedin.png";
 import telegranStiker from "../assets/image/telegram-logo.png";
 import ContactNetwork from "./ContactNetwork";
-// const email = "daniel.b100726@gmail.com";
-const cellPhone = "tel:+58 424-950-1974";
+const cellPhone = "https://api.whatsapp.com/send/?phone=584249501974&text&app_absent=0";
 const githubLink = "https://github.com/dbriceno10";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
 const telegramLink = "https://t.me/dbriceno";
@@ -46,15 +45,16 @@ const Contactus = () => {
                     alt="gmail-Stiker"
                     title="Gmail Stiker"
                     header="Email"
-                    linkName="daniel.b100726@gmail.com"
+                    linkName="dbriceno10dev@gmail.com"
                   />
                   <ContactNetwork
                     stiker={phoneStiker}
                     alt="phone-Stiker"
                     title="Phone Stiker"
-                    header="Phone"
+                    header="WhatsApp"
                     href={cellPhone}
-                    linkName="+58 424-950-1974"
+                    target="_blank"
+                    linkName="WhatsApp"
                   />
                   <ContactNetwork
                     stiker={githubStiker}
@@ -62,7 +62,7 @@ const Contactus = () => {
                     title="Github Stiker"
                     header="Github"
                     href={githubLink}
-                    target="_black"
+                    target="_blank"
                     linkName="dbriceno10"
                   />
                   <ContactNetwork
@@ -71,7 +71,7 @@ const Contactus = () => {
                     title="Linkedin Stiker"
                     header="Linkedin"
                     href={linkedinLink}
-                    target="_black"
+                    target="_blank"
                     linkName="Daniel Briceño"
                   />
                   <ContactNetwork
@@ -80,7 +80,7 @@ const Contactus = () => {
                     title="Telegram Stiker"
                     header="Telegram"
                     href={telegramLink}
-                    target="_black"
+                    target="_blank"
                     linkName="@dbriceno"
                   />
                 </div>

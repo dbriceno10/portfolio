@@ -7,8 +7,8 @@ import Modal01 from "../assets/image/screenshot/batatabit-def.jpg";
 import Proyect01 from "./modals/Proyect01";
 import Modal02 from "../assets/image/screenshot/spacebadges-def.jpg";
 import Proyect02 from "./modals/Proyect02";
-import Modal03 from "../assets/image/screenshot/product-app-def.jpg";
-import Proyect03 from "./modals/Proyect03";
+// import Modal03 from "../assets/image/screenshot/product-app-def.jpg";
+// import Proyect03 from "./modals/Proyect03";
 import Modal04 from "../assets/image/screenshot/memo-app-def.jpg";
 import Proyect04 from "./modals/Proyect04";
 import Modal05 from "../assets/image/screenshot/datasheet.jpg";
@@ -23,7 +23,7 @@ import Proyect08 from "./modals/Proyect08";
 const Modals = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
   const [isOpenModal2, openModal2, closeModal2] = useModal(false);
-  const [isOpenModal3, openModal3, closeModal3] = useModal(false);
+  // const [isOpenModal3, openModal3, closeModal3] = useModal(false);
   const [isOpenModal4, openModal4, closeModal4] = useModal(false);
   const [isOpenModal5, openModal5, closeModal5] = useModal(false);
   const [isOpenModal6, openModal6, closeModal6] = useModal(false);
@@ -67,10 +67,10 @@ const Modals = () => {
         <Proyect04 />
       </Modal>
 
-      <ModalElement image={Modal03} e={openModal3} />
+      {/* <ModalElement image={Modal03} e={openModal3} />
       <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
         <Proyect03 />
-      </Modal>
+      </Modal> */}
     </div>
   );
 };

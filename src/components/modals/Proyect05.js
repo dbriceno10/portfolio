@@ -14,7 +14,7 @@ const Proyect05 = () => {
       //       fully responsive, which consumes the api
       //       https://rickandmortyapi.com/. We will change the page bringing all
       //       the characters in the series and showing their data."
-      proyectDesc="Una aplicación hecha con JavaScript vanilla, HTML y CSS, responsiva. Consume el API https://rickandmortyapi.com/ para traer uno a uno los personajes de la serie y mostrar sus datos"
+      proyectDesc="Una aplicación hecha con JavaScript vanilla, HTML y CSS, responsiva. Consume el API https://rickandmortyapi.com/ para traer uno a uno los personajes de la serie y mostrar sus datos."
       tecn="Tecnologías utilizadas: HTML, CSS, JavaScript, Git/Github."
       urlPage={URL}
       urlRepo={urlRepo}
