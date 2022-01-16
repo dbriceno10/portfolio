@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bbc91860.chunk.css",
-    "main.js": "/portfolio/static/js/main.24853b85.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.24853b85.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.14bb6b8b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.14bb6b8b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.589d3087.chunk.js": "/portfolio/static/js/2.589d3087.chunk.js",
@@ -24,17 +24,16 @@
     "static/media/javascript-logo-svg-vector.31ff4b10.svg": "/portfolio/static/media/javascript-logo-svg-vector.31ff4b10.svg",
     "static/media/memo-app-def.20cb964c.jpg": "/portfolio/static/media/memo-app-def.20cb964c.jpg",
     "static/media/memoapp-baner.7531e6a5.jpg": "/portfolio/static/media/memoapp-baner.7531e6a5.jpg",
+    "static/media/miniatura-pi.e360025c.png": "/portfolio/static/media/miniatura-pi.e360025c.png",
     "static/media/mongodb-leaf-logo.43d74a85.png": "/portfolio/static/media/mongodb-leaf-logo.43d74a85.png",
     "static/media/nodejs-icon-logo-svg-vector.ed133d54.svg": "/portfolio/static/media/nodejs-icon-logo-svg-vector.ed133d54.svg",
     "static/media/photo-perfil-fondo-azul.b28ddd11.png": "/portfolio/static/media/photo-perfil-fondo-azul.b28ddd11.png",
     "static/media/pi-baner.9af8ea09.png": "/portfolio/static/media/pi-baner.9af8ea09.png",
-    "static/media/pi.bf9a4bd8.png": "/portfolio/static/media/pi.bf9a4bd8.png",
     "static/media/postgresql-icon.b941b412.svg": "/portfolio/static/media/postgresql-icon.b941b412.svg",
     "static/media/react-logo22.077af94a.png": "/portfolio/static/media/react-logo22.077af94a.png",
     "static/media/redux.04851e4f.svg": "/portfolio/static/media/redux.04851e4f.svg",
     "static/media/sequelizejs-icon.ed8fdada.svg": "/portfolio/static/media/sequelizejs-icon.ed8fdada.svg",
-    "static/media/simon-says-baner2.f77b5386.jpg": "/portfolio/static/media/simon-says-baner2.f77b5386.jpg",
-    "static/media/simon-says2.edf176f0.jpg": "/portfolio/static/media/simon-says2.edf176f0.jpg",
+    "static/media/simon-says-miniatura.0d1f1560.png": "/portfolio/static/media/simon-says-miniatura.0d1f1560.png",
     "static/media/spacebadges-def.e2698f4f.jpg": "/portfolio/static/media/spacebadges-def.e2698f4f.jpg",
     "static/media/Error.css": "/portfolio/static/media/stars.7544bae9.svg",
     "static/media/telegram-logo.635b3f85.png": "/portfolio/static/media/telegram-logo.635b3f85.png",
@@ -44,6 +43,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.589d3087.chunk.js",
     "static/css/main.bbc91860.chunk.css",
-    "static/js/main.24853b85.chunk.js"
+    "static/js/main.14bb6b8b.chunk.js"
   ]
 }
