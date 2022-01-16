@@ -13,11 +13,11 @@ import Modal04 from "../assets/image/screenshot/memo-app-def.jpg";
 import Proyect04 from "./modals/Proyect04";
 import Modal05 from "../assets/image/screenshot/datasheet.jpg";
 import Proyect05 from "./modals/Proyect05";
-import Modal06 from "../assets/image/screenshot/simon-says2.jpg";
+import Modal06 from "../assets/image/screenshot/simon-says-miniatura.png";
 import Proyect06 from "./modals/Proyect06";
 import Modal07 from "../assets/image/screenshot/food-app.jpg"
 import Proyect07 from "./modals/Proyect07";
-import Modal08 from "../assets/image/screenshot/pi.png"
+import Modal08 from "../assets/image/screenshot/miniatura-pi.png"
 import Proyect08 from "./modals/Proyect08";
 
 const Modals = () => {

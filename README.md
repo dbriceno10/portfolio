@@ -38,7 +38,7 @@ HTML, CSS, JavaScript, React.
 
 El formulario de contacto se conecta a un api externa para guardar los datos en una base de datos, desarrollada con Node, Express y MongoDB.
 
+<img src="./public/home-portfolio.png"/>
+
 ---
 ⌨️ con ❤️ por [dbriceno10](https://github.com/dbriceno10) 😊
-
-<img src="./public/home-portfolio.png"/>

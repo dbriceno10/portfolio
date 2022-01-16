@@ -54,7 +54,7 @@ const Contactus = () => {
                     header="WhatsApp"
                     href={cellPhone}
                     target="_blank"
-                    linkName="WhatsApp"
+                    linkName="Enlace al Chat"
                   />
                   <ContactNetwork
                     stiker={githubStiker}

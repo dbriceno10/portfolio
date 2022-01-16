@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../../assets/image/screenshot/pi-baner.png";
 import Proyect from "./Proyect";
-const URL = "https://www.linkedin.com/feed/update/urn:li:activity:6877424908440260608/";
+const URL = "https://daniel-pi.vercel.app/";
 const urlRepo = "https://github.com/dbriceno10/daniel-pi";
 
 const Proyect08 = () => {
@@ -13,7 +13,6 @@ const Proyect08 = () => {
       tecn="Tecnologías utilizadas: HTML, CSS, JavaScript, React JS, React-Redux, Node JS, Express, PostgreSQL, Sequelize, Git/Github"
       urlPage={URL}
       urlRepo={urlRepo}
-      btnPage="Visit Demo"
     />
   );
 };

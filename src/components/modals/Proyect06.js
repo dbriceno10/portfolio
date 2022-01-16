@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/image/screenshot/simon-says-baner2.jpg";
+import image from "../../assets/image/screenshot/simon-says-baner.png";
 import Proyect from "./Proyect";
 const URL =
   "https://dbriceno10.github.io/Proyecto-Curso-Fundamentos-de-JavaScript-Juego-de-Simon-Dice/";
