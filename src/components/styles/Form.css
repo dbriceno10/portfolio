@@ -25,6 +25,8 @@
 
 #valid-form input {
   background-color: var(--normal-white);
+  min-width: 210px;
+  max-width: 300px;
 }
 
 .inputs-container {
