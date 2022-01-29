@@ -6,7 +6,7 @@
   font-size: 3rem !important;
 }
 
-@media (max-width: 394px) {
+@media (max-width: 385px) { /*Cambio de 394px a 385px debido a que la nueva fuente que estamos aplicando es ligeramente más pequeña*/
   .layout.s-header {
     flex-direction: column;
     align-items: center;
