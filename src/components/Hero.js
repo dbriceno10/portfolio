@@ -46,8 +46,16 @@ const Hero = () => {
         </div>
       </div>
       <div className="s-hero__scroll links">
-        <HeroButton path="/contact" text="Hire Me" />
-        <HeroButton path="/portfolio" text="Explore Me" />
+        <HeroButton
+          path="/contact"
+          // text="Hire Me"
+          text="Contáctame"
+        />
+        <HeroButton
+          path="/portfolio"
+          //text="Explore Me"
+          text="Proyectos"
+        />
       </div>
     </section>
   );

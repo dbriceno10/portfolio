@@ -16,23 +16,48 @@ const About = () => {
             <h1 className="about-me">
               <span className="about-description font-500">Sobre Mí</span>
             </h1>
-            <p className="about-description">
-              Hola, mi nombre es Daniel Briceño, Front-End Developer, actualmente formándome como Full-Stack Web Developer en Henry. Soy entusiasta de la educación digital y apasionado de la educación efectiva, del rápido aprendizaje y del crecimiento personal y profesional, me encanta crear productos digitales. Aunque mi especialidad es frontend, hoy me estoy desarrollando como especialista en backend para ser un fullstack web developer.
-              La comunicación y el trabajo en equipo es para mí escencial para poder crecer como desarrollador. Soy proacivo y metódico, siempre busco nuevos retos y me adapto fácilmente a los cambios, estoy abierto a aprender nuevas tecnologías y lenguajes.
-            </p>
+            <div>
+              <p className="about-description">
+                Hola, mi nombre es Daniel Briceño, Frontend Developer,
+                actualmente formándome como FullStack web developer en Henry.
+              </p>
+
+              <p className="about-description">
+                Soy entusiasta de la educación digital y apasionado de la
+                educación efectiva, del rápido aprendizaje y del crecimiento
+                personal y profesional, me encanta crear productos digitales.
+                Aunque mi especialidad es frontend, hoy me estoy desarrollando
+                como especialista en backend para ser un fullstack web
+                javascript developer.
+              </p>
+
+              <p className="about-description">
+                La comunicación y el trabajo en equipo es para mí esencial para
+                poder crecer como desarrollador. Soy proactivo y metódico,
+                siempre busco nuevos retos y me adapto fácilmente a los cambios,
+                estoy abierto a aprender nuevas tecnologías y lenguajes.
+              </p>
+            </div>
             <hr size="8px" color="white" />
             <h2 className="about-me">
-              <span className="about-description font-500">¿Qué puedo hacer?</span>
+              <span className="about-description font-500">
+                ¿Qué puedo hacer?
+              </span>
             </h2>
             <br />
             <h3 className="about-me center font-500">Front-end</h3>
             <p className="about-description">
-              Como desarrollador en javascript, tengo experiencia en el manejo de HTML y CSS, además del manejo de frameworks y liberías, especialmente React JS. Puedo dar estilos, crear componentes reactivos y darles vida a las aplicaciones conectandolas con APIs.
+              Como desarrollador en javascript, tengo experiencia en el manejo
+              de HTML y CSS, además del manejo de frameworks y liberías,
+              especialmente React JS. Puedo dar estilos, crear componentes
+              reactivos y darles vida a las aplicaciones conectandolas con APIs.
             </p>
             <br />
             <h3 className="about-me center font-500">Back-end</h3>
             <p className="about-description">
-              Utilizando Express y Node, puedo crear rutas para APIs REST, protegerlas con Jsonwebtoken, e implementar bases de datos SQL y NoSQL como PostgreSQL y MongoDB.
+              Utilizando Express y Node, puedo crear rutas para APIs REST,
+              protegerlas con Jsonwebtoken, e implementar bases de datos SQL y
+              NoSQL como PostgreSQL y MongoDB.
             </p>
             <hr />
             <div className="row s-about__content-bottom">
