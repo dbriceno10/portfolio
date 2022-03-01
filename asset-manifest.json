@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3376d27c.chunk.css",
-    "main.js": "/portfolio/static/js/main.a9110f65.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a9110f65.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e9745782.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e9745782.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.589d3087.chunk.js": "/portfolio/static/js/2.589d3087.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.3376d27c.chunk.css.map": "/portfolio/static/css/main.3376d27c.chunk.css.map",
     "static/js/2.589d3087.chunk.js.LICENSE.txt": "/portfolio/static/js/2.589d3087.chunk.js.LICENSE.txt",
     "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
-    "static/media/Daniel_Briceno_CV.265501a3.pdf": "/portfolio/static/media/Daniel_Briceno_CV.265501a3.pdf",
+    "static/media/Daniel_Briceno_CV.1cbb2743.pdf": "/portfolio/static/media/Daniel_Briceno_CV.1cbb2743.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
     "static/media/batatabit-baner.6afdb82c.png": "/portfolio/static/media/batatabit-baner.6afdb82c.png",
     "static/media/batatabit-def.a15ec6fd.jpg": "/portfolio/static/media/batatabit-def.a15ec6fd.jpg",
@@ -24,6 +24,7 @@
     "static/media/javascript-logo-svg-vector.31ff4b10.svg": "/portfolio/static/media/javascript-logo-svg-vector.31ff4b10.svg",
     "static/media/memo-app-def.20cb964c.jpg": "/portfolio/static/media/memo-app-def.20cb964c.jpg",
     "static/media/memoapp-baner.7531e6a5.jpg": "/portfolio/static/media/memoapp-baner.7531e6a5.jpg",
+    "static/media/miniatura-learnzilla.de1edb60.png": "/portfolio/static/media/miniatura-learnzilla.de1edb60.png",
     "static/media/miniatura-pi.e360025c.png": "/portfolio/static/media/miniatura-pi.e360025c.png",
     "static/media/mongodb-leaf-logo.43d74a85.png": "/portfolio/static/media/mongodb-leaf-logo.43d74a85.png",
     "static/media/nodejs-icon-logo-svg-vector.ed133d54.svg": "/portfolio/static/media/nodejs-icon-logo-svg-vector.ed133d54.svg",
@@ -44,6 +45,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.589d3087.chunk.js",
     "static/css/main.3376d27c.chunk.css",
-    "static/js/main.a9110f65.chunk.js"
+    "static/js/main.e9745782.chunk.js"
   ]
 }
