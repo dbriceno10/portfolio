@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../../assets/image/screenshot/pi-baner.png";
 import Proyect from "./Proyect";
-const URL = "https://daniel-pi.vercel.app/";
+const URL = "https://wikidex-spa.vercel.app/";
 const urlRepo = "https://github.com/dbriceno10/daniel-pi";
 
 const Proyect08 = () => {
