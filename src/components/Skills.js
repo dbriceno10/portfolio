@@ -13,6 +13,15 @@ import mongodbtStiker from "../assets/image/mongodb-leaf-logo.png";
 import reduxStiker from "../assets/image/redux.svg";
 import psqlStiker from "../assets/image/postgresql-icon.svg";
 import sequelizeStiker from "../assets/image/sequelizejs-icon.svg";
+import reactNativeStiker from "../assets/image/react-native-1.svg"
+import herokuStiker from "../assets/image/heroku-4.svg"
+import postmanStiker from "../assets/image/postman.svg"
+// import githubStiker from "../assets/image/github (3).png"
+import vscodeStiker from "../assets/image/visual-studio-code-1.svg"
+import bootstrapStiker from "../assets/image/bootstrap-5-1.svg"
+import sassStiker from "../assets/image/sass-1.svg"
+import lessStiker from "../assets/image/less.svg"
+
 
 const Skills = () => {
   return (
@@ -25,7 +34,7 @@ const Skills = () => {
         </div>
         <div className="column large-10 tab-12">
           <div className="resume-block">
-            <ul className="skill-bars-fat">
+            <ul className="skill-bars-fat skill-grid">
               <Skill
                 skill="HTML"
                 src={htmlStiker}
@@ -41,6 +50,24 @@ const Skills = () => {
                 porcent="95"
               />
               <Skill
+                skill="bootstrap"
+                src={bootstrapStiker}
+                title="bootstarp-skill"
+                alt="bootstrap-logo"
+              />
+              <Skill
+                skill="sass"
+                src={sassStiker}
+                title="sass-skill"
+                alt="sass-logo"
+              />
+              <Skill
+                skill="less"
+                src={lessStiker}
+                title="less-skill"
+                alt="less-logo"
+              />
+              <Skill
               skill="JavaScript"
                 src={javascriptStiker}
                 title="javascript-skill"
@@ -48,21 +75,27 @@ const Skills = () => {
                 porcent="95"
               />
               <Skill
-                skill="React JS"
+                skill="React"
                 src={reactStiker}
                 title="react-skill"
                 alt="react-logo"
                 porcent="90"
               />
+              <Skill 
+                skill="ReactNative"
+                src={reactNativeStiker}
+                title="react-native-skill"
+                alt="react-native-logo"
+              />
               <Skill
-                skill="React-Redux"
+                skill="Redux"
                 src={reduxStiker}
                 title="redux-skill"
                 alt="rexu-logo"
                 porcent="75"
               />
               <Skill
-                skill="Node JS"
+                skill="Node"
                 src={nodeStiker}
                 title="node-skill"
                 alt="node-logo"
@@ -114,6 +147,29 @@ const Skills = () => {
                 title="figma-skill"
                 alt="figma-logo"
                 porcent="75"
+              />
+              {/* <Skill 
+                skill="github"
+                src={githubStiker}
+                alt="github-logo"
+              /> */}
+              <Skill 
+                skill="postman"
+                src={postmanStiker}
+                title="postman-skill"
+                alt="postman-logo"
+              />
+              <Skill 
+                skill="vscode"
+                src={vscodeStiker}
+                title="vscode"
+                alt="vscode-logo"
+              />
+              <Skill 
+                skill="heroku"
+                src={herokuStiker}
+                title="heroku"
+                alt="heroku-logo"
               />
             </ul>
           </div>

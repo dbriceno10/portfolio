@@ -64,22 +64,30 @@ hr {
 }
 
 li div {
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .stiker {
-  max-width: 60px;
+  /* max-width: 60px;
   max-height: 60px;
   min-width: 40px;
-  min-height: 40px;
-  width: 60px;
-  height: 60px;
+  min-height: 40px; */
+  width: 80px;
+  height: 80px;
   margin: 0;
+  transition: 0.4s;
+}
+
+
+.stiker:hover{
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 10fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 10fr; */
 }
 
 #btn-donwload-cv {
@@ -92,4 +100,22 @@ li div {
 
 #btn-donwload-cv:hover {
   background-color: var(--dowload-orange);
+}
+
+.skill-grid {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+  grid-template-rows: repeat(auto-fill, minmax(100px, 100px));
+  grid-gap: 80px;
+}
+
+.skill-grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  transition: 0.4s;
 }
