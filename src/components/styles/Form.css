@@ -123,3 +123,30 @@
 .error {
   border: solid 1px var(--red-bootstrap) !important;
 }
+
+.swal-button {
+  background-color: var(--active-nav-blue) !important;
+  border: solid 1px transparent !important;
+  border-radius: 5px !important;
+  transition: 0.4s;
+}
+
+.swal-button:hover {
+  background-color: var(--dowload-orange) !important;
+  color: #fff;
+}
+
+.swal-button:active {
+  background-color: var(--dowload-orange) !important;
+  color: #fff;
+}
+
+.swal-text{
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* .swal-modal {
+  background-color: var(--starts-gray);
+  background: url("../../assets/image/stars.svg"), var(--starts-gray);
+} */

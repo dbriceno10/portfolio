@@ -55,7 +55,7 @@ const Form = () => {
     })
       .then(() => {
         swal({
-          title: "Ok",
+          title: "Formulario Enviado",
           text: "Gracias por tus comentarios, me comunicare con usted en la brevedad posible.",
           icon: "success",
         }).then(() => {

@@ -9,22 +9,22 @@ const Header = () => {
           <ul>
             <li id="home">
               <NavLink activeClassName="current" to="/" exact>
-                Home
+                Inicio
               </NavLink>
             </li>
             <li id="about">
               <NavLink activeClassName="current" to="/about">
-                About
+                Acerca de
               </NavLink>
             </li>
             <li id="portfolio">
               <NavLink activeClassName="current" to="/portfolio">
-                Portfolio
+                Proyectos
               </NavLink>
             </li>
             <li id="contact">
               <NavLink activeClassName="current" to="/contact">
-                Contact
+                Contáctame
               </NavLink>
             </li>
           </ul>

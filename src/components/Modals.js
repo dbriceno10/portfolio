@@ -41,27 +41,27 @@ const Modals = () => {
         <Proyect09 />
       </Modal>
 
-      <ModalElement image={Modal08} e={openModal8} imgTitle="WikiDex" imgDesc="Una SPA con tecatica de Pokemon, creada con React, Node y Express." />
+      <ModalElement image={Modal08} e={openModal8} imgTitle="WikiDex" imgDesc="Una SPA con temática de Pokemon, creada con React, Node y Express." />
       <Modal isOpen={isOpenModal8} closeModal={closeModal8}>
         <Proyect08 />
       </Modal>
 
-      <ModalElement image={Modal01} e={openModal1} imgTitle="Batatabit" imgDesc="Una Landing Page con tema de criptos creada con HTML y CSS." />
+      <ModalElement image={Modal01} e={openModal1} imgTitle="Batatabit" imgDesc="Una Landing Page con temática de cripto-activos creada con HTML y CSS." />
       <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
         <Proyect01 />
       </Modal>
 
-      <ModalElement image={Modal02} e={openModal2} imgTitle="Space Badges" imgDesc="Una SPA con tecatica de Rick and Morty, creada con React." />
+      <ModalElement image={Modal02} e={openModal2} imgTitle="Space Badges" imgDesc="Una SPA con temática de Rick and Morty, creada con React." />
       <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
         <Proyect02 />
       </Modal>
 
-      <ModalElement image={Modal05} e={openModal5} imgTitle="R&M Data Sheet" imgDesc="Una Landing Page creada con HTML, CSS y JavaScript." />
+      <ModalElement image={Modal05} e={openModal5} imgTitle="Rick and Morty Data Sheet" imgDesc="Una Landing Page temática creada con HTML, CSS y JavaScript." />
       <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
         <Proyect05 />
       </Modal>
 
-      <ModalElement image={Modal06} e={openModal6} imgTitle="Simon Says" imgDesc="Video juego web creado con HTML, CSS y JavaScript" />
+      <ModalElement image={Modal06} e={openModal6} imgTitle="Simon Says" imgDesc="Una recreación del famoso juego Simon Says creado con HTML, CSS y JavaScript." />
       <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
         <Proyect06 />
       </Modal>
@@ -71,7 +71,7 @@ const Modals = () => {
         <Proyect04 />
       </Modal>
 
-      <ModalElement image={Modal07} e={openModal7} imgTitle="Food App" imgDesc="Aplicación CRUD para pedidos, creada con Node y Express." />
+      <ModalElement image={Modal07} e={openModal7} imgTitle="Food App" imgDesc="Aplicación CRUD para ordenar platillos, creada con Node y Express." />
       <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
         <Proyect07 />
       </Modal>
