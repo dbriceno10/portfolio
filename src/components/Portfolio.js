@@ -6,7 +6,7 @@ const Portfolio = () => {
       <section id="portfolio" className="s-portfolio target-section">
         <div className="row s-portfolio__header">
           <div className="column large-12">
-            <h3 className="font-500">{/*A Few Of My Latest Creations*/}Mis Últimos Proyectos</h3>
+            <h3 className="font-500">{/*A Few Of My Latest Creations*/}Mis últimos proyectos</h3>
           </div>
         </div>
         <Modals />

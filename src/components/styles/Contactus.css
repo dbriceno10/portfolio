@@ -21,16 +21,16 @@
 }
 
 .stiker2 {
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 45px;
+  /* max-height: 40px; */
   min-width: 20px;
-  min-height: 20px;
+  /* min-height: 20px; */
   margin: 0 0 0 0;
 }
 
 .grid2 {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 55px 1fr;
   align-items: center;
   margin-bottom: 10px;
 }

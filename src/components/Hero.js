@@ -21,6 +21,8 @@ const Hero = () => {
             </h1>
             <h3>
               <span>Full Stack Web Developer</span>
+              <br/>
+              <span>JavaScript | React JS | Node | Redux | PostgreSQL | MongoDB | SCRUM</span>
             </h3>
             <div className="s-hero__content-social">
               <HeroSocial

@@ -9,7 +9,7 @@ const Form = () => {
     email: "",
     message: "",
   });
-  const [error, setError] = useState(true);
+  const [error, setError] = useState(false);
   const [required, setRequired] = useState({});
   const handleChange = (e) => {
     setData({
@@ -33,6 +33,18 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setError(true);
+    if (
+      data.email.length === 0 ||
+      data.fullname.length === 0 ||
+      required.hasOwnProperty("fullname") ||
+      required.hasOwnProperty("email")
+    ) {
+      return swal({
+        title: "Error",
+        text: "Debe completar el formulario correctamente antes de enviarlo.",
+        icon: "error",
+      }).then(() => setError(false));
+    }
     const values = JSON.stringify(data);
     fetch(urlApi, {
       method: "POST",
@@ -44,7 +56,7 @@ const Form = () => {
       .then(() => {
         swal({
           title: "Ok",
-          text: "Thank you for your comments! We will write to you shortly",
+          text: "Gracias por tus comentarios, me comunicare con usted en la brevedad posible.",
           icon: "success",
         }).then(() => {
           setData({
@@ -58,38 +70,41 @@ const Form = () => {
       .catch(() => {
         swal({
           title: "Error",
-          text: "An unexpected error has occurred, please try again",
-          icon: "Error",
+          text: "Ha ocurrido un error inesperado, por favor intenta nuevamente.",
+          icon: "error",
         }).then(() => setError(false));
       });
   };
 
-  useEffect(() => {
-    if (
-      data.fullname.length > 0 &&
-      data.email.length > 0 &&
-      validateEmail(data.email)
-    ) {
-      setError(false);
-    } else {
-      setError(true);
-    }
-  }, [data, setError]);
+  // useEffect(() => {
+  //   if (
+  //     data.fullname.length > 0 &&
+  //     data.email.length > 0 &&
+  //     validateEmail(data.email)
+  //   ) {
+  //     setError(false);
+  //   } else {
+  //     setError(true);
+  //   }
+  // }, [data, setError]);
   return (
     <form id="valid-form" onSubmit={handleSubmit}>
       <div className="inputs-container">
-        <div>
-          <label className="form-paceholder">Full Name</label>
+        <div className="input-div">
+          {/* <label className="form-paceholder">Full Name</label> */}
+          <label className="form-paceholder">Nombre Completo</label>
+
           <input
             type="text"
             name="fullname"
             value={data.fullname}
-            placeholder="Full Name"
+            // placeholder="Full Name"
+            placeholder="Nombre Completo"
             onChange={handleChange}
             className={required.hasOwnProperty("fullname") ? "error" : null}
           />
         </div>
-        <div>
+        <div className="input-div">
           <label className="form-paceholder">Email</label>
           <input
             name="email"
@@ -103,7 +118,8 @@ const Form = () => {
       </div>
       <div className="textarea-container">
         <textarea
-          placeholder="Message"
+          // placeholder="Message"
+          placeholder="Mensaje"
           maxLength="5000"
           name="message"
           value={data.message}
@@ -118,7 +134,7 @@ const Form = () => {
           id="input"
           disabled={error}
         >
-          Send
+          Enviar
         </button>
       </div>
     </form>
