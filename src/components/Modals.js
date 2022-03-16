@@ -56,7 +56,7 @@ const Modals = () => {
         <Proyect02 />
       </Modal>
 
-      <ModalElement image={Modal05} e={openModal5} imgTitle="Rick and Morty Data Sheet" imgDesc="Una Landing Page temática creada con HTML, CSS y JavaScript." />
+      <ModalElement image={Modal05} e={openModal5} imgTitle="Rick & Morty Data Sheet" imgDesc="Una Landing Page temática creada con HTML, CSS y JavaScript." />
       <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
         <Proyect05 />
       </Modal>
