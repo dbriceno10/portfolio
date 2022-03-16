@@ -57,7 +57,7 @@ const About = () => {
               Mi proyecto favorito en este sentido sería WikiDex, es una SPA, la cual, conectada a un backend permite al usuario traer a todos los pokemones existentes para renderizarlos en una serie de cards. Permite buscarlos por nombre o por id, así como también poder filtrarlos mediante varios filtros predefinidos. La app tambie nos da la posibilidad, mediante un formulario controlado, crear nuevos pokemones con atributos definidos por el usuario (estos se guardaran en una base de datos).
             </p>
             <p className="about-description">
-              Esta app hace uso de la libería React-Redux para manejar estados globales en la misma, además de los estados locales propios de cada componente en React. Cuenta distintas secciones y páginas panejadas por rutas, sobre las que aprovecho las características de React para reutilizar componentes. Las tecnologías que utilicé fueron HTML, CSS, JavaScript, React JS, React-Redux, Node JS, Express, PostgreSQL, Sequelize, Git/Github
+              Esta app hace uso de la libería React-Redux para manejar estados globales en la misma, además de los estados locales propios de cada componente en React. Cuenta distintas secciones y páginas panejadas por rutas, sobre las que aprovecho las características de React para reutilizar componentes. Las tecnologías que utilicé fueron HTML, CSS, JavaScript, React JS, React-Redux, Node JS, Express, PostgreSQL, Sequelize, Git/Github.
             </p>
             <br />
             <h3 className="about-me center font-500">Back-End</h3>
@@ -70,7 +70,7 @@ const About = () => {
               En este sentido mi proyecto fue el de Learnzilla - Academia Online, proyecto colaborativo en el cual me estuve desempeñando principalmente como desarrollador backend. Es una plataforma de cursos online, con un backend creado principalmente con Node, Express y Sequelize como ORM para PostgreSQL. Para el mismo se han definido diferentes rutas para crear registros (de usuarios, cursos, videos, etc), permir que los usuarios inicien seción validando su información, editar y eliminar distintos registros y hacer peticiones a la base de datos.  
             </p>
             <p className="about-description">
-              Adicionalmente se implementó mediante Multer, la característica de poder cargar distintos archivos multimedias al proyecto y poder guardarlos en Google Dirve. Las tecnologías que utilicé fueron HTML, CSS, JavaScript, React JS, React-Redux, Material UI , Node JS, Express, PostgreSQL, Sequelize, Figma, Multer, Google-Drive-Api, Git/Github
+              Adicionalmente se implementó mediante Multer, la característica de poder cargar distintos archivos multimedias al proyecto y poder guardarlos en Google Dirve. Las tecnologías que utilicé fueron HTML, CSS, JavaScript, React JS, React-Redux, Material UI , Node JS, Express, PostgreSQL, Sequelize, Figma, Multer, Google-Drive-Api, Git/Github.
             </p>
             <hr />
             <div className="row s-about__content-bottom">
