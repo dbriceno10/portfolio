@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9ce279bb.chunk.css",
-    "main.js": "/portfolio/static/js/main.5e42fbb3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5e42fbb3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.86620f13.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.86620f13.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.d47aa26c.chunk.js": "/portfolio/static/js/2.d47aa26c.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.9ce279bb.chunk.css.map": "/portfolio/static/css/main.9ce279bb.chunk.css.map",
     "static/js/2.d47aa26c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d47aa26c.chunk.js.LICENSE.txt",
     "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
-    "static/media/Daniel_Briceno_CV.2bd8b04b.pdf": "/portfolio/static/media/Daniel_Briceno_CV.2bd8b04b.pdf",
+    "static/media/Daniel_Briceno_CV.b0101c09.pdf": "/portfolio/static/media/Daniel_Briceno_CV.b0101c09.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
     "static/media/batatabit-baner.6afdb82c.png": "/portfolio/static/media/batatabit-baner.6afdb82c.png",
     "static/media/batatabit-def.a15ec6fd.jpg": "/portfolio/static/media/batatabit-def.a15ec6fd.jpg",
@@ -20,6 +20,7 @@
     "static/media/datasheet-baner.dcc28275.jpg": "/portfolio/static/media/datasheet-baner.dcc28275.jpg",
     "static/media/datasheet.1e76b60d.jpg": "/portfolio/static/media/datasheet.1e76b60d.jpg",
     "static/media/figma-1-logo-svg-vector.7ad5fcef.svg": "/portfolio/static/media/figma-1-logo-svg-vector.7ad5fcef.svg",
+    "static/media/fondo-blanco.8fb1f817.png": "/portfolio/static/media/fondo-blanco.8fb1f817.png",
     "static/media/food-app.cef515c4.jpg": "/portfolio/static/media/food-app.cef515c4.jpg",
     "static/media/git-logo2.430db756.png": "/portfolio/static/media/git-logo2.430db756.png",
     "static/media/heroku-4.b7e7f910.svg": "/portfolio/static/media/heroku-4.b7e7f910.svg",
@@ -31,7 +32,6 @@
     "static/media/miniatura-pi.e360025c.png": "/portfolio/static/media/miniatura-pi.e360025c.png",
     "static/media/mongodb-leaf-logo.43d74a85.png": "/portfolio/static/media/mongodb-leaf-logo.43d74a85.png",
     "static/media/nodejs-icon-logo-svg-vector.ed133d54.svg": "/portfolio/static/media/nodejs-icon-logo-svg-vector.ed133d54.svg",
-    "static/media/photo-perfil-fondo-blanco-recortada.c6ffafc0.png": "/portfolio/static/media/photo-perfil-fondo-blanco-recortada.c6ffafc0.png",
     "static/media/pi-baner.9af8ea09.png": "/portfolio/static/media/pi-baner.9af8ea09.png",
     "static/media/postgresql-icon.b941b412.svg": "/portfolio/static/media/postgresql-icon.b941b412.svg",
     "static/media/postman.e65afafe.svg": "/portfolio/static/media/postman.e65afafe.svg",
@@ -52,6 +52,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.d47aa26c.chunk.js",
     "static/css/main.9ce279bb.chunk.css",
-    "static/js/main.5e42fbb3.chunk.js"
+    "static/js/main.86620f13.chunk.js"
   ]
 }
