@@ -19,6 +19,11 @@
 
   .s-hero {
     margin-top: 20px;
+    min-height: calc(25.5 * var(--space)); /*Temporal hasta solucionar menu hamburgesa*/
+  }
+
+  .s-portfolio {
+    padding-top: calc(6 * var(--space)); /*Temporal hasta solucionar menu hamburgesa*/
   }
 
   .s-contact {
