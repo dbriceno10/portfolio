@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9ce279bb.chunk.css",
-    "main.js": "/portfolio/static/js/main.caab7c6c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.caab7c6c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.26bd027a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.26bd027a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2aa3c76.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2aa3c76.js.map",
     "static/js/2.d47aa26c.chunk.js": "/portfolio/static/js/2.d47aa26c.chunk.js",
@@ -11,8 +11,9 @@
     "static/css/main.9ce279bb.chunk.css.map": "/portfolio/static/css/main.9ce279bb.chunk.css.map",
     "static/js/2.d47aa26c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d47aa26c.chunk.js.LICENSE.txt",
     "static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png": "/portfolio/static/media/1220365_whatsapp_chat_communication_message_phone_icon.1387d5cc.png",
-    "static/media/Daniel_Briceno_CV.b0101c09.pdf": "/portfolio/static/media/Daniel_Briceno_CV.b0101c09.pdf",
+    "static/media/Daniel_Briceno_CV.d551db0f.pdf": "/portfolio/static/media/Daniel_Briceno_CV.d551db0f.pdf",
     "static/media/Error404.56b5ac10.jpg": "/portfolio/static/media/Error404.56b5ac10.jpg",
+    "static/media/avocado-app.b1b01f83.png": "/portfolio/static/media/avocado-app.b1b01f83.png",
     "static/media/batatabit-baner.6afdb82c.png": "/portfolio/static/media/batatabit-baner.6afdb82c.png",
     "static/media/batatabit-def.a15ec6fd.jpg": "/portfolio/static/media/batatabit-def.a15ec6fd.jpg",
     "static/media/bootstrap-5-1.98585727.svg": "/portfolio/static/media/bootstrap-5-1.98585727.svg",
@@ -23,7 +24,7 @@
     "static/media/fondo-blanco.8fb1f817.png": "/portfolio/static/media/fondo-blanco.8fb1f817.png",
     "static/media/food-app.cef515c4.jpg": "/portfolio/static/media/food-app.cef515c4.jpg",
     "static/media/git-logo2.430db756.png": "/portfolio/static/media/git-logo2.430db756.png",
-    "static/media/heroku-4.b7e7f910.svg": "/portfolio/static/media/heroku-4.b7e7f910.svg",
+    "static/media/graphql.c0d2b1e1.svg": "/portfolio/static/media/graphql.c0d2b1e1.svg",
     "static/media/javascript-logo-svg-vector.31ff4b10.svg": "/portfolio/static/media/javascript-logo-svg-vector.31ff4b10.svg",
     "static/media/less.8fbdd959.svg": "/portfolio/static/media/less.8fbdd959.svg",
     "static/media/memo-app-def.20cb964c.jpg": "/portfolio/static/media/memo-app-def.20cb964c.jpg",
@@ -31,12 +32,12 @@
     "static/media/miniatura-learnzilla.de1edb60.png": "/portfolio/static/media/miniatura-learnzilla.de1edb60.png",
     "static/media/miniatura-pi.e360025c.png": "/portfolio/static/media/miniatura-pi.e360025c.png",
     "static/media/mongodb-leaf-logo.43d74a85.png": "/portfolio/static/media/mongodb-leaf-logo.43d74a85.png",
+    "static/media/next-js.1b2b52c0.svg": "/portfolio/static/media/next-js.1b2b52c0.svg",
     "static/media/nodejs-icon-logo-svg-vector.ed133d54.svg": "/portfolio/static/media/nodejs-icon-logo-svg-vector.ed133d54.svg",
     "static/media/pi-baner.9af8ea09.png": "/portfolio/static/media/pi-baner.9af8ea09.png",
     "static/media/postgresql-icon.b941b412.svg": "/portfolio/static/media/postgresql-icon.b941b412.svg",
     "static/media/postman.e65afafe.svg": "/portfolio/static/media/postman.e65afafe.svg",
     "static/media/react-logo22.077af94a.png": "/portfolio/static/media/react-logo22.077af94a.png",
-    "static/media/react-native-1.55360266.svg": "/portfolio/static/media/react-native-1.55360266.svg",
     "static/media/redux.04851e4f.svg": "/portfolio/static/media/redux.04851e4f.svg",
     "static/media/sass-1.8aa78a83.svg": "/portfolio/static/media/sass-1.8aa78a83.svg",
     "static/media/sequelizejs-icon.ed8fdada.svg": "/portfolio/static/media/sequelizejs-icon.ed8fdada.svg",
@@ -52,6 +53,6 @@
     "static/js/runtime-main.f2aa3c76.js",
     "static/js/2.d47aa26c.chunk.js",
     "static/css/main.9ce279bb.chunk.css",
-    "static/js/main.caab7c6c.chunk.js"
+    "static/js/main.26bd027a.chunk.js"
   ]
 }
