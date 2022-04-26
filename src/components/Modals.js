@@ -21,6 +21,8 @@ import Modal08 from "../assets/image/screenshot/miniatura-pi.png";
 import Proyect08 from "./modals/Proyect08";
 import Modal09 from "../assets/image/screenshot/miniatura-learnzilla.png";
 import Proyect09 from "./modals/Proyect09";
+import Modal10 from "../assets/image/screenshot/avocado-app.png"
+import Proyect10 from "./modals/Proyect10";
 
 const Modals = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -32,6 +34,7 @@ const Modals = () => {
   const [isOpenModal7, openModal7, closeModal7] = useModal(false);
   const [isOpenModal8, openModal8, closeModal8] = useModal(false);
   const [isOpenModal9, openModal9, closeModal9] = useModal(false);
+  const [isOpenModal10, openModal10, closeModal10] = useModal(false);
 
   return (
     <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
@@ -66,6 +69,11 @@ const Modals = () => {
         <Proyect06 />
       </Modal>
 
+      <ModalElement image={Modal10} e={openModal10} imgTitle="Avocado App" imgDesc="Una SPA con temática de Aguacates, desarollada con Next Js y TypeScript" />
+      <Modal isOpen={isOpenModal10} closeModal={closeModal10}>
+        <Proyect10 />
+      </Modal>
+
       <ModalElement image={Modal04} e={openModal4} imgTitle="Memo App" imgDesc="Aplicación para notas, creada con HTML, CSS y JavaScript." />
       <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
         <Proyect04 />
@@ -80,6 +88,7 @@ const Modals = () => {
       <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
         <Proyect03 />
       </Modal> */}
+
     </div>
   );
 };
