@@ -21,7 +21,7 @@ import Modal08 from "../assets/image/screenshot/miniatura-pi.png";
 import Proyect08 from "./modals/Proyect08";
 import Modal09 from "../assets/image/screenshot/miniatura-learnzilla.png";
 import Proyect09 from "./modals/Proyect09";
-import Modal10 from "../assets/image/screenshot/avocado-app.png"
+import Modal10 from "../assets/image/screenshot/avocado-app.png";
 import Proyect10 from "./modals/Proyect10";
 
 const Modals = () => {
@@ -38,48 +38,92 @@ const Modals = () => {
 
   return (
     <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
-
-<ModalElement image={Modal09} e={openModal9} imgTitle="Learnzilla" imgDesc="Plataforma online para cursos, creada con React, Node y Express" />
+      <ModalElement
+        image={Modal09}
+        e={openModal9}
+        imgTitle="Learnzilla"
+        imgDesc="Plataforma online para cursos, creada con React, Node y Express"
+      />
       <Modal isOpen={isOpenModal9} closeModal={closeModal9}>
         <Proyect09 />
       </Modal>
 
-      <ModalElement image={Modal08} e={openModal8} imgTitle="WikiDex" imgDesc="Una SPA con temática de Pokemon, creada con React, Node y Express." />
+      <ModalElement
+        image={Modal08}
+        e={openModal8}
+        imgTitle="WikiDex"
+        imgDesc="Una SPA con temática de Pokemon, creada con React, Node y Express."
+      />
       <Modal isOpen={isOpenModal8} closeModal={closeModal8}>
         <Proyect08 />
       </Modal>
 
-      <ModalElement image={Modal01} e={openModal1} imgTitle="Batatabit" imgDesc="Una Landing Page con temática de cripto-activos creada con HTML y CSS." />
+      <ModalElement
+        image={Modal01}
+        e={openModal1}
+        imgTitle="Batatabit"
+        imgDesc="Una Landing Page con temática de cripto-activos creada con HTML y CSS."
+      />
       <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
         <Proyect01 />
       </Modal>
 
-      <ModalElement image={Modal02} e={openModal2} imgTitle="Space Badges" imgDesc="Una SPA con temática de Rick and Morty, creada con React." />
+      <ModalElement
+        image={Modal02}
+        e={openModal2}
+        imgTitle="Space Badges"
+        imgDesc="Una SPA con temática de Rick and Morty, creada con React."
+      />
       <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
         <Proyect02 />
       </Modal>
 
-      <ModalElement image={Modal05} e={openModal5} imgTitle="Rick & Morty Data Sheet" imgDesc="Una Landing Page temática creada con HTML, CSS y JavaScript." />
+      <ModalElement
+        image={Modal05}
+        e={openModal5}
+        imgTitle="Rick & Morty Data Sheet"
+        imgDesc="Una Landing Page temática creada con HTML, CSS y JavaScript."
+      />
       <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
         <Proyect05 />
       </Modal>
 
-      <ModalElement image={Modal06} e={openModal6} imgTitle="Simon Says" imgDesc="Una recreación del famoso juego Simon Says creado con HTML, CSS y JavaScript." />
+      <ModalElement
+        image={Modal06}
+        e={openModal6}
+        imgTitle="Simon Says"
+        imgDesc="Una recreación del famoso juego Simon Says creado con HTML, CSS y JavaScript."
+      />
       <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
         <Proyect06 />
       </Modal>
 
-      <ModalElement image={Modal10} e={openModal10} imgTitle="Avocado App" imgDesc="Una SPA con temática de Aguacates, desarollada con Next Js y TypeScript" />
+      <ModalElement
+        image={Modal10}
+        e={openModal10}
+        imgTitle="Avocado App"
+        imgDesc="Una SPA con temática de Aguacates, desarollada con Next Js y TypeScript"
+      />
       <Modal isOpen={isOpenModal10} closeModal={closeModal10}>
         <Proyect10 />
       </Modal>
 
-      <ModalElement image={Modal04} e={openModal4} imgTitle="Memo App" imgDesc="Aplicación para notas, creada con HTML, CSS y JavaScript." />
+      <ModalElement
+        image={Modal04}
+        e={openModal4}
+        imgTitle="Memo App"
+        imgDesc="Aplicación para notas, creada con HTML, CSS y JavaScript."
+      />
       <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
         <Proyect04 />
       </Modal>
 
-      <ModalElement image={Modal07} e={openModal7} imgTitle="Food App" imgDesc="Aplicación CRUD para ordenar platillos, creada con Node y Express." />
+      <ModalElement
+        image={Modal07}
+        e={openModal7}
+        imgTitle="Food App"
+        imgDesc="Aplicación CRUD para ordenar platillos, creada con Node y Express."
+      />
       <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
         <Proyect07 />
       </Modal>
@@ -88,7 +132,6 @@ const Modals = () => {
       <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
         <Proyect03 />
       </Modal> */}
-
     </div>
   );
 };

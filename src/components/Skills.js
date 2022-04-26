@@ -15,15 +15,14 @@ import psqlStiker from "../assets/image/postgresql-icon.svg";
 import sequelizeStiker from "../assets/image/sequelizejs-icon.svg";
 // import reactNativeStiker from "../assets/image/react-native-1.svg"
 // import herokuStiker from "../assets/image/heroku-4.svg"
-import postmanStiker from "../assets/image/postman.svg"
+import postmanStiker from "../assets/image/postman.svg";
 // import githubStiker from "../assets/image/github (3).png"
-import vscodeStiker from "../assets/image/visual-studio-code-1.svg"
-import bootstrapStiker from "../assets/image/bootstrap-5-1.svg"
-import sassStiker from "../assets/image/sass-1.svg"
-import lessStiker from "../assets/image/less.svg"
-import nextStiker from "../assets/image/next-js.svg"
-import grapgqlStiker from "../assets/image/graphql.svg"
-
+import vscodeStiker from "../assets/image/visual-studio-code-1.svg";
+import bootstrapStiker from "../assets/image/bootstrap-5-1.svg";
+import sassStiker from "../assets/image/sass-1.svg";
+import lessStiker from "../assets/image/less.svg";
+import nextStiker from "../assets/image/next-js.svg";
+import grapgqlStiker from "../assets/image/graphql.svg";
 
 const Skills = () => {
   return (
@@ -43,12 +42,7 @@ const Skills = () => {
                 title="html"
                 alt="html-logo"
               />
-              <Skill
-                skill="CSS"
-                src={cssStiker}
-                title="css"
-                alt="css-logo"
-              />
+              <Skill skill="CSS" src={cssStiker} title="css" alt="css-logo" />
               <Skill
                 skill="bootstrap"
                 src={bootstrapStiker}
@@ -68,7 +62,7 @@ const Skills = () => {
                 alt="less-logo"
               />
               <Skill
-              skill="JavaScript"
+                skill="JavaScript"
                 src={javascriptStiker}
                 title="javascript"
                 alt="javascript-logo"
@@ -91,7 +85,7 @@ const Skills = () => {
                 title="react-native-skill"
                 alt="react-native-logo"
               /> */}
-              <Skill 
+              <Skill
                 skill="Next"
                 src={nextStiker}
                 title="next"
@@ -139,12 +133,7 @@ const Skills = () => {
                 title="sequelize"
                 alt="sequelize-logo"
               />
-              <Skill
-                skill="Git"
-                src={gitStiker}
-                title="git"
-                alt="git-logo"
-              />
+              <Skill skill="Git" src={gitStiker} title="git" alt="git-logo" />
               <Skill
                 skill="Figma"
                 src={figmaStiker}
@@ -157,13 +146,13 @@ const Skills = () => {
                 title="github"
                 alt="github-logo"
               /> */}
-              <Skill 
+              <Skill
                 skill="postman"
                 src={postmanStiker}
                 title="postman"
                 alt="postman-logo"
               />
-              <Skill 
+              <Skill
                 skill="vscode"
                 src={vscodeStiker}
                 title="vscode"
