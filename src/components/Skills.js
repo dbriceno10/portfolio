@@ -39,44 +39,44 @@ const Skills = () => {
               <Skill
                 skill="HTML"
                 src={htmlStiker}
-                title="html"
+                title="HTMl"
                 alt="html-logo"
               />
-              <Skill skill="CSS" src={cssStiker} title="css" alt="css-logo" />
+              <Skill skill="CSS" src={cssStiker} title="CSS" alt="css-logo" />
               <Skill
                 skill="bootstrap"
                 src={bootstrapStiker}
-                title="bootstrap"
+                title="Bootstrap"
                 alt="bootstrap-logo"
               />
               <Skill
                 skill="sass"
                 src={sassStiker}
-                title="sass"
+                title="Sass"
                 alt="sass-logo"
               />
               <Skill
                 skill="less"
                 src={lessStiker}
-                title="less"
+                title="Less"
                 alt="less-logo"
               />
               <Skill
                 skill="JavaScript"
                 src={javascriptStiker}
-                title="javascript"
+                title="JavaScript"
                 alt="javascript-logo"
               />
               <Skill
                 skill="TypeScript"
                 src={typescriptStiker}
-                title="typescript"
+                title="TypeScript"
                 alt="typescript-logo"
               />
               <Skill
                 skill="React"
                 src={reactStiker}
-                title="react"
+                title="React Js"
                 alt="react-logo"
               />
               {/* <Skill 
@@ -88,56 +88,56 @@ const Skills = () => {
               <Skill
                 skill="Next"
                 src={nextStiker}
-                title="next"
+                title="Next Js"
                 alt="next-logo"
               />
               <Skill
                 skill="Redux"
                 src={reduxStiker}
-                title="redux"
+                title="Redux"
                 alt="rexu-logo"
               />
               <Skill
                 skill="Node"
                 src={nodeStiker}
-                title="node"
+                title="Node Js"
                 alt="node-logo"
               />
               <Skill
                 skill="Express"
                 src={expressStiker}
-                title="express"
-                alt="file.js-logo"
+                title="Express Js"
+                alt="express-logo"
               />
               <Skill
                 skill="GraphQL"
                 src={grapgqlStiker}
-                title="graphql"
+                title="GraphQL"
                 alt="graphql-logo"
               />
               <Skill
                 skill="MongoDB"
                 src={mongodbtStiker}
-                title="mongodb-skill"
+                title="MongoDB"
                 alt="mongodb-leaf-logo"
               />
               <Skill
                 skill="Postgresql"
                 src={psqlStiker}
-                title="postgresql"
+                title="PostgreSQL"
                 alt="psql-logo"
               />
               <Skill
                 skill="Sequelize"
                 src={sequelizeStiker}
-                title="sequelize"
+                title="Sequelize"
                 alt="sequelize-logo"
               />
-              <Skill skill="Git" src={gitStiker} title="git" alt="git-logo" />
+              <Skill skill="Git" src={gitStiker} title="Git" alt="git-logo" />
               <Skill
                 skill="Figma"
                 src={figmaStiker}
-                title="figma"
+                title="Figma"
                 alt="figma-logo"
               />
               {/* <Skill 
@@ -149,13 +149,13 @@ const Skills = () => {
               <Skill
                 skill="postman"
                 src={postmanStiker}
-                title="postman"
+                title="Postman"
                 alt="postman-logo"
               />
               <Skill
                 skill="vscode"
                 src={vscodeStiker}
-                title="vscode"
+                title="VSCode"
                 alt="vscode-logo"
               />
               {/* <Skill 
