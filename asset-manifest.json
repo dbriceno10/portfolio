@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6f826ca5.chunk.css",
-    "main.js": "/portfolio/static/js/main.7fe0fe26.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7fe0fe26.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.33f1abed.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.33f1abed.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.62ec6bc7.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.62ec6bc7.js.map",
     "static/js/2.fbf9d593.chunk.js": "/portfolio/static/js/2.fbf9d593.chunk.js",
@@ -26,12 +26,12 @@
     "static/media/git-logo2.430db756.png": "/portfolio/static/media/git-logo2.430db756.png",
     "static/media/graphql.c0d2b1e1.svg": "/portfolio/static/media/graphql.c0d2b1e1.svg",
     "static/media/javascript-logo-svg-vector.9abe85eb.svg": "/portfolio/static/media/javascript-logo-svg-vector.9abe85eb.svg",
-    "static/media/less.8fbdd959.svg": "/portfolio/static/media/less.8fbdd959.svg",
+    "static/media/material-ui-1.fd510ed8.svg": "/portfolio/static/media/material-ui-1.fd510ed8.svg",
     "static/media/memo-app-def.20cb964c.jpg": "/portfolio/static/media/memo-app-def.20cb964c.jpg",
     "static/media/memoapp-baner.7531e6a5.jpg": "/portfolio/static/media/memoapp-baner.7531e6a5.jpg",
     "static/media/miniatura-learnzilla.de1edb60.png": "/portfolio/static/media/miniatura-learnzilla.de1edb60.png",
     "static/media/miniatura-pi.e360025c.png": "/portfolio/static/media/miniatura-pi.e360025c.png",
-    "static/media/mongodb-leaf-logo.43d74a85.png": "/portfolio/static/media/mongodb-leaf-logo.43d74a85.png",
+    "static/media/mongo.2a1528dd.png": "/portfolio/static/media/mongo.2a1528dd.png",
     "static/media/next-js.1b2b52c0.svg": "/portfolio/static/media/next-js.1b2b52c0.svg",
     "static/media/nodejs-icon-logo-svg-vector.6401477e.svg": "/portfolio/static/media/nodejs-icon-logo-svg-vector.6401477e.svg",
     "static/media/pi-baner.9af8ea09.png": "/portfolio/static/media/pi-baner.9af8ea09.png",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.62ec6bc7.js",
     "static/js/2.fbf9d593.chunk.js",
     "static/css/main.6f826ca5.chunk.css",
-    "static/js/main.7fe0fe26.chunk.js"
+    "static/js/main.33f1abed.chunk.js"
   ]
 }
