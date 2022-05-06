@@ -9,7 +9,7 @@ import gitStiker from "../assets/image/git-logo2.png";
 import nodeStiker from "../assets/image/nodejs-icon-logo-svg-vector.svg";
 import expressStiker from "../assets/image/express.png";
 import typescriptStiker from "../assets/image/typescript-programming-language.svg";
-import mongodbtStiker from "../assets/image/mongodb-leaf-logo.png";
+import mongodbtStiker from "../assets/image/mongo.png";
 import reduxStiker from "../assets/image/redux.svg";
 import psqlStiker from "../assets/image/postgresql-icon.svg";
 import sequelizeStiker from "../assets/image/sequelizejs-icon.svg";
@@ -20,9 +20,10 @@ import postmanStiker from "../assets/image/postman.svg";
 import vscodeStiker from "../assets/image/visual-studio-code-1.svg";
 import bootstrapStiker from "../assets/image/bootstrap-5-1.svg";
 import sassStiker from "../assets/image/sass-1.svg";
-import lessStiker from "../assets/image/less.svg";
+// import lessStiker from "../assets/image/less.svg";
 import nextStiker from "../assets/image/next-js.svg";
 import grapgqlStiker from "../assets/image/graphql.svg";
+import materialStiker from "../assets/image/material-ui-1.svg"
 
 const Skills = () => {
   return (
@@ -55,12 +56,12 @@ const Skills = () => {
                 title="Sass"
                 alt="sass-logo"
               />
-              <Skill
+              {/* <Skill
                 skill="less"
                 src={lessStiker}
                 title="Less"
                 alt="less-logo"
-              />
+              /> */}
               <Skill
                 skill="JavaScript"
                 src={javascriptStiker}
@@ -90,6 +91,12 @@ const Skills = () => {
                 src={nextStiker}
                 title="Next Js"
                 alt="next-logo"
+              />
+              <Skill
+                skill="MUI"
+                src={materialStiker}
+                title="Material-UI"
+                alt="material-ui-logo"
               />
               <Skill
                 skill="Redux"
