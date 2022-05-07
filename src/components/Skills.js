@@ -40,7 +40,7 @@ const Skills = () => {
               <Skill
                 skill="HTML"
                 src={htmlStiker}
-                title="HTMl"
+                title="HTML"
                 alt="html-logo"
               />
               <Skill skill="CSS" src={cssStiker} title="CSS" alt="css-logo" />
@@ -162,7 +162,7 @@ const Skills = () => {
               <Skill
                 skill="vscode"
                 src={vscodeStiker}
-                title="VSCode"
+                title="Visual Studio Code"
                 alt="vscode-logo"
               />
               {/* <Skill 
