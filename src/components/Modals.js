@@ -23,6 +23,8 @@ import Modal09 from "../assets/image/screenshot/miniatura-learnzilla.png";
 import Proyect09 from "./modals/Proyect09";
 import Modal10 from "../assets/image/screenshot/avocado-app.png";
 import Proyect10 from "./modals/Proyect10";
+import Modal11 from "../assets/image/screenshot/weather-app.png";
+import Proyect11 from "./modals/Proyect11";
 
 const Modals = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -35,6 +37,7 @@ const Modals = () => {
   const [isOpenModal8, openModal8, closeModal8] = useModal(false);
   const [isOpenModal9, openModal9, closeModal9] = useModal(false);
   const [isOpenModal10, openModal10, closeModal10] = useModal(false);
+  const [isOpenModal11, openModal11, closeModal11] = useModal(false);
 
   return (
     <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
@@ -96,6 +99,16 @@ const Modals = () => {
       />
       <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
         <Proyect06 />
+      </Modal>
+
+      <ModalElement
+        image={Modal11}
+        e={openModal11}
+        imgTitle="Weather App"
+        imgDesc="Una simple aplicación de clima, creada con React y TypeScript."
+      />
+      <Modal isOpen={isOpenModal11} closeModal={closeModal11}>
+        <Proyect11 />
       </Modal>
 
       <ModalElement

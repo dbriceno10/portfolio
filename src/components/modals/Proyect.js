@@ -10,7 +10,7 @@ const Proyect = ({
 }) => {
   return (
     <div className="modal-internal-container">
-      <img src={srcImg} alt="image" title="image" className="proyect-image" />
+      <img src={srcImg} alt="image" title="Proyect" className="proyect-image" />
       <div>
         <p className="modal__title">{proyectTile}</p>
         <p>
