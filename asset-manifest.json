@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6f826ca5.chunk.css",
-    "main.js": "/portfolio/static/js/main.84c4c60a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.84c4c60a.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a4f9176a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a4f9176a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.62ec6bc7.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.62ec6bc7.js.map",
     "static/js/2.fbf9d593.chunk.js": "/portfolio/static/js/2.fbf9d593.chunk.js",
@@ -47,12 +47,13 @@
     "static/media/telegram-logo.635b3f85.png": "/portfolio/static/media/telegram-logo.635b3f85.png",
     "static/media/twitter.28b4dce4.png": "/portfolio/static/media/twitter.28b4dce4.png",
     "static/media/typescript-programming-language.488c7100.svg": "/portfolio/static/media/typescript-programming-language.488c7100.svg",
-    "static/media/visual-studio-code-1.b8b1e001.svg": "/portfolio/static/media/visual-studio-code-1.b8b1e001.svg"
+    "static/media/visual-studio-code-1.b8b1e001.svg": "/portfolio/static/media/visual-studio-code-1.b8b1e001.svg",
+    "static/media/weather-app.cb919c11.png": "/portfolio/static/media/weather-app.cb919c11.png"
   },
   "entrypoints": [
     "static/js/runtime-main.62ec6bc7.js",
     "static/js/2.fbf9d593.chunk.js",
     "static/css/main.6f826ca5.chunk.css",
-    "static/js/main.84c4c60a.chunk.js"
+    "static/js/main.a4f9176a.chunk.js"
   ]
 }
