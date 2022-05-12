@@ -5,7 +5,8 @@ Hola, bienvenidos al repositorio de mi portafolio digital.
 ## Comenzando 🚀
 
 Para hacerlo funcionar, te invito a clonar o forkear el repo. Una vez descargado, abre la terminal de comandos y ubicate en la carpeta del proyecto.
-## Scripts Disponibles
+
+## Scripts Disponibles📌
 
 En el directorio del proyecto puedes ejecutar:
 
@@ -16,9 +17,6 @@ Para instalar todas las dependencias que requiere el proyecto para funcionar.
 
 Corre la aplicación en modo desarrollo un tu servidor local en tu computadora.
 Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm run build`
 
