@@ -62,6 +62,16 @@ const Modals = () => {
       </Modal>
 
       <ModalElement
+        image={Modal11}
+        e={openModal11}
+        imgTitle="Weather App"
+        imgDesc="Una simple aplicación de clima, creada con React y TypeScript."
+      />
+      <Modal isOpen={isOpenModal11} closeModal={closeModal11}>
+        <Proyect11 />
+      </Modal>
+
+      <ModalElement
         image={Modal01}
         e={openModal1}
         imgTitle="Batatabit"
@@ -99,16 +109,6 @@ const Modals = () => {
       />
       <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
         <Proyect06 />
-      </Modal>
-
-      <ModalElement
-        image={Modal11}
-        e={openModal11}
-        imgTitle="Weather App"
-        imgDesc="Una simple aplicación de clima, creada con React y TypeScript."
-      />
-      <Modal isOpen={isOpenModal11} closeModal={closeModal11}>
-        <Proyect11 />
       </Modal>
 
       <ModalElement
