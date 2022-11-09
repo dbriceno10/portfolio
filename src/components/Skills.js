@@ -13,17 +13,13 @@ import mongodbtStiker from "../assets/image/mongo.png";
 import reduxStiker from "../assets/image/redux.svg";
 import psqlStiker from "../assets/image/postgresql-icon.svg";
 import sequelizeStiker from "../assets/image/sequelizejs-icon.svg";
-// import reactNativeStiker from "../assets/image/react-native-1.svg"
-// import herokuStiker from "../assets/image/heroku-4.svg"
-import postmanStiker from "../assets/image/postman.svg";
-// import githubStiker from "../assets/image/github (3).png"
 import vscodeStiker from "../assets/image/visual-studio-code-1.svg";
 import bootstrapStiker from "../assets/image/bootstrap-5-1.svg";
 import sassStiker from "../assets/image/sass-1.svg";
-// import lessStiker from "../assets/image/less.svg";
 import nextStiker from "../assets/image/next-js.svg";
 import grapgqlStiker from "../assets/image/graphql.svg";
-import materialStiker from "../assets/image/material-ui-1.svg"
+import materialStiker from "../assets/image/material-ui-1.svg";
+import vueStiker from "../assets/image/vue-js-1.svg";
 
 const Skills = () => {
   return (
@@ -56,12 +52,6 @@ const Skills = () => {
                 title="Sass"
                 alt="sass-logo"
               />
-              {/* <Skill
-                skill="less"
-                src={lessStiker}
-                title="Less"
-                alt="less-logo"
-              /> */}
               <Skill
                 skill="JavaScript"
                 src={javascriptStiker}
@@ -77,20 +67,20 @@ const Skills = () => {
               <Skill
                 skill="React"
                 src={reactStiker}
-                title="React Js"
+                title="React Js - React Native"
                 alt="react-logo"
               />
-              {/* <Skill 
-                skill="ReactNative"
-                src={reactNativeStiker}
-                title="react-native-skill"
-                alt="react-native-logo"
-              /> */}
               <Skill
                 skill="Next"
                 src={nextStiker}
                 title="Next Js"
                 alt="next-logo"
+              />
+              <Skill
+                skill="Vue"
+                src={vueStiker}
+                title="Vue Js"
+                alt="vue-logo"
               />
               <Skill
                 skill="MUI"
@@ -147,30 +137,12 @@ const Skills = () => {
                 title="Figma"
                 alt="figma-logo"
               />
-              {/* <Skill 
-                skill="github"
-                src={githubStiker}
-                title="github"
-                alt="github-logo"
-              /> */}
-              <Skill
-                skill="postman"
-                src={postmanStiker}
-                title="Postman"
-                alt="postman-logo"
-              />
               <Skill
                 skill="vscode"
                 src={vscodeStiker}
                 title="Visual Studio Code"
                 alt="vscode-logo"
               />
-              {/* <Skill 
-                skill="heroku"
-                src={herokuStiker}
-                title="heroku"
-                alt="heroku"
-              /> */}
             </ul>
           </div>
         </div>

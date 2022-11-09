@@ -49,14 +49,14 @@ const Contactus = () => {
                 <ContactNetwork
                   stiker={gmailStiker}
                   alt="gmail-Stiker"
-                  title="Gmail Stiker"
+                  title="Correo Electrónico"
                   header="Email"
                   linkName="dbriceno10dev@gmail.com"
                 />
                 <ContactNetwork
                   stiker={linkedinStiker}
                   alt="linkedin-Stiker"
-                  title="Linkedin Stiker"
+                  title="Linkedin"
                   header="Linkedin"
                   href={linkedinLink}
                   target="_blank"
@@ -65,7 +65,7 @@ const Contactus = () => {
                 <ContactNetwork
                   stiker={githubStiker}
                   alt="github-Stiker"
-                  title="Github Stiker"
+                  title="Github"
                   header="Github"
                   href={githubLink}
                   target="_blank"
@@ -74,7 +74,7 @@ const Contactus = () => {
                 <ContactNetwork
                   stiker={twitterStiker}
                   alt="twitter-Stiker"
-                  title="Twitter Stiker"
+                  title="Twitter"
                   header="Twitter"
                   href={twitterLink}
                   target="_blank"
@@ -83,7 +83,7 @@ const Contactus = () => {
                 <ContactNetwork
                   stiker={phoneStiker}
                   alt="phone-Stiker"
-                  title="Phone Stiker"
+                  title="WhatsApp"
                   header="WhatsApp"
                   href={cellPhone}
                   target="_blank"
@@ -92,7 +92,7 @@ const Contactus = () => {
                 <ContactNetwork
                   stiker={telegranStiker}
                   alt="telegram-Stiker"
-                  title="Telegram Stiker"
+                  title="Telegram"
                   header="Telegram"
                   href={telegramLink}
                   target="_blank"
@@ -101,7 +101,7 @@ const Contactus = () => {
                 <ContactNetwork
                   stiker={torreStiker}
                   alt="torre-Stiker"
-                  title="Torre Stiker"
+                  title="Torre"
                   header="Torre"
                   href={torreLink}
                   target="_blank"
