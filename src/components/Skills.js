@@ -13,13 +13,13 @@ import mongodbtStiker from "../assets/image/mongo.png";
 import reduxStiker from "../assets/image/redux.svg";
 import psqlStiker from "../assets/image/postgresql-icon.svg";
 import sequelizeStiker from "../assets/image/sequelizejs-icon.svg";
-import vscodeStiker from "../assets/image/visual-studio-code-1.svg";
 import bootstrapStiker from "../assets/image/bootstrap-5-1.svg";
 import sassStiker from "../assets/image/sass-1.svg";
 import nextStiker from "../assets/image/next-js.svg";
 import grapgqlStiker from "../assets/image/graphql.svg";
 import materialStiker from "../assets/image/material-ui-1.svg";
 import vueStiker from "../assets/image/vue-js-1.svg";
+import nestStiker from '../assets/image/nestjs.svg'
 
 const Skills = () => {
   return (
@@ -107,6 +107,12 @@ const Skills = () => {
                 alt="express-logo"
               />
               <Skill
+                skill="Nest"
+                src={nestStiker}
+                title="Nest Js"
+                alt="nest-logo"
+              />
+              <Skill
                 skill="GraphQL"
                 src={grapgqlStiker}
                 title="GraphQL"
@@ -136,12 +142,6 @@ const Skills = () => {
                 src={figmaStiker}
                 title="Figma"
                 alt="figma-logo"
-              />
-              <Skill
-                skill="vscode"
-                src={vscodeStiker}
-                title="Visual Studio Code"
-                alt="vscode-logo"
               />
             </ul>
           </div>
