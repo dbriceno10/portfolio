@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logoGithub from "../assets/image/github (3).png";
 import logoLinkedin from "../assets/image/linkedin.png";
 import logoTwitter from "../assets/image/twitter.png";
@@ -10,6 +10,19 @@ const gihubLink = "https://github.com/dbriceno10";
 const twitterLink = "https://twitter.com/dbriceno10dev";
 
 const Hero = () => {
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  useEffect(() => {
+    handleScrollToTop()
+  }, [])
+
+
   return (
     <section id="hero" className="s-hero target-section">
       <div className="s-hero__bg rellax" data-rellax-speed={-7} />
@@ -21,7 +34,7 @@ const Hero = () => {
             </h1>
             <h3>
               <span>Full Stack Web Developer</span>
-              <br/>
+              <br />
               <span>JavaScript | React JS | Node | Redux | PostgreSQL | MongoDB | SCRUM</span>
             </h3>
             <div className="s-hero__content-social">

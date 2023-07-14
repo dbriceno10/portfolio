@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/Contactus.css";
 import Form from "./Form";
 import gmailStiker from "../assets/image/gmail.png";
@@ -18,6 +18,19 @@ const twitterLink = "https://twitter.com/dbriceno10dev";
 const torreLink = " https://torre.co/dbriceno10?s=hWuAmyFOFx";
 
 const Contactus = () => {
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  useEffect(() => {
+    handleScrollToTop()
+  }, [])
+
+
   return (
     <section id="contact" className="s-contact target-section">
       <div className="row s-contact__header">

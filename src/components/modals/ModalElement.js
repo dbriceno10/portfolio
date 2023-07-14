@@ -8,7 +8,7 @@ const ModalElement = ({ image, e, imgTitle, imgDesc }) => {
         <p className="modal-description">{imgDesc}</p>
         <a className="folio-item__thumb" onClick={e}>
           <div className="folio-item__thumb">
-            <img src={image} alt="image" title='Proyect' className="modal__image" />
+            <img src={image} alt="Proyect" title='Proyect' className="modal__image" />
           </div>
         </a>
       </div>

@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Skills from "./Skills";
 import userPhoto from "../assets/image/fondo-blanco.png";
 import "./styles/About.css";
 import CV from "../assets/cv/Daniel_Briceno_CV.pdf";
 
 const About = () => {
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  useEffect(() => {
+    handleScrollToTop()
+  }, [])
+
   return (
     <React.Fragment>
       <section id="about" className="s-about target-section">
@@ -18,20 +30,20 @@ const About = () => {
             </h1>
             <div>
               <p className="about-description">
-              Hola 🖐️😉, mi nombre es Daniel Briceño, Full Stack Developer. 💻🤓.
+                Hola 🖐️😉, mi nombre es Daniel Briceño, Full Stack Developer. 💻🤓.
               </p>
 
               <p className="about-description">
-              Soy entusiasta de la educación digital y apasionado de la educación efectiva 💻🤓, del rápido aprendizaje y del crecimiento personal y profesional, me encanta crear productos digitales. Aunque mi especialidad es frontend, hoy me estoy desarrollando como especialista en backend para ser un fullstack web javascript developer. 📲💻📲💻📲💻 
+                Soy entusiasta de la educación digital y apasionado de la educación efectiva 💻🤓, del rápido aprendizaje y del crecimiento personal y profesional, me encanta crear productos digitales. Aunque mi especialidad es frontend, hoy me estoy desarrollando como especialista en backend para ser un fullstack web javascript developer. 📲💻📲💻📲💻
               </p>
 
               <p className="about-description">
-              La comunicación y el trabajo en equipo es para mí esencial para poder crecer como desarrollador. Soy proactivo y metódico, siempre busco nuevos retos y me adapto fácilmente a los cambios, estoy abierto a aprender nuevas tecnologías y lenguajes.
+                La comunicación y el trabajo en equipo es para mí esencial para poder crecer como desarrollador. Soy proactivo y metódico, siempre busco nuevos retos y me adapto fácilmente a los cambios, estoy abierto a aprender nuevas tecnologías y lenguajes.
 
               </p>
 
               <p className="about-description">
-              ✅ Mis Skills: HTML, CSS, JavaScript, React JS, React-Redux, TypeScript, Bootstrap, Less, Node JS, Express, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, JsonWebToken, Figma, Git.
+                ✅ Técnologías: HTML, CSS, JavaScript, React JS/React Native, Next JS, Redux JS, TypeScript, Bootstrap, Less, Node JS, Nest JS, Express, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, JsonWebToken, Figma, Git.
 
               </p>
             </div>
@@ -67,7 +79,7 @@ const About = () => {
               NoSQL como PostgreSQL y MongoDB.
             </p>
             <p className="about-description">
-              En este sentido mi proyecto fue el de Learnzilla - Academia Online, proyecto colaborativo en el cual me estuve desempeñando principalmente como desarrollador backend. Es una plataforma de cursos online, con un backend creado principalmente con Node, Express y Sequelize como ORM para PostgreSQL. Para el mismo se han definido diferentes rutas para crear registros (de usuarios, cursos, videos, etc), permir que los usuarios inicien seción validando su información, editar y eliminar distintos registros y hacer peticiones a la base de datos.  
+              En este sentido mi proyecto fue el de Learnzilla - Academia Online, proyecto colaborativo en el cual me estuve desempeñando principalmente como desarrollador backend. Es una plataforma de cursos online, con un backend creado principalmente con Node, Express y Sequelize como ORM para PostgreSQL. Para el mismo se han definido diferentes rutas para crear registros (de usuarios, cursos, videos, etc), permir que los usuarios inicien seción validando su información, editar y eliminar distintos registros y hacer peticiones a la base de datos.
             </p>
             <p className="about-description">
               Adicionalmente se implementó mediante Multer, la característica de poder cargar distintos archivos multimedias al proyecto y poder guardarlos en Google Dirve. Las tecnologías que utilicé fueron HTML, CSS, JavaScript, React JS, React-Redux, Material UI , Node JS, Express, PostgreSQL, Sequelize, Figma, Multer, Google-Drive-Api, Git/Github.

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { validateEmail } from "../utils/utils.js";
 import "./styles/Form.css";
 import swal from "sweetalert";
