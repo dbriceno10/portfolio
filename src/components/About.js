@@ -61,8 +61,7 @@ const About = () => {
               especialmente React JS. Puedo dar estilos, crear componentes
               reactivos y darles vida a las aplicaciones conectandolas con APIs. */}
               Como desarrollador frontend, tengo experiencia en el manejo
-              de HTML y CSS, además del manejo de frameworks y liberías,
-              especialmente React JS.
+              de HTML y CSS, además del manejo de frameworks y liberías de JavaScript.
 
             </p>
             <p className="about-description">
