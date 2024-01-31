@@ -91,7 +91,7 @@ const About = () => {
               arquitecturas de software escalables y mantenibles, implementando
               módulos manteniendo separadas las distintas capas de un proyecto.
             </p>
-            <p className="about-description">
+            {/* <p className="about-description">
               En este sentido mi proyecto fue el de Learnzilla - Academia
               Online, proyecto colaborativo en el cual me estuve desempeñando
               principalmente como desarrollador backend. Es una plataforma de
@@ -101,7 +101,7 @@ const About = () => {
               cursos, videos, etc), permir que los usuarios inicien seción
               validando su información, editar y eliminar distintos registros y
               hacer peticiones a la base de datos.
-            </p>
+            </p> */}
             {/* <p className="about-description">
               Adicionalmente se implementó mediante Multer, la característica de
               poder cargar distintos archivos multimedias al proyecto y poder
