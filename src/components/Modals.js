@@ -75,6 +75,16 @@ const Modals = () => {
       </Modal>
 
       <ModalElement
+        image={Modal12}
+        e={openModal12}
+        imgTitle="Pelis App"
+        imgDesc="Aplicación Movil para consulta de películas, creada con React Native y TypeScript."
+      />
+      <Modal isOpen={isOpenModal12} closeModal={closeModal12}>
+        <Proyect12 />
+      </Modal>
+
+      <ModalElement
         image={Modal01}
         e={openModal1}
         imgTitle="Batatabit"
@@ -142,16 +152,6 @@ const Modals = () => {
       />
       <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
         <Proyect07 />
-      </Modal>
-
-      <ModalElement
-        image={Modal12}
-        e={openModal12}
-        imgTitle="Pelis App"
-        imgDesc="Aplicación Movil para consulta de películas, creada con React Native y TypeScript."
-      />
-      <Modal isOpen={isOpenModal12} closeModal={closeModal12}>
-        <Proyect12 />
       </Modal>
 
       {/* <ModalElement image={Modal03} e={openModal3} />
