@@ -110,6 +110,17 @@ const About = () => {
               JS, Express, PostgreSQL, Sequelize, Figma, Multer,
               Google-Drive-Api, Git/Github.
             </p> */}
+            <p className="about-description">
+              He trabajado en proyectos medianos y grandes, desde su
+              planteamiento a su ejecución final, teniendo cada día la
+              oportunidad de aprender cada día acerca de como ayudar al cliente
+              a desarrollar su producto deseado resolviendo cualquier problema
+              presentado. He tenido la oportunidad de trabajar en el desarrollo
+              de aplicaciones web y móbiles, empleando las mejores prácticas,
+              escribiendo código limpio, legible y mantenible, siempre teniendo
+              en mente optimizar al máximo el rendimiento del prouducto final.
+            </p>
+
             <hr />
             <div className="row s-about__content-bottom">
               <div className="column w-1000-stack cv">

@@ -25,6 +25,8 @@ import Modal10 from "../assets/image/screenshot/avocado-app.png";
 import Proyect10 from "./modals/Proyect10";
 import Modal11 from "../assets/image/screenshot/weather-app.png";
 import Proyect11 from "./modals/Proyect11";
+import Modal12 from "../assets/image/screenshot/pelis-app.png";
+import Proyect12 from "./modals/Proyect12";
 
 const Modals = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -38,6 +40,7 @@ const Modals = () => {
   const [isOpenModal9, openModal9, closeModal9] = useModal(false);
   const [isOpenModal10, openModal10, closeModal10] = useModal(false);
   const [isOpenModal11, openModal11, closeModal11] = useModal(false);
+  const [isOpenModal12, openModal12, closeModal12] = useModal(false);
 
   return (
     <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
@@ -139,6 +142,16 @@ const Modals = () => {
       />
       <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
         <Proyect07 />
+      </Modal>
+
+      <ModalElement
+        image={Modal12}
+        e={openModal12}
+        imgTitle="Pelis App"
+        imgDesc="Aplicación Movil para consulta de películas, creada con React Native y TypeScript."
+      />
+      <Modal isOpen={isOpenModal12} closeModal={closeModal12}>
+        <Proyect12 />
       </Modal>
 
       {/* <ModalElement image={Modal03} e={openModal3} />
