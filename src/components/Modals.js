@@ -68,7 +68,7 @@ const Modals = () => {
         image={Modal11}
         e={openModal11}
         imgTitle="Weather App"
-        imgDesc="Una simple aplicación de clima, creada con React y TypeScript."
+        imgDesc="Una simple aplicación del clima, creada con React y TypeScript."
       />
       <Modal isOpen={isOpenModal11} closeModal={closeModal11}>
         <Proyect11 />
@@ -78,7 +78,7 @@ const Modals = () => {
         image={Modal12}
         e={openModal12}
         imgTitle="Pelis App"
-        imgDesc="Aplicación Movil para consulta de películas, creada con React Native y TypeScript."
+        imgDesc="Aplicación Móvil para buscar películas, creada con React Native y TypeScript."
       />
       <Modal isOpen={isOpenModal12} closeModal={closeModal12}>
         <Proyect12 />

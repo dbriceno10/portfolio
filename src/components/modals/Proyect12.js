@@ -9,7 +9,7 @@ const Proyect12 = () => {
     <Proyect
       srcImg={image}
       proyectTile="Pelis App"
-      proyectDesc="App móbil simple para buscar películas y guardarlas en favoritos."
+      proyectDesc="App móvil simple para buscar películas y guardarlas en favoritos."
       tecn="Tecnologías utilizadas: JavaScript, React Native, TypeScript, Node JS, Git/Github."
       urlPage={URL}
       urlRepo={urlRepo}
