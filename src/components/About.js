@@ -34,12 +34,15 @@ const About = () => {
               </p>
 
               <p className="about-description">
-                Soy entusiasta de la educación digital y apasionado de la
-                educación efectiva 💻🤓, del rápido aprendizaje y del
-                crecimiento personal y profesional, me encanta crear productos
-                digitales. Aunque mi especialidad es frontend, hoy me estoy
-                desarrollando como especialista en backend para ser un fullstack
-                web javascript developer. 📲💻📲💻📲💻
+                Soy un apasionado desarrollador full stack con más de 2 años de
+                experiencia profesional. He tenido la oportunidad de trabajar en
+                proyectos de mediano y largo alcance, implementando clientes con
+                React y React Native, además de trabajar en el lado del servidor
+                implementando APIs y trabajando bajo la arquitectura de micro
+                servicios. Siempre prestando especial atención a los detalles,
+                trabajando bajo principios SOLID y arquitecturas como hexagonal
+                y MCV para garantizar un código limpio y mantenible.
+                📲💻📲💻📲💻
               </p>
 
               <p className="about-description">
@@ -65,10 +68,6 @@ const About = () => {
             <br />
             <h3 className="about-me center font-500">Front-End</h3>
             <p className="about-description">
-              {/* Como desarrollador en javascript, tengo experiencia en el manejo
-              de HTML y CSS, además del manejo de frameworks y liberías,
-              especialmente React JS. Puedo dar estilos, crear componentes
-              reactivos y darles vida a las aplicaciones conectandolas con APIs. */}
               Como desarrollador frontend, tengo experiencia en el manejo de
               HTML y CSS, además del manejo de frameworks y liberías,
               especialmente React JS y React Native. He trabajado en proyectos
@@ -76,12 +75,6 @@ const About = () => {
               eficientes, trabajado con arquitecturas de software escalables y
               fácilmente mantenibles.
             </p>
-            {/* <p className="about-description">
-              Mi proyecto favorito en este sentido sería WikiDex, es una SPA, la cual, conectada a un backend permite al usuario traer a todos los pokemones existentes para renderizarlos en una serie de cards. Permite buscarlos por nombre o por id, así como también poder filtrarlos mediante varios filtros predefinidos. La app tambie nos da la posibilidad, mediante un formulario controlado, crear nuevos pokemones con atributos definidos por el usuario (estos se guardaran en una base de datos).
-            </p> */}
-            {/* <p className="about-description">
-              Esta app hace uso de la libería React-Redux para manejar estados globales en la misma, además de los estados locales propios de cada componente en React. Cuenta distintas secciones y páginas panejadas por rutas, sobre las que aprovecho las características de React para reutilizar componentes. Las tecnologías que utilicé fueron HTML, CSS, JavaScript, React JS, React-Redux, Node JS, Express, PostgreSQL, Sequelize, Git/Github.
-            </p> */}
             <br />
             <h3 className="about-me center font-500">Back-End</h3>
             <p className="about-description">
@@ -91,25 +84,6 @@ const About = () => {
               arquitecturas de software escalables y mantenibles, implementando
               módulos manteniendo separadas las distintas capas de un proyecto.
             </p>
-            {/* <p className="about-description">
-              En este sentido mi proyecto fue el de Learnzilla - Academia
-              Online, proyecto colaborativo en el cual me estuve desempeñando
-              principalmente como desarrollador backend. Es una plataforma de
-              cursos online, con un backend creado principalmente con Node,
-              Express y Sequelize como ORM para PostgreSQL. Para el mismo se han
-              definido diferentes rutas para crear registros (de usuarios,
-              cursos, videos, etc), permir que los usuarios inicien seción
-              validando su información, editar y eliminar distintos registros y
-              hacer peticiones a la base de datos.
-            </p> */}
-            {/* <p className="about-description">
-              Adicionalmente se implementó mediante Multer, la característica de
-              poder cargar distintos archivos multimedias al proyecto y poder
-              guardarlos en Google Dirve. Las tecnologías que utilicé fueron
-              HTML, CSS, JavaScript, React JS, React-Redux, Material UI , Node
-              JS, Express, PostgreSQL, Sequelize, Figma, Multer,
-              Google-Drive-Api, Git/Github.
-            </p> */}
             <p className="about-description">
               He trabajado en proyectos medianos y grandes, desde su
               planteamiento a su ejecución final, teniendo cada día la
@@ -130,7 +104,7 @@ const About = () => {
                   href={CV}
                   download="Daniel_Briceno_CV"
                 >
-                  Download CV
+                  Descargar CV
                 </a>
               </div>
             </div>
