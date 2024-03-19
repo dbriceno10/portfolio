@@ -29,8 +29,7 @@ const About = () => {
             </h1>
             <div>
               <p className="about-description">
-                Hola 🖐️😉, mi nombre es Daniel Briceño, Full Stack Developer.
-                💻🤓.
+                Hola, mi nombre es Daniel Briceño, Full Stack Developer.
               </p>
 
               <p className="about-description">
@@ -42,7 +41,6 @@ const About = () => {
                 servicios. Siempre prestando especial atención a los detalles,
                 trabajando bajo principios SOLID y arquitecturas como hexagonal
                 y MCV para garantizar un código limpio y mantenible.
-                📲💻📲💻📲💻
               </p>
 
               <p className="about-description">
@@ -53,9 +51,9 @@ const About = () => {
               </p>
 
               <p className="about-description">
-                ✅ Técnologías: HTML, CSS, JavaScript, React JS/React Native,
-                Next JS, Redux JS, TypeScript, Bootstrap, Less, Node JS, Nest
-                JS, Express, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose,
+                Técnologías: HTML, CSS, JavaScript, React JS/React Native, Next
+                JS, Redux JS, TypeScript, Bootstrap, Less, Node JS, Nest JS,
+                Express, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose,
                 JsonWebToken, Figma, Git.
               </p>
             </div>
