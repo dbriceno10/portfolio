@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/utils.js";
 import "./styles/Form.css";
 import swal from "sweetalert";
-const urlApi = "https://portfolio-contact-form-api.vercel.app/api/data";
+// const urlApi = "https://portfolio-contact-form-api.vercel.app/api/data";
+const urlApi  = 'https://formsubmit.co/dbriceno10dev@gmail.com'
 const Form = () => {
   const [data, setData] = useState({
     fullname: "",
