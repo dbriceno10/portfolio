@@ -2,20 +2,20 @@ import React, { useEffect } from "react";
 import "./styles/Contactus.css";
 import Form from "./Form";
 import gmailStiker from "../assets/image/gmail.png";
-import phoneStiker from "../assets/image/1220365_whatsapp_chat_communication_message_phone_icon.png";
+// import phoneStiker from "../assets/image/1220365_whatsapp_chat_communication_message_phone_icon.png";
 import githubStiker from "../assets/image/github (3).png";
 import linkedinStiker from "../assets/image/linkedin.png";
-import telegranStiker from "../assets/image/telegram-logo.png";
-import twitterStiker from "../assets/image/twitter.png";
-import torreStiker from "../assets/image/logo-torre-invertido.png";
+// import telegranStiker from "../assets/image/telegram-logo.png";
+// import twitterStiker from "../assets/image/twitter.png";
+// import torreStiker from "../assets/image/logo-torre-invertido.png";
 import ContactNetwork from "./ContactNetwork";
-const cellPhone =
-  "https://api.whatsapp.com/send/?phone=584249501974&text&app_absent=0";
+// const cellPhone =
+  // "https://api.whatsapp.com/send/?phone=584249501974&text&app_absent=0";
 const githubLink = "https://github.com/dbriceno10";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
-const telegramLink = "https://t.me/dbriceno";
-const twitterLink = "https://twitter.com/dbriceno10dev";
-const torreLink = " https://torre.co/dbriceno10?s=hWuAmyFOFx";
+// const telegramLink = "https://t.me/dbriceno";
+// const twitterLink = "https://twitter.com/dbriceno10dev";
+// const torreLink = " https://torre.co/dbriceno10?s=hWuAmyFOFx";
 
 const Contactus = () => {
 
@@ -84,7 +84,7 @@ const Contactus = () => {
                   target="_blank"
                   linkName="dbriceno10"
                 />
-                <ContactNetwork
+                {/* <ContactNetwork
                   stiker={twitterStiker}
                   alt="twitter-Stiker"
                   title="Twitter"
@@ -92,8 +92,8 @@ const Contactus = () => {
                   href={twitterLink}
                   target="_blank"
                   linkName="@dbriceno10dev"
-                />
-                <ContactNetwork
+                /> */}
+                {/* <ContactNetwork
                   stiker={phoneStiker}
                   alt="phone-Stiker"
                   title="WhatsApp"
@@ -101,17 +101,17 @@ const Contactus = () => {
                   href={cellPhone}
                   target="_blank"
                   linkName="Enlace al Chat"
-                />
-                <ContactNetwork
+                /> */}
+                {/* <ContactNetwork
                   stiker={telegranStiker}
                   alt="telegram-Stiker"
                   title="Telegram"
                   header="Telegram"
-                  href={telegramLink}
+                  href={telegramLink}s
                   target="_blank"
                   linkName="@dbriceno"
-                />
-                <ContactNetwork
+                /> */}
+                {/* <ContactNetwork
                   stiker={torreStiker}
                   alt="torre-Stiker"
                   title="Torre"
@@ -119,7 +119,7 @@ const Contactus = () => {
                   href={torreLink}
                   target="_blank"
                   linkName="dbriceno10"
-                />
+                /> */}
               </div>
             </div>
           </div>
