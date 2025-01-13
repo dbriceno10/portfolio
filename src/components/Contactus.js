@@ -6,7 +6,7 @@ import gmailStiker from "../assets/image/gmail.png";
 import githubStiker from "../assets/image/github (3).png";
 import linkedinStiker from "../assets/image/linkedin.png";
 // import telegranStiker from "../assets/image/telegram-logo.png";
-// import twitterStiker from "../assets/image/twitter.png";
+import twitterStiker from "../assets/image/twitter.png";
 // import torreStiker from "../assets/image/logo-torre-invertido.png";
 import ContactNetwork from "./ContactNetwork";
 // const cellPhone =
@@ -14,7 +14,7 @@ import ContactNetwork from "./ContactNetwork";
 const githubLink = "https://github.com/dbriceno10";
 const linkedinLink = "https://www.linkedin.com/in/dbriceno10/";
 // const telegramLink = "https://t.me/dbriceno";
-// const twitterLink = "https://twitter.com/dbriceno10dev";
+const twitterLink = "https://twitter.com/dbriceno10dev";
 // const torreLink = " https://torre.co/dbriceno10?s=hWuAmyFOFx";
 
 const Contactus = () => {
@@ -84,7 +84,7 @@ const Contactus = () => {
                   target="_blank"
                   linkName="dbriceno10"
                 />
-                {/* <ContactNetwork
+                <ContactNetwork
                   stiker={twitterStiker}
                   alt="twitter-Stiker"
                   title="Twitter"
@@ -92,7 +92,7 @@ const Contactus = () => {
                   href={twitterLink}
                   target="_blank"
                   linkName="@dbriceno10dev"
-                /> */}
+                />
                 {/* <ContactNetwork
                   stiker={phoneStiker}
                   alt="phone-Stiker"
