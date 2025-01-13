@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5b11d642.chunk.css",
-    "main.js": "/portfolio/static/js/main.26c4cbc3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.26c4cbc3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.2d83e63d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2d83e63d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c15ef088.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c15ef088.js.map",
     "static/js/2.4d01b981.chunk.js": "/portfolio/static/js/2.4d01b981.chunk.js",
@@ -44,7 +44,6 @@
     "static/media/simon-says-miniatura.0d1f1560.png": "/portfolio/static/media/simon-says-miniatura.0d1f1560.png",
     "static/media/spacebadges-def.e2698f4f.jpg": "/portfolio/static/media/spacebadges-def.e2698f4f.jpg",
     "static/media/Error.css": "/portfolio/static/media/stars.d4d2376b.svg",
-    "static/media/telegram-logo.635b3f85.png": "/portfolio/static/media/telegram-logo.635b3f85.png",
     "static/media/twitter.28b4dce4.png": "/portfolio/static/media/twitter.28b4dce4.png",
     "static/media/typescript-programming-language.488c7100.svg": "/portfolio/static/media/typescript-programming-language.488c7100.svg",
     "static/media/vue-js-1.4921ee76.svg": "/portfolio/static/media/vue-js-1.4921ee76.svg",
@@ -54,6 +53,6 @@
     "static/js/runtime-main.c15ef088.js",
     "static/js/2.4d01b981.chunk.js",
     "static/css/main.5b11d642.chunk.css",
-    "static/js/main.26c4cbc3.chunk.js"
+    "static/js/main.2d83e63d.chunk.js"
   ]
 }
